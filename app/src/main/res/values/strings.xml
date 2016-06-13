@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dota 2 Hero</string>
+    <string name="overview">Overview</string>
+    <string name="detail">Detail</string>
+    <string name="agility">Agility</string>
+    <string name="intelligence">Intelligence</string>
+</resources>
