@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_carry"
+            android:icon="@drawable/nav_icon"
+            android:title="Carry" />
+        <item
+            android:id="@+id/nav_ganker"
+            android:icon="@drawable/nav_icon"
+            android:title="Ganker" />
+        <item
+            android:id="@+id/nav_inifiator"
+            android:icon="@drawable/nav_icon"
+            android:title="Initiator" />
+        <item
+            android:id="@+id/nav_jungler"
+            android:icon="@drawable/nav_icon"
+            android:title="Jungler" />
+        <item
+            android:id="@+id/nav_midlaner"
+            android:icon="@drawable/nav_icon"
+            android:title="Midlaner" />
+        <item
+            android:id="@+id/nav_nuker"
+            android:icon="@drawable/nav_icon"
+            android:title="Nuker" />
+        <item
+            android:id="@+id/nav_offlaner"
+            android:icon="@drawable/nav_icon"
+            android:title="Offlaner" />
+        <item
+            android:id="@+id/nav_supporter"
+            android:icon="@drawable/nav_icon"
+            android:title="Supporter" />
+        <item
+            android:id="@+id/nav_tanker"
+            android:icon="@drawable/nav_icon"
+            android:title="Tanker" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

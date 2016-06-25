@@ -1,47 +1,143 @@
 package xyz.winthanhtike.travelandtour.activity;
 
+import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
+import android.view.View;
+import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.adapter.ViewPagerAdapter;
+import xyz.winthanhtike.travelandtour.fragment.AgilityFragment;
+import xyz.winthanhtike.travelandtour.fragment.CarryFragment;
+import xyz.winthanhtike.travelandtour.fragment.HomeFragment;
 import xyz.winthanhtike.travelandtour.fragment.IntelligenceFragment;
 import xyz.winthanhtike.travelandtour.fragment.StrengthFragment;
-import xyz.winthanhtike.travelandtour.fragment.AgilityFragment;
 
-public class MainActivity extends AppCompatActivity {
-
-    private Toolbar toolbar;
-    private TabLayout tabLayout;
-    private ViewPager viewPager;
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_drawer);
 
-        toolbar = (Toolbar)findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        viewPager = (ViewPager)findViewById(R.id.viewpager);
-        setupViewPager(viewPager);
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.setDrawerListener(toggle);
+        toggle.syncState();
 
-        tabLayout = (TabLayout)findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(viewPager);
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        if (findViewById(R.id.fl_container ) != null) {
+
+            HomeFragment homeFragment = new HomeFragment();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fl_container, homeFragment).commit();
+
+        }
 
     }
 
-    private void setupViewPager(ViewPager viewPager){
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
 
-        ViewPagerAdapter pagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
-        pagerAdapter.addFragment(new StrengthFragment(),"STRENGTH");
-        pagerAdapter.addFragment(new AgilityFragment(),"AGILITY");
-        pagerAdapter.addFragment(new IntelligenceFragment(),"INTELLIGENCE");
-        viewPager.setAdapter(pagerAdapter);
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.drawer, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
 
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        switch (id){
+
+            case R.id.nav_home:
+                HomeFragment homeFragment = new HomeFragment();
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.fl_container,homeFragment)
+                        .commit();
+                break;
+
+            case R.id.nav_carry:
+                CarryFragment carryFragment = new CarryFragment();
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.fl_container,carryFragment)
+                        .commit();
+                break;
+
+            case R.id.nav_share:
+                break;
+
+            case R.id.nav_send:
+                break;
+
+            case R.id.nav_inifiator:
+                break;
+
+            case R.id.nav_midlaner:
+                break;
+
+            case R.id.nav_nuker:
+                break;
+
+            case R.id.nav_offlaner:
+                break;
+
+            case R.id.nav_supporter:
+                break;
+
+            case R.id.nav_tanker:
+                break;
+
+            case R.id.nav_ganker:
+                break;
+
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
 }
