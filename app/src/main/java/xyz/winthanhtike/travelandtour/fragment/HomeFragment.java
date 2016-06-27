@@ -1,20 +1,17 @@
 package xyz.winthanhtike.travelandtour.fragment;
 
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import xyz.winthanhtike.travelandtour.R;
-import xyz.winthanhtike.travelandtour.adapter.ViewPagerAdapter;
+import xyz.winthanhtike.travelandtour.adapter.HomeViewPagerAdapter;
 
 /**
  * Created by winthanhtike on 6/23/16.
@@ -48,7 +45,7 @@ public class HomeFragment extends Fragment {
 
     private void setupViewPager(ViewPager viewPager) {
 
-        ViewPagerAdapter pagerAdapter = new ViewPagerAdapter(getFragmentManager());
+        HomeViewPagerAdapter pagerAdapter = new HomeViewPagerAdapter(getChildFragmentManager());
         pagerAdapter.addFragment(new StrengthFragment(),"STRENGTH");
         pagerAdapter.addFragment(new AgilityFragment(),"AGILITY");
         pagerAdapter.addFragment(new IntelligenceFragment(),"INTELLIGENCE");

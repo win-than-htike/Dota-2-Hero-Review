@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.activity.AgilityHeroDetailActivity;
 import xyz.winthanhtike.travelandtour.adapter.AgilityRVAdapter;
@@ -30,6 +31,7 @@ public class AgilityFragment extends Fragment {
     private RecyclerView.LayoutManager aLayoutManager;
     private AgilityRVAdapter aAdapter;
     List<AgilityHero> agilityHeroList;
+    private DataProvider db;
 
     public AgilityFragment() {
     }
@@ -49,12 +51,12 @@ public class AgilityFragment extends Fragment {
 
     public void configView(View v){
 
-        DataProvider db = new DataProvider(getContext());
+        db = new DataProvider(Dota2HeroApp.getContext());
 
         rvAgilityHero = (RecyclerView)v.findViewById(R.id.rv_agility_hero);
         rvAgilityHero.setHasFixedSize(true);
 
-        aLayoutManager = new LinearLayoutManager(getContext());
+        aLayoutManager = new LinearLayoutManager(Dota2HeroApp.getContext());
         rvAgilityHero.setLayoutManager(aLayoutManager);
 
         agilityHeroList = new ArrayList<>();
@@ -62,18 +64,18 @@ public class AgilityFragment extends Fragment {
 
         if (agilityHeroList.size() <= 0){
 
-            AgilityHeroData.HerosInfo(getContext());
+            AgilityHeroData.HerosInfo(Dota2HeroApp.getContext());
             agilityHeroList = db.getAllAgilityHero();
 
         }
 
-        aAdapter = new AgilityRVAdapter(getContext(),agilityHeroList);
+        aAdapter = new AgilityRVAdapter(Dota2HeroApp.getContext(),agilityHeroList);
         AgilityRVAdapter.OnItemClickListener itemClickListener = new AgilityRVAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
 
                 AgilityHero agilityHero = aAdapter.selectAHero(position);
-                Intent intent = new Intent(getContext(), AgilityHeroDetailActivity.class);
+                Intent intent = new Intent(Dota2HeroApp.getContext(), AgilityHeroDetailActivity.class);
                 intent.putExtra(DataContract.AgilityTable.TABLE_NAME,agilityHero);
                 startActivity(intent);
 
@@ -83,6 +85,11 @@ public class AgilityFragment extends Fragment {
         aAdapter.setOnItemClickListener(itemClickListener);
         rvAgilityHero.setAdapter(aAdapter);
 
+    }
 
+    @Override
+    public void onStop() {
+        db.close();
+        super.onStop();
     }
 }

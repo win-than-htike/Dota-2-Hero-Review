@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.activity.IntelligenceHeroDetailActivity;
 import xyz.winthanhtike.travelandtour.adapter.IntelligenceRVAdapter;
@@ -30,6 +31,7 @@ public class IntelligenceFragment extends Fragment {
     private IntelligenceRVAdapter iAdapter;
     private RecyclerView.LayoutManager iLayoutManager;
     List<IntelligenceHero> intelligenceHeroList;
+    DataProvider provider;
 
     @Nullable
     @Override
@@ -41,12 +43,12 @@ public class IntelligenceFragment extends Fragment {
 
     public void initView(View v){
 
-        DataProvider provider = new DataProvider(getContext());
+        provider = new DataProvider(Dota2HeroApp.getContext());
 
         rvIntellHero = (RecyclerView)v.findViewById(R.id.rv_intelligence_hero);
         rvIntellHero.setHasFixedSize(true);
 
-        iLayoutManager = new LinearLayoutManager(getContext());
+        iLayoutManager = new LinearLayoutManager(Dota2HeroApp.getContext());
         rvIntellHero.setLayoutManager(iLayoutManager);
 
         intelligenceHeroList = new ArrayList<>();
@@ -54,12 +56,12 @@ public class IntelligenceFragment extends Fragment {
 
         if (intelligenceHeroList.size() <= 0){
 
-            IntelligenceHeroData.HerosInfo(getContext());
+            IntelligenceHeroData.HerosInfo(Dota2HeroApp.getContext());
             intelligenceHeroList = provider.getAllIntelligenceHero();
 
         }
 
-        iAdapter = new IntelligenceRVAdapter(getContext(),intelligenceHeroList);
+        iAdapter = new IntelligenceRVAdapter(Dota2HeroApp.getContext(),intelligenceHeroList);
         IntelligenceRVAdapter.ItemClickListener clickListener = new IntelligenceRVAdapter.ItemClickListener() {
             @Override
             public void itemClick(View v, int position) {
@@ -77,6 +79,9 @@ public class IntelligenceFragment extends Fragment {
 
     }
 
-
-
+    @Override
+    public void onStop() {
+        provider.close();
+        super.onStop();
+    }
 }

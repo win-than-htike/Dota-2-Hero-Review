@@ -11,6 +11,7 @@ public class AgilityHero implements Serializable {
     private String aHeroImageUrl;
     private String aHeroOverview;
     private String aHeroDetail;
+    private String aHeroRole;
 
     public AgilityHero() {}
 
@@ -19,6 +20,14 @@ public class AgilityHero implements Serializable {
         this.aHeroImageUrl = aHeroImageUrl;
         this.aHeroOverview = aHeroOverview;
         this.aHeroDetail = aHeroDetail;
+    }
+
+    public String getaHeroRole() {
+        return aHeroRole;
+    }
+
+    public void setaHeroRole(String aHeroRole) {
+        this.aHeroRole = aHeroRole;
     }
 
     public String getaHeroName() {

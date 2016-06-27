@@ -6,13 +6,18 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.db.DataContract;
+import xyz.winthanhtike.travelandtour.fragment.BuildFragment;
+import xyz.winthanhtike.travelandtour.fragment.StrengthHeroDetailFragment;
 import xyz.winthanhtike.travelandtour.model.StrengthHero;
 
 /**
@@ -26,7 +31,6 @@ public class StrengthHeroDetailActivity extends AppCompatActivity{
     private ImageView imgHero;
     private StrengthHero strengthHero;
 
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,10 +41,11 @@ public class StrengthHeroDetailActivity extends AppCompatActivity{
 
         configsView();
 
+
         tvOverview.setText(strengthHero.getSheroOverview());
         tvDetail.setText(strengthHero.getSheroDetail());
         tvToolbarTitle.setText(strengthHero.getSheroName());
-        Picasso.with(getApplicationContext()).load(strengthHero.getSheroImageUrl()).error(R.mipmap.ic_launcher).into(imgHero);
+        Picasso.with(Dota2HeroApp.getContext()).load(strengthHero.getSheroImageUrl()).error(R.mipmap.ic_launcher).into(imgHero);
 
     }
 
@@ -62,6 +67,30 @@ public class StrengthHeroDetailActivity extends AppCompatActivity{
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.drawer,menu);
+        return true;
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+
+        switch (id){
+
+            case R.id.action_build:
+                break;
+
+        }
+
+        return true;
 
     }
 }

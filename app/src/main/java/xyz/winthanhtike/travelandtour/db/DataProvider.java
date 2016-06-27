@@ -66,6 +66,7 @@ public class DataProvider extends SQLiteOpenHelper {
         values.put(DataContract.StrengthTable.HERO_NAME, strengthHero.getSheroName());
         values.put(DataContract.StrengthTable.HERO_URL, strengthHero.getSheroImageUrl());
         values.put(DataContract.StrengthTable.HERO_DESC, strengthHero.getSheroOverview());
+     //   values.put(DataContract.StrengthTable.HERO_ROLE, strengthHero.getSheroRole());
         values.put(DataContract.StrengthTable.HERO_HISTORY, strengthHero.getSheroDetail());
         db.insert(DataContract.StrengthTable.TABLE_NAME,null,values);
         db.close();
@@ -89,6 +90,7 @@ public class DataProvider extends SQLiteOpenHelper {
                 strengthHero.setSheroName(cursor.getString(1));
                 strengthHero.setSheroImageUrl(cursor.getString(2));
                 strengthHero.setSheroOverview(cursor.getString(3));
+          //      strengthHero.setSheroRole(cursor.getString(4));
                 strengthHero.setSheroDetail(cursor.getString(4));
                 strengthHeroList.add(strengthHero);
 
@@ -108,6 +110,7 @@ public class DataProvider extends SQLiteOpenHelper {
         values.put(DataContract.AgilityTable.HERO_NAME, agilityHero.getaHeroName());
         values.put(DataContract.AgilityTable.HERO_URL, agilityHero.getaHeroImageUrl());
         values.put(DataContract.AgilityTable.HERO_DESC, agilityHero.getaHeroOverview());
+     //   values.put(DataContract.AgilityTable.HERO_ROLE, agilityHero.getaHeroRole());
         values.put(DataContract.AgilityTable.HERO_HISTORY, agilityHero.getaHeroDetail());
         db.insert(DataContract.AgilityTable.TABLE_NAME,null,values);
         db.close();
@@ -131,6 +134,7 @@ public class DataProvider extends SQLiteOpenHelper {
                 agilityHero.setaHeroName(cursor.getString(1));
                 agilityHero.setaHeroImageUrl(cursor.getString(2));
                 agilityHero.setaHeroOverview(cursor.getString(3));
+//                agilityHero.setaHeroRole(cursor.getString(4));
                 agilityHero.setaHeroDetail(cursor.getString(4));
                 agilityHeroList.add(agilityHero);
 
@@ -150,6 +154,7 @@ public class DataProvider extends SQLiteOpenHelper {
         values.put(DataContract.IntelligenceTable.HERO_NAME, intelligenceHero.getiHeroName());
         values.put(DataContract.IntelligenceTable.HERO_URL, intelligenceHero.getiHeroImageUrl());
         values.put(DataContract.IntelligenceTable.HERO_DESC, intelligenceHero.getiHeroOverview());
+     //   values.put(DataContract.IntelligenceTable.HERO_ROLE, intelligenceHero.getiHeroRole());
         values.put(DataContract.IntelligenceTable.HERO_HISTORY, intelligenceHero.getiHeroDetail());
         db.insert(DataContract.IntelligenceTable.TABLE_NAME,null,values);
         db.close();
@@ -173,6 +178,7 @@ public class DataProvider extends SQLiteOpenHelper {
                 intelligenceHero.setiHeroName(cursor.getString(1));
                 intelligenceHero.setiHeroImageUrl(cursor.getString(2));
                 intelligenceHero.setiHeroOverview(cursor.getString(3));
+        //        intelligenceHero.setiHeroRole(cursor.getString(4));
                 intelligenceHero.setiHeroDetail(cursor.getString(4));
                 intelligenceHeroList.add(intelligenceHero);
 
@@ -183,6 +189,5 @@ public class DataProvider extends SQLiteOpenHelper {
         return intelligenceHeroList;
 
     }
-
 
 }

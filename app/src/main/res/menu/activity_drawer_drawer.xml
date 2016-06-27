@@ -7,41 +7,10 @@
             android:icon="@drawable/nav_icon"
             android:title="Home" />
         <item
-            android:id="@+id/nav_carry"
+            android:id="@+id/nav_item"
             android:icon="@drawable/nav_icon"
-            android:title="Carry" />
-        <item
-            android:id="@+id/nav_ganker"
-            android:icon="@drawable/nav_icon"
-            android:title="Ganker" />
-        <item
-            android:id="@+id/nav_inifiator"
-            android:icon="@drawable/nav_icon"
-            android:title="Initiator" />
-        <item
-            android:id="@+id/nav_jungler"
-            android:icon="@drawable/nav_icon"
-            android:title="Jungler" />
-        <item
-            android:id="@+id/nav_midlaner"
-            android:icon="@drawable/nav_icon"
-            android:title="Midlaner" />
-        <item
-            android:id="@+id/nav_nuker"
-            android:icon="@drawable/nav_icon"
-            android:title="Nuker" />
-        <item
-            android:id="@+id/nav_offlaner"
-            android:icon="@drawable/nav_icon"
-            android:title="Offlaner" />
-        <item
-            android:id="@+id/nav_supporter"
-            android:icon="@drawable/nav_icon"
-            android:title="Supporter" />
-        <item
-            android:id="@+id/nav_tanker"
-            android:icon="@drawable/nav_icon"
-            android:title="Tanker" />
+            android:title="Item"/>
+
     </group>
 
     <item android:title="Communicate">

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.db.DataContract;
 import xyz.winthanhtike.travelandtour.model.AgilityHero;
@@ -41,7 +43,7 @@ public class AgilityHeroDetailActivity extends AppCompatActivity {
         tvOverview.setText(agilityHero.getaHeroOverview());
         tvDetail.setText(agilityHero.getaHeroDetail());
         tvToolbarTitle.setText(agilityHero.getaHeroName());
-        Picasso.with(getApplicationContext()).load(agilityHero.getaHeroImageUrl()).error(R.mipmap.ic_launcher).into(imgHero);
+        Picasso.with(Dota2HeroApp.getContext()).load(agilityHero.getaHeroImageUrl()).error(R.mipmap.ic_launcher).into(imgHero);
 
     }
 
@@ -61,8 +63,9 @@ public class AgilityHeroDetailActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         tvToolbarTitle = (TextView) findViewById(R.id.toolbar_title);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        final ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayShowTitleEnabled(false);
 
     }
 

@@ -3,6 +3,8 @@ package xyz.winthanhtike.travelandtour.adapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,12 +12,12 @@ import java.util.List;
 /**
  * Created by winthanhtike on 6/10/16.
  */
-public class ViewPagerAdapter extends FragmentPagerAdapter {
+public class HomeViewPagerAdapter extends FragmentStatePagerAdapter {
 
     private final List<Fragment> mFragmentList = new ArrayList<>();
     private final List<String> mFragmentTitleList = new ArrayList<>();
 
-    public ViewPagerAdapter(FragmentManager fm) {
+    public HomeViewPagerAdapter(FragmentManager fm) {
         super(fm);
     }
 

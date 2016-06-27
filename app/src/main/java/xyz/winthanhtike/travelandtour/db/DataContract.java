@@ -15,6 +15,7 @@ public class DataContract {
         public static final String HERO_NAME = "s_name";
         public static final String HERO_URL = "s_image";
         public static final String HERO_DESC = "s_overview";
+        public static final String HERO_ROLE = "role";
         public static final String HERO_HISTORY = "s_detail";
 
     }
@@ -26,6 +27,7 @@ public class DataContract {
         public static final String HERO_NAME = "a_name";
         public static final String HERO_URL = "a_image";
         public static final String HERO_DESC = "a_overview";
+        public static final String HERO_ROLE = "role";
         public static final String HERO_HISTORY = "a_detail";
 
     }
@@ -37,6 +39,7 @@ public class DataContract {
         public static final String HERO_NAME = "i_name";
         public static final String HERO_URL = "i_image";
         public static final String HERO_DESC = "i_overview";
+        public static final String HERO_ROLE = "role";
         public static final String HERO_HISTORY = "i_detail";
 
     }

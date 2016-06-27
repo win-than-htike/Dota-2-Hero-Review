@@ -11,6 +11,7 @@ public class StrengthHero implements Serializable {
     private String sheroImageUrl;
     private String sheroOverview;
     private String sheroDetail;
+    private String sheroRole;
 
     public StrengthHero(){}
 
@@ -19,6 +20,14 @@ public class StrengthHero implements Serializable {
         this.sheroImageUrl = sheroImageUrl;
         this.sheroOverview = sheroOverview;
         this.sheroDetail = sheroDetail;
+    }
+
+    public String getSheroRole() {
+        return sheroRole;
+    }
+
+    public void setSheroRole(String sheroRole) {
+        this.sheroRole = sheroRole;
     }
 
     public String getSheroName() {

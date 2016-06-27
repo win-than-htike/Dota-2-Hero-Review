@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.db.DataContract;
 import xyz.winthanhtike.travelandtour.model.IntelligenceHero;
@@ -40,7 +41,7 @@ public class IntelligenceHeroDetailActivity extends AppCompatActivity {
         tvOverview.setText(intelligenceHero.getiHeroOverview());
         tvDetail.setText(intelligenceHero.getiHeroDetail());
         tvToolbarTitle.setText(intelligenceHero.getiHeroName());
-        Picasso.with(getApplicationContext()).load(intelligenceHero.getiHeroImageUrl()).error(R.mipmap.ic_launcher).into(imgHero);
+        Picasso.with(Dota2HeroApp.getContext()).load(intelligenceHero.getiHeroImageUrl()).error(R.mipmap.ic_launcher).into(imgHero);
 
     }
 

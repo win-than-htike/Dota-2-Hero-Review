@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.activity.StrengthHeroDetailActivity;
 import xyz.winthanhtike.travelandtour.adapter.StrengthRVAdapter;
@@ -31,6 +32,7 @@ public class StrengthFragment extends Fragment {
     private StrengthRVAdapter sAdapter;
     private RecyclerView.LayoutManager sLayoutManager;
     List<StrengthHero> strengthHeroList;
+    DataProvider db;
 
     public StrengthFragment() {
     }
@@ -39,7 +41,7 @@ public class StrengthFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.strength_fragment,container,false);
-        initView(view);
+            initView(view);
         return view;
     }
 
@@ -50,12 +52,12 @@ public class StrengthFragment extends Fragment {
 
     public void initView(View v){
 
-        DataProvider db = new DataProvider(getContext());
+        db = new DataProvider(getContext());
 
         rvStrengthHero = (RecyclerView)v.findViewById(R.id.rv_strength_hero);
         rvStrengthHero.setHasFixedSize(true);
 
-        sLayoutManager = new LinearLayoutManager(getContext());
+        sLayoutManager = new LinearLayoutManager(Dota2HeroApp.getContext());
         rvStrengthHero.setLayoutManager(sLayoutManager);
 
         strengthHeroList = new ArrayList<>();
@@ -68,14 +70,14 @@ public class StrengthFragment extends Fragment {
 
         }
 
-        sAdapter = new StrengthRVAdapter(strengthHeroList,getContext());
+        sAdapter = new StrengthRVAdapter(strengthHeroList,Dota2HeroApp.getContext());
         StrengthRVAdapter.OnItemClickListener itemClickListener = new StrengthRVAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
 
                 StrengthHero strengthHero = sAdapter.selectCurry(position);
-                Intent i = new Intent(getContext(),StrengthHeroDetailActivity.class);
-                i.putExtra(DataContract.StrengthTable.TABLE_NAME, strengthHero);
+                Intent i = new Intent(Dota2HeroApp.getContext(),StrengthHeroDetailActivity.class);
+                i.putExtra(DataContract.StrengthTable.TABLE_NAME,strengthHero);
                 startActivity(i);
 
             }
@@ -86,4 +88,9 @@ public class StrengthFragment extends Fragment {
 
     }
 
+    @Override
+    public void onStop() {
+        db.close();
+        super.onStop();
+    }
 }

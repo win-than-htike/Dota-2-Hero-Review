@@ -11,6 +11,7 @@ public class IntelligenceHero implements Serializable{
     private String iHeroImageUrl;
     private String iHeroOverview;
     private String iHeroDetail;
+    private String iHeroRole;
 
     public IntelligenceHero(){}
 
@@ -19,6 +20,14 @@ public class IntelligenceHero implements Serializable{
         this.iHeroImageUrl = iHeroImageUrl;
         this.iHeroOverview = iHeroOverview;
         this.iHeroDetail = iHeroDetail;
+    }
+
+    public String getiHeroRole() {
+        return iHeroRole;
+    }
+
+    public void setiHeroRole(String iHeroRole) {
+        this.iHeroRole = iHeroRole;
     }
 
     public String getiHeroName() {

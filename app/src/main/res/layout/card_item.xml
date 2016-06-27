@@ -26,7 +26,7 @@
         android:layout_gravity="bottom"
         android:orientation="horizontal">
 
-        <TextView
+        <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
             android:id="@+id/tv_hero_name"
             android:layout_width="match_parent"
             android:layout_height="42dp"

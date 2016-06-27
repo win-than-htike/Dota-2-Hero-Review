@@ -13,7 +13,46 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
+            <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/hero_role"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_margin="4dp"
+                android:background="#000" />
+
+            <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
+                android:id="@+id/tv_role"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="#000"
+                android:textSize="@dimen/text_regular_2"
+                android:lineSpacingMultiplier="1.3"
+                android:padding="@dimen/margin_medium"
+                android:text="#ကြ်န္ေတာ္တို႕ခ်စ္တဲ႕လြယ္အိပ္ႀကီးနဲဲ႔အတူဝုန္းျကဆို႕……" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
@@ -27,7 +66,7 @@
                 android:layout_margin="4dp"
                 android:background="#000" />
 
-            <TextView
+            <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
                 android:id="@+id/tv_overview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -52,7 +91,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
+            <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
@@ -66,7 +105,7 @@
                 android:layout_margin="4dp"
                 android:background="#000" />
 
-            <TextView
+            <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
                 android:id="@+id/tv_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
