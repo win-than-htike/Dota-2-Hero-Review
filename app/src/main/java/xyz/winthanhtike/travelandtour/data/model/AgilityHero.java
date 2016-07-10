@@ -1,4 +1,4 @@
-package xyz.winthanhtike.travelandtour.model;
+package xyz.winthanhtike.travelandtour.data.model;
 
 import java.io.Serializable;
 
@@ -15,11 +15,12 @@ public class AgilityHero implements Serializable {
 
     public AgilityHero() {}
 
-    public AgilityHero(String aHeroName, String aHeroImageUrl, String aHeroOverview, String aHeroDetail) {
+    public AgilityHero(String aHeroName, String aHeroImageUrl, String aHeroOverview, String aHeroDetail,String aHeroRole) {
         this.aHeroName = aHeroName;
         this.aHeroImageUrl = aHeroImageUrl;
         this.aHeroOverview = aHeroOverview;
         this.aHeroDetail = aHeroDetail;
+        this.aHeroRole = aHeroRole;
     }
 
     public String getaHeroRole() {

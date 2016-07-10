@@ -1,7 +1,11 @@
 package xyz.winthanhtike.travelandtour.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
+import android.support.v4.util.Pair;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -9,12 +13,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 import xyz.winthanhtike.travelandtour.R;
+import xyz.winthanhtike.travelandtour.data.vos.BasicItemVO;
+import xyz.winthanhtike.travelandtour.fragment.BasicItemFragment;
 import xyz.winthanhtike.travelandtour.fragment.ItemFragment;
 import xyz.winthanhtike.travelandtour.fragment.HomeFragment;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,BasicItemFragment.ControllerBasicItem {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        if (findViewById(R.id.fl_container ) != null) {
+        if (savedInstanceState == null) {
 
             HomeFragment homeFragment = new HomeFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.fl_container, homeFragment).commit();
@@ -102,5 +109,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onTapBasicItem(BasicItemVO basicItemVO, ImageView ivBasicItemImage) {
+        Intent intent = BasicItemDetailActivity.newInstance(basicItemVO.getbItemName());
+        ActivityOptionsCompat activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(this,new Pair(ivBasicItemImage,getString(R.string.share_image_transition)));
+        ActivityCompat.startActivity(this,intent,activityOptions.toBundle());
     }
 }

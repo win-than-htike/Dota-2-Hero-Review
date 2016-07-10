@@ -44,4 +44,15 @@ public class DataContract {
 
     }
 
+    public class BasicItemTable {
+
+        public static final String TABLE_NAME = "basic_item";
+        public static final String ITEM_ID = "b_id";
+        public static final String ITEM_NAME = "b_name";
+        public static final String ITEM_URL = "b_image";
+        public static final String ITEM_DESC = "b_overview";
+        public static final String ITEM_DETAIL = "b_detail";
+
+    }
+
 }

@@ -13,7 +13,7 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 import xyz.winthanhtike.travelandtour.R;
-import xyz.winthanhtike.travelandtour.model.AgilityHero;
+import xyz.winthanhtike.travelandtour.data.model.AgilityHero;
 
 /**
  * Created by winthanhtike on 6/10/16.

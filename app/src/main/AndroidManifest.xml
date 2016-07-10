@@ -21,6 +21,10 @@
         <activity android:name=".activity.StrengthHeroDetailActivity" />
         <activity android:name=".activity.AgilityHeroDetailActivity" />
         <activity android:name=".activity.IntelligenceHeroDetailActivity" />
+        <activity
+            android:name=".activity.BasicItemDetailActivity"
+            android:label="@string/title_activity_basic_item_detail"
+            android:theme="@style/MyMaterialTheme"></activity>
     </application>
 
 </manifest>

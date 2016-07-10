@@ -9,9 +9,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 import java.util.List;
 
-import xyz.winthanhtike.travelandtour.model.AgilityHero;
-import xyz.winthanhtike.travelandtour.model.IntelligenceHero;
-import xyz.winthanhtike.travelandtour.model.StrengthHero;
+import xyz.winthanhtike.travelandtour.data.model.AgilityHero;
+import xyz.winthanhtike.travelandtour.data.model.IntelligenceHero;
+import xyz.winthanhtike.travelandtour.data.model.StrengthHero;
 
 /**
  * Created by winthanhtike on 6/10/16.
@@ -31,6 +31,7 @@ public class DataProvider extends SQLiteOpenHelper {
                     + DataContract.StrengthTable.HERO_NAME + " Text,"
                     + DataContract.StrengthTable.HERO_URL + " Text,"
                     + DataContract.StrengthTable.HERO_DESC + " Text,"
+                    + DataContract.StrengthTable.HERO_ROLE + " Text,"
                     + DataContract.StrengthTable.HERO_HISTORY + " Text) ");
 
         db.execSQL("CREATE TABLE " + DataContract.AgilityTable.TABLE_NAME + "("
@@ -38,6 +39,7 @@ public class DataProvider extends SQLiteOpenHelper {
                 + DataContract.AgilityTable.HERO_NAME + " Text,"
                 + DataContract.AgilityTable.HERO_URL + " Text,"
                 + DataContract.AgilityTable.HERO_DESC + " Text,"
+                + DataContract.AgilityTable.HERO_ROLE + " Text,"
                 + DataContract.AgilityTable.HERO_HISTORY + " Text) ");
 
         db.execSQL("CREATE TABLE " + DataContract.IntelligenceTable.TABLE_NAME + "("
@@ -45,6 +47,7 @@ public class DataProvider extends SQLiteOpenHelper {
                 + DataContract.IntelligenceTable.HERO_NAME + " Text,"
                 + DataContract.IntelligenceTable.HERO_URL + " Text,"
                 + DataContract.IntelligenceTable.HERO_DESC + " Text,"
+                + DataContract.IntelligenceTable.HERO_ROLE + " Text,"
                 + DataContract.IntelligenceTable.HERO_HISTORY + " Text) ");
 
 
@@ -66,7 +69,7 @@ public class DataProvider extends SQLiteOpenHelper {
         values.put(DataContract.StrengthTable.HERO_NAME, strengthHero.getSheroName());
         values.put(DataContract.StrengthTable.HERO_URL, strengthHero.getSheroImageUrl());
         values.put(DataContract.StrengthTable.HERO_DESC, strengthHero.getSheroOverview());
-     //   values.put(DataContract.StrengthTable.HERO_ROLE, strengthHero.getSheroRole());
+        values.put(DataContract.StrengthTable.HERO_ROLE, strengthHero.getSheroRole());
         values.put(DataContract.StrengthTable.HERO_HISTORY, strengthHero.getSheroDetail());
         db.insert(DataContract.StrengthTable.TABLE_NAME,null,values);
         db.close();
@@ -90,8 +93,8 @@ public class DataProvider extends SQLiteOpenHelper {
                 strengthHero.setSheroName(cursor.getString(1));
                 strengthHero.setSheroImageUrl(cursor.getString(2));
                 strengthHero.setSheroOverview(cursor.getString(3));
-          //      strengthHero.setSheroRole(cursor.getString(4));
-                strengthHero.setSheroDetail(cursor.getString(4));
+                strengthHero.setSheroRole(cursor.getString(4));
+                strengthHero.setSheroDetail(cursor.getString(5));
                 strengthHeroList.add(strengthHero);
 
             }while (cursor.moveToNext());
@@ -110,7 +113,7 @@ public class DataProvider extends SQLiteOpenHelper {
         values.put(DataContract.AgilityTable.HERO_NAME, agilityHero.getaHeroName());
         values.put(DataContract.AgilityTable.HERO_URL, agilityHero.getaHeroImageUrl());
         values.put(DataContract.AgilityTable.HERO_DESC, agilityHero.getaHeroOverview());
-     //   values.put(DataContract.AgilityTable.HERO_ROLE, agilityHero.getaHeroRole());
+        values.put(DataContract.AgilityTable.HERO_ROLE, agilityHero.getaHeroRole());
         values.put(DataContract.AgilityTable.HERO_HISTORY, agilityHero.getaHeroDetail());
         db.insert(DataContract.AgilityTable.TABLE_NAME,null,values);
         db.close();
@@ -134,8 +137,8 @@ public class DataProvider extends SQLiteOpenHelper {
                 agilityHero.setaHeroName(cursor.getString(1));
                 agilityHero.setaHeroImageUrl(cursor.getString(2));
                 agilityHero.setaHeroOverview(cursor.getString(3));
-//                agilityHero.setaHeroRole(cursor.getString(4));
-                agilityHero.setaHeroDetail(cursor.getString(4));
+                agilityHero.setaHeroRole(cursor.getString(4));
+                agilityHero.setaHeroDetail(cursor.getString(5));
                 agilityHeroList.add(agilityHero);
 
             }while (cursor.moveToNext());
@@ -154,7 +157,7 @@ public class DataProvider extends SQLiteOpenHelper {
         values.put(DataContract.IntelligenceTable.HERO_NAME, intelligenceHero.getiHeroName());
         values.put(DataContract.IntelligenceTable.HERO_URL, intelligenceHero.getiHeroImageUrl());
         values.put(DataContract.IntelligenceTable.HERO_DESC, intelligenceHero.getiHeroOverview());
-     //   values.put(DataContract.IntelligenceTable.HERO_ROLE, intelligenceHero.getiHeroRole());
+        values.put(DataContract.IntelligenceTable.HERO_ROLE, intelligenceHero.getiHeroRole());
         values.put(DataContract.IntelligenceTable.HERO_HISTORY, intelligenceHero.getiHeroDetail());
         db.insert(DataContract.IntelligenceTable.TABLE_NAME,null,values);
         db.close();
@@ -168,6 +171,7 @@ public class DataProvider extends SQLiteOpenHelper {
         String query = "SELECT * FROM " + DataContract.IntelligenceTable.TABLE_NAME;
 
         SQLiteDatabase db = this.getWritableDatabase();
+
         Cursor cursor = db.rawQuery(query,null);
 
         if (cursor.moveToFirst()){
@@ -178,8 +182,8 @@ public class DataProvider extends SQLiteOpenHelper {
                 intelligenceHero.setiHeroName(cursor.getString(1));
                 intelligenceHero.setiHeroImageUrl(cursor.getString(2));
                 intelligenceHero.setiHeroOverview(cursor.getString(3));
-        //        intelligenceHero.setiHeroRole(cursor.getString(4));
-                intelligenceHero.setiHeroDetail(cursor.getString(4));
+                intelligenceHero.setiHeroRole(cursor.getString(4));
+                intelligenceHero.setiHeroDetail(cursor.getString(5));
                 intelligenceHeroList.add(intelligenceHero);
 
             }while (cursor.moveToNext());

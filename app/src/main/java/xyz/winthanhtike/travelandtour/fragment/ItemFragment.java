@@ -1,5 +1,6 @@
 package xyz.winthanhtike.travelandtour.fragment;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
@@ -9,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.adapter.ItemViewPagerAdapter;
 
@@ -36,12 +38,19 @@ public class ItemFragment extends Fragment {
 
     }
 
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+
+    }
+
     private void setupViewPager(ViewPager viewPager) {
 
         ItemViewPagerAdapter pagerAdapter = new ItemViewPagerAdapter(getChildFragmentManager());
-        pagerAdapter.addFragment(new BasicItemFragment(),"Basic Item");
+        pagerAdapter.addFragment(BasicItemFragment.getInstance(),"Basic Item");
         pagerAdapter.addFragment(new UpgradeItemFragment(),"Upgrade Item");
         viewPager.setAdapter(pagerAdapter);
 
     }
+
 }

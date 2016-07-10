@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -19,8 +20,8 @@ import xyz.winthanhtike.travelandtour.activity.IntelligenceHeroDetailActivity;
 import xyz.winthanhtike.travelandtour.adapter.IntelligenceRVAdapter;
 import xyz.winthanhtike.travelandtour.db.DataContract;
 import xyz.winthanhtike.travelandtour.db.DataProvider;
-import xyz.winthanhtike.travelandtour.model.IntelligenceHero;
-import xyz.winthanhtike.travelandtour.model.IntelligenceHeroData;
+import xyz.winthanhtike.travelandtour.data.model.IntelligenceHero;
+import xyz.winthanhtike.travelandtour.data.model.IntelligenceHeroData;
 
 /**
  * Created by winthanhtike on 6/10/16.
@@ -48,7 +49,8 @@ public class IntelligenceFragment extends Fragment {
         rvIntellHero = (RecyclerView)v.findViewById(R.id.rv_intelligence_hero);
         rvIntellHero.setHasFixedSize(true);
 
-        iLayoutManager = new LinearLayoutManager(Dota2HeroApp.getContext());
+        int gridColumnSpan = getResources().getInteger(R.integer.hero_list_grid);
+        iLayoutManager = new GridLayoutManager(Dota2HeroApp.getContext(),gridColumnSpan);
         rvIntellHero.setLayoutManager(iLayoutManager);
 
         intelligenceHeroList = new ArrayList<>();

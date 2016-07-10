@@ -1,0 +1,31 @@
+[
+ {
+ 	"hero_name":"Axe",
+ 	"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/lina_full.png?v=3487285?v=3487285",
+ 	"hero_role":"Melee - Initiator - Durable - Disabler - Jungler",
+	"hero_detail":"ABC",
+ 	"hero_overview":"ABC",
+ 	"spell":[
+ 		{
+ 			"spell_name":"Berserker's Call",
+ 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/axe_berserkers_call_hp1.png",
+ 			"spell_overview":"Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration."
+ 		},
+ 		{
+ 			"spell_name":"Battle Hunger",
+ 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/axe_battle_hunger_hp1.png",
+ 			"spell_overview":"Enrages an enemy unit, causing it to be slowed and take damage over time until it kills another unit or the duration ends. Axe gains movement speed for each unit affected with Battle Hunger."
+ 		},
+ 		{
+ 			"spell_name":"Counter Helix",
+ 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/axe_counter_helix_hp1.png",
+ 			"spell_overview":"When attacked, Axe performs a helix counter attack, dealing pure damage to all nearby enemies."
+ 		},
+ 		{
+ 			"spell_name":"Culling Blade",
+ 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/axe_culling_blade_hp1.png",
+ 			"spell_overview":"Axe spots a weakness and strikes, instantly killing an enemy unit with low health, or dealing moderate damage otherwise. When an enemy hero is killed with Culling Blade, its cooldown is reset, and Axe and nearby allied units gain bonus movement speed. Upgradable by Aghanim's Scepter."
+ 		}
+ 	]
+ }
+]

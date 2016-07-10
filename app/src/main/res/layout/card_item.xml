@@ -5,37 +5,39 @@
     android:id="@+id/placeCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginRight="4dp"
-    android:layout_marginLeft="4dp"
-    android:layout_marginTop="2dp"
-    card_view:cardCornerRadius="4dp"
-    card_view:cardElevation="2dp">
-
-    <ImageView
-        android:id="@+id/img_hero"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop" />
-
-    <!-- Used for the ripple effect on touch -->
+    android:layout_marginRight="@dimen/margin_medium"
+    android:layout_marginLeft="@dimen/margin_medium"
+    android:layout_marginTop="@dimen/margin_medium"
+    card_view:cardCornerRadius="@dimen/margin_small"
+    android:background="#fff"
+    card_view:cardElevation="@dimen/margin_medium">
 
     <LinearLayout
         android:id="@+id/placeNameHolder"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_gravity="bottom"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_hero"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hero_image_size"
+            android:scaleType="centerCrop"/>
 
         <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
             android:id="@+id/tv_hero_name"
             android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_height="@dimen/text_area"
             android:layout_gravity="center_vertical"
-            android:gravity="left"
+            android:gravity="center"
+            android:text="Hello"
+            android:background="#fff"
+            android:textStyle="bold"
+            android:padding="@dimen/margin_medium"
             android:paddingLeft="@dimen/margin_medium"
-            android:background="#a8000000"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@android:color/white" />
+            android:textColor="#000"/>
 
     </LinearLayout>
 

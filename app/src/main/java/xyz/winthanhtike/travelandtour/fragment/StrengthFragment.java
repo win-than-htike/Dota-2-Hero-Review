@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -20,8 +21,8 @@ import xyz.winthanhtike.travelandtour.activity.StrengthHeroDetailActivity;
 import xyz.winthanhtike.travelandtour.adapter.StrengthRVAdapter;
 import xyz.winthanhtike.travelandtour.db.DataContract;
 import xyz.winthanhtike.travelandtour.db.DataProvider;
-import xyz.winthanhtike.travelandtour.model.StrengthHeroData;
-import xyz.winthanhtike.travelandtour.model.StrengthHero;
+import xyz.winthanhtike.travelandtour.data.model.StrengthHeroData;
+import xyz.winthanhtike.travelandtour.data.model.StrengthHero;
 
 /**
  * Created by winthanhtike on 6/10/16.
@@ -57,7 +58,8 @@ public class StrengthFragment extends Fragment {
         rvStrengthHero = (RecyclerView)v.findViewById(R.id.rv_strength_hero);
         rvStrengthHero.setHasFixedSize(true);
 
-        sLayoutManager = new LinearLayoutManager(Dota2HeroApp.getContext());
+        int gridColumnSpanCount = getResources().getInteger(R.integer.hero_list_grid);
+        sLayoutManager = new GridLayoutManager(Dota2HeroApp.getContext(),gridColumnSpanCount);
         rvStrengthHero.setLayoutManager(sLayoutManager);
 
         strengthHeroList = new ArrayList<>();

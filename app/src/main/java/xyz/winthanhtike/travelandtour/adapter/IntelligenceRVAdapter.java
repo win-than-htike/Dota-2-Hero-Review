@@ -13,7 +13,7 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 import xyz.winthanhtike.travelandtour.R;
-import xyz.winthanhtike.travelandtour.model.IntelligenceHero;
+import xyz.winthanhtike.travelandtour.data.model.IntelligenceHero;
 
 /**
  * Created by winthanhtike on 6/11/16.

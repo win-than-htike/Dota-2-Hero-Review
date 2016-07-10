@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -19,8 +20,8 @@ import xyz.winthanhtike.travelandtour.activity.AgilityHeroDetailActivity;
 import xyz.winthanhtike.travelandtour.adapter.AgilityRVAdapter;
 import xyz.winthanhtike.travelandtour.db.DataContract;
 import xyz.winthanhtike.travelandtour.db.DataProvider;
-import xyz.winthanhtike.travelandtour.model.AgilityHero;
-import xyz.winthanhtike.travelandtour.model.AgilityHeroData;
+import xyz.winthanhtike.travelandtour.data.model.AgilityHero;
+import xyz.winthanhtike.travelandtour.data.model.AgilityHeroData;
 
 /**
  * Created by winthanhtike on 6/10/16.
@@ -56,7 +57,8 @@ public class AgilityFragment extends Fragment {
         rvAgilityHero = (RecyclerView)v.findViewById(R.id.rv_agility_hero);
         rvAgilityHero.setHasFixedSize(true);
 
-        aLayoutManager = new LinearLayoutManager(Dota2HeroApp.getContext());
+        int gridColumnSpam = getResources().getInteger(R.integer.hero_list_grid);
+        aLayoutManager = new GridLayoutManager(Dota2HeroApp.getContext(),gridColumnSpam);
         rvAgilityHero.setLayoutManager(aLayoutManager);
 
         agilityHeroList = new ArrayList<>();

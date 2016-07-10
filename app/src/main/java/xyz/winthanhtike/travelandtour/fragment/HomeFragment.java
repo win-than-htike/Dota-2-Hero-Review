@@ -1,22 +1,29 @@
 package xyz.winthanhtike.travelandtour.fragment;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.util.Pair;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import xyz.winthanhtike.travelandtour.R;
+import xyz.winthanhtike.travelandtour.activity.BasicItemDetailActivity;
 import xyz.winthanhtike.travelandtour.adapter.HomeViewPagerAdapter;
+import xyz.winthanhtike.travelandtour.data.vos.BasicItemVO;
 
 /**
  * Created by winthanhtike on 6/23/16.
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements BasicItemFragment.ControllerBasicItem{
 
     private ViewPager viewPager;
     private TabLayout tabLayout;
@@ -53,4 +60,11 @@ public class HomeFragment extends Fragment {
 
     }
 
+
+    @Override
+    public void onTapBasicItem(BasicItemVO basicItemVO, ImageView ivBasicItemImage) {
+        Intent intent = BasicItemDetailActivity.newInstance(basicItemVO.getbItemName());
+        ActivityOptionsCompat activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity(),new Pair(ivBasicItemImage,getString(R.string.share_image_transition)));
+        ActivityCompat.startActivity(getActivity(),intent,activityOptions.toBundle());
+    }
 }

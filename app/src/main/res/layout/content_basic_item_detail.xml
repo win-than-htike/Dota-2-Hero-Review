@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="xyz.winthanhtike.travelandtour.activity.BasicItemDetailActivity"
+    tools:showIn="@layout/activity_basic_item_detail">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
@@ -18,7 +27,62 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:fontFamily="sans-serif"
-                android:text="@string/hero_role"
+                android:text="@string/item_price"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_margin="4dp"
+                android:background="#000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="@dimen/margin_medium"
+                    android:src="@drawable/gold"/>
+
+                <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
+                    android:id="@+id/tv_item_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#000"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_heading_1x"
+                    android:lineSpacingMultiplier="1.3"
+                    android:padding="@dimen/margin_medium"
+                    android:text="1500" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/item_overview"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <View
@@ -28,7 +92,7 @@
                 android:background="#000" />
 
             <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
-                android:id="@+id/tv_role"
+                android:id="@+id/tv_item_overview"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
@@ -57,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
                 android:fontFamily="sans-serif"
-                android:text="@string/hero_spell"
+                android:text="@string/item_detail"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <View
@@ -65,111 +129,17 @@
                 android:layout_height="0.5dp"
                 android:layout_margin="4dp"
                 android:background="#000" />
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/rv_hero_spell"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
 
             <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:fontFamily="sans-serif"
-                android:text="@string/overview"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:layout_margin="4dp"
-                android:background="#000" />
-
-            <xyz.winthanhtike.travelandtour.utils.CustomExpendableTextView
-                android:id="@+id/tv_overview"
+                android:id="@+id/tv_item_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:maxLines="5"
-                android:ellipsize="end"
                 android:textColor="#000"
                 android:textSize="@dimen/text_regular_2"
                 android:lineSpacingMultiplier="1.3"
                 android:padding="@dimen/margin_medium"
                 android:text="#ကြ်န္ေတာ္တို႕ခ်စ္တဲ႕လြယ္အိပ္ႀကီးနဲဲ႔အတူဝုန္းျကဆို႕……" />
-
-            <Button
-                android:id="@+id/btn_read_more_overview"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/read_more"
-                android:background="#fff"
-                android:textAllCaps="false"
-                android:layout_gravity="center_horizontal" />
-
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:fontFamily="sans-serif"
-                android:text="@string/detail"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="0.5dp"
-                android:layout_margin="4dp"
-                android:background="#000" />
-
-            <xyz.winthanhtike.travelandtour.utils.CustomExpendableTextView
-                android:id="@+id/tv_detail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:textColor="#000"
-                android:maxLines="5"
-                android:ellipsize="end"
-                android:textSize="@dimen/text_regular_2"
-                android:lineSpacingMultiplier="1.3"
-                android:padding="@dimen/margin_medium"
-                android:text="#ကြ်န္ေတာ္တို႕ခ်စ္တဲ႕လြယ္အိပ္ႀကီးနဲဲ႔အတူဝုန္းျကဆို႕……" />
-
-            <Button
-                android:id="@+id/btn_read_more_detail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/read_more"
-                android:background="#fff"
-                android:textAllCaps="false"
-                android:layout_gravity="center_horizontal" />
 
         </LinearLayout>
 

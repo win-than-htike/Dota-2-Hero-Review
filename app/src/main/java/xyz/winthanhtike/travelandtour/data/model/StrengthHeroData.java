@@ -1,4 +1,4 @@
-package xyz.winthanhtike.travelandtour.model;
+package xyz.winthanhtike.travelandtour.data.model;
 
 import android.content.Context;
 
