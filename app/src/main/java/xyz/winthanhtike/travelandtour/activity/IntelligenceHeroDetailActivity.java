@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
@@ -15,8 +18,9 @@ import com.squareup.picasso.Picasso;
 
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
-import xyz.winthanhtike.travelandtour.db.DataContract;
-import xyz.winthanhtike.travelandtour.data.model.IntelligenceHero;
+import xyz.winthanhtike.travelandtour.adapter.HeroSpellRVAdapter;
+import xyz.winthanhtike.travelandtour.data.model.IntelligenceHeroModel;
+import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 import xyz.winthanhtike.travelandtour.utils.CustomExpendableTextView;
 
 /**
@@ -24,30 +28,57 @@ import xyz.winthanhtike.travelandtour.utils.CustomExpendableTextView;
  */
 public class IntelligenceHeroDetailActivity extends AppCompatActivity {
 
+    private static final String IE_HERO_NAME = "IE_HERO_NAME";
+
     private Toolbar toolbar;
     private CollapsingToolbarLayout collapsingToolbar;
     private TextView tvRole,tvToolbarTitle;
     private ImageView imgHero;
-    private IntelligenceHero intelligenceHero;
     private CustomExpendableTextView tvExpandableOverview,tvExpendableDetail;
     private Button btnReadMoreOverview,btnReadMoreDetail;
+    private HeroSpellRVAdapter heroSpellAdapter;
 
+    public static Intent newInstance(String heroName){
+        Intent intent = new Intent(Dota2HeroApp.getContext(),IntelligenceHeroDetailActivity.class);
+        intent.putExtra(IE_HERO_NAME,heroName);
+        return intent;
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detail_item_container);
 
-        Intent intent = getIntent();
-        intelligenceHero = (IntelligenceHero) intent.getSerializableExtra(DataContract.IntelligenceTable.TABLE_NAME);
-
         configsView();
 
-        tvExpandableOverview.setText(intelligenceHero.getiHeroOverview());
-        tvExpendableDetail.setText(intelligenceHero.getiHeroDetail());
-        //tvRole.setText(intelligenceHero.getiHeroRole());
-        tvToolbarTitle.setText(intelligenceHero.getiHeroName());
-        Picasso.with(Dota2HeroApp.getContext()).load(intelligenceHero.getiHeroImageUrl()).error(R.mipmap.ic_launcher).into(imgHero);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setDisplayShowTitleEnabled(false);
+        }
+
+        String heroName = getIntent().getStringExtra(IE_HERO_NAME);
+        HeroVO heroVO = IntelligenceHeroModel.getInstance().getBasicItemByName(heroName);
+        if (heroVO == null){
+            throw new RuntimeException("Can't fin obg"+heroName);
+        }else {
+            tvExpandableOverview.setText(heroVO.getHeroOverview());
+            tvExpendableDetail.setText(heroVO.getHeroDetail());
+            tvToolbarTitle.setText(heroVO.getHeroName());
+            tvRole.setText(heroVO.getHeroRole());
+            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).error(R.mipmap.ic_launcher).into(imgHero);
+        }
+
+        RecyclerView rvHeroSpell = (RecyclerView)findViewById(R.id.rv_hero_spell);
+        rvHeroSpell.setHasFixedSize(true);
+        heroSpellAdapter = new HeroSpellRVAdapter(heroVO.getHeroSpell());
+        rvHeroSpell.setAdapter(heroSpellAdapter);
+        rvHeroSpell.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
+
+
 
     }
 
@@ -77,21 +108,17 @@ public class IntelligenceHeroDetailActivity extends AppCompatActivity {
             }
         });
 
+
+        tvToolbarTitle = (TextView) findViewById(R.id.toolbar_title);
+        tvRole = (TextView)findViewById(R.id.tv_role);
         imgHero = (ImageView)findViewById(R.id.col_img_hero);
-        //tvRole = (TextView)findViewById(R.id.tv_role);
         collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitleEnabled(false);
-        toolbarAndTitle();
 
-    }
-
-    private void toolbarAndTitle() {
-
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        tvToolbarTitle = (TextView) findViewById(R.id.toolbar_title);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        RecyclerView rvHeroSpell = (RecyclerView)findViewById(R.id.rv_hero_spell);
+        rvHeroSpell.setHasFixedSize(true);
+        rvHeroSpell.setAdapter(heroSpellAdapter);
+        rvHeroSpell.setLayoutManager(new LinearLayoutManager(Dota2HeroApp.getContext(),LinearLayoutManager.VERTICAL,false));
 
     }
 }

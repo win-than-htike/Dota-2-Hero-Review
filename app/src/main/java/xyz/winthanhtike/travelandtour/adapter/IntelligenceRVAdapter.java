@@ -1,6 +1,5 @@
 package xyz.winthanhtike.travelandtour.adapter;
 
-import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,34 +11,37 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
-import xyz.winthanhtike.travelandtour.data.model.IntelligenceHero;
+import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
+import xyz.winthanhtike.travelandtour.fragment.IntelligenceFragment;
+import xyz.winthanhtike.travelandtour.fragment.StrengthFragment;
 
 /**
  * Created by winthanhtike on 6/11/16.
  */
 public class IntelligenceRVAdapter extends RecyclerView.Adapter<IntelligenceRVAdapter.ViewHolder> {
 
-    private Context context;
-    private List<IntelligenceHero> intelligenceHeros;
-    ItemClickListener itemClickListener;
+    private LayoutInflater inflater;
+    private List<HeroVO> intelligenceHeros;
+    private IntelligenceFragment.ControllerIntelligenceHero heroController;
 
-    public IntelligenceRVAdapter(Context context, List<IntelligenceHero> intelligenceHeros) {
-        this.context = context;
+    public IntelligenceRVAdapter(List<HeroVO> intelligenceHeros, IntelligenceFragment.ControllerIntelligenceHero heroController) {
+        inflater = LayoutInflater.from(Dota2HeroApp.getContext());
         this.intelligenceHeros = intelligenceHeros;
+        this.heroController = heroController;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.card_item,parent,false);
-        return new ViewHolder(view);
+        View view = inflater.inflate(R.layout.card_item,parent,false);
+        return new ViewHolder(view,heroController);
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
-        holder.tvHeroName.setText(intelligenceHeros.get(position).getiHeroName());
-        Picasso.with(context).load(intelligenceHeros.get(position).getiHeroImageUrl()).error(R.mipmap.ic_launcher).into(holder.imgHero);
+        holder.setData(intelligenceHeros.get(position));
 
     }
 
@@ -48,43 +50,33 @@ public class IntelligenceRVAdapter extends RecyclerView.Adapter<IntelligenceRVAd
         return intelligenceHeros.size();
     }
 
-    public IntelligenceHero selectedPosition(int position){
-
-        return intelligenceHeros.get(position);
-
-    }
-
-    public void setItemClickListener(ItemClickListener itemClickListener){
-        this.itemClickListener = itemClickListener;
-    }
-
-    public interface ItemClickListener{
-         void itemClick(View v,int position);
-    }
-
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         private TextView tvHeroName;
         private ImageView imgHero;
+        private HeroVO heroVO;
+        private IntelligenceFragment.ControllerIntelligenceHero heroController;
 
-        public ViewHolder(View itemView) {
+        public ViewHolder(View itemView, IntelligenceFragment.ControllerIntelligenceHero heroController) {
             super(itemView);
 
             tvHeroName = (TextView)itemView.findViewById(R.id.tv_hero_name);
             imgHero = (ImageView)itemView.findViewById(R.id.img_hero);
             itemView.setOnClickListener(this);
+            this.heroController = heroController;
 
+        }
+
+        public void setData(HeroVO heroVO){
+
+            this.heroVO = heroVO;
+            tvHeroName.setText(heroVO.getHeroName());
+            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).error(R.mipmap.ic_launcher).into(imgHero);
         }
 
         @Override
         public void onClick(View v) {
-
-            if (itemClickListener != null){
-
-                itemClickListener.itemClick(v,getAdapterPosition());
-
-            }
-
+            heroController.onTapIntellHero(heroVO,imgHero);
         }
     }
 }

@@ -13,15 +13,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.data.vos.BasicItemVO;
+import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
+import xyz.winthanhtike.travelandtour.fragment.AgilityFragment;
 import xyz.winthanhtike.travelandtour.fragment.BasicItemFragment;
+import xyz.winthanhtike.travelandtour.fragment.IntelligenceFragment;
 import xyz.winthanhtike.travelandtour.fragment.ItemFragment;
 import xyz.winthanhtike.travelandtour.fragment.HomeFragment;
+import xyz.winthanhtike.travelandtour.fragment.StrengthFragment;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,BasicItemFragment.ControllerBasicItem {
+public class MainActivity extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener,BasicItemFragment.ControllerBasicItem,StrengthFragment.HeroController,
+        AgilityFragment.ControllerAgilityHero,IntelligenceFragment.ControllerIntelligenceHero{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -115,6 +122,27 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void onTapBasicItem(BasicItemVO basicItemVO, ImageView ivBasicItemImage) {
         Intent intent = BasicItemDetailActivity.newInstance(basicItemVO.getbItemName());
         ActivityOptionsCompat activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(this,new Pair(ivBasicItemImage,getString(R.string.share_image_transition)));
+        ActivityCompat.startActivity(this,intent,activityOptions.toBundle());
+    }
+
+    @Override
+    public void onTapStregthHero(HeroVO strengthHero, ImageView ivHeroImage) {
+        Intent intent = StrengthHeroDetailActivity.newInstance(strengthHero.getHeroName());
+        ActivityOptionsCompat activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(this,new Pair(ivHeroImage,getString(R.string.share_image_transition)));
+        ActivityCompat.startActivity(this,intent,activityOptions.toBundle());
+    }
+
+    @Override
+    public void onTapAgilityHero(HeroVO heroVO, ImageView imageView) {
+        Intent intent = AgilityHeroDetailActivity.newInstance(heroVO.getHeroName());
+        ActivityOptionsCompat activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(this,new Pair(imageView,getString(R.string.share_image_transition)));
+        ActivityCompat.startActivity(this,intent,activityOptions.toBundle());
+    }
+
+    @Override
+    public void onTapIntellHero(HeroVO heroVO, ImageView imageView) {
+        Intent intent = IntelligenceHeroDetailActivity.newInstance(heroVO.getHeroName());
+        ActivityOptionsCompat activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(this,new Pair(imageView,getString(R.string.share_image_transition)));
         ActivityCompat.startActivity(this,intent,activityOptions.toBundle());
     }
 }

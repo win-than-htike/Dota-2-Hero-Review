@@ -1,45 +1,41 @@
 package xyz.winthanhtike.travelandtour.adapter;
 
-import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.squareup.picasso.Picasso;
-
 import java.util.List;
-
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
-import xyz.winthanhtike.travelandtour.data.model.AgilityHero;
+import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
+import xyz.winthanhtike.travelandtour.fragment.AgilityFragment;
 
 /**
  * Created by winthanhtike on 6/10/16.
  */
 public class AgilityRVAdapter extends RecyclerView.Adapter<AgilityRVAdapter.ViewHolder>{
 
-    private Context context;
-    private List<AgilityHero> agilityHeroList;
-    OnItemClickListener itemClickListener;
+    private List<HeroVO> agilityHeroList;
+    private AgilityFragment.ControllerAgilityHero controllerAgilityHero;
 
-    public AgilityRVAdapter(Context context, List<AgilityHero> agilityHeroList) {
-        this.context = context;
+    public AgilityRVAdapter(List<HeroVO> agilityHeroList, AgilityFragment.ControllerAgilityHero controllerAgilityHero) {
         this.agilityHeroList = agilityHeroList;
+        this.controllerAgilityHero = controllerAgilityHero;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(context).inflate(R.layout.card_item,parent,false);
-        return new ViewHolder(v);
+        View v = LayoutInflater.from(Dota2HeroApp.getContext()).inflate(R.layout.card_item,parent,false);
+        return new ViewHolder(v,controllerAgilityHero);
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
-        holder.tvAHeroName.setText(agilityHeroList.get(position).getaHeroName());
-        Picasso.with(context).load(agilityHeroList.get(position).getaHeroImageUrl()).error(R.mipmap.ic_launcher).into(holder.imgAHero);
+        holder.setData(agilityHeroList.get(position));
 
     }
 
@@ -48,43 +44,33 @@ public class AgilityRVAdapter extends RecyclerView.Adapter<AgilityRVAdapter.View
         return agilityHeroList.size();
     }
 
-    public AgilityHero selectAHero(int position){
-
-        return agilityHeroList.get(position);
-
-    }
-
-    public interface OnItemClickListener {
-        void onItemClick(View view, int position);
-    }
-
-    public void setOnItemClickListener(final OnItemClickListener mItemClickListener) {
-        this.itemClickListener = mItemClickListener;
-    }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         private TextView tvAHeroName;
         private ImageView imgAHero;
+        private AgilityFragment.ControllerAgilityHero controllerAgilityHero;
+        private HeroVO heroVO;
 
-        public ViewHolder(View itemView) {
+        public ViewHolder(View itemView, AgilityFragment.ControllerAgilityHero controllerAgilityHero) {
             super(itemView);
 
             tvAHeroName = (TextView)itemView.findViewById(R.id.tv_hero_name);
             imgAHero = (ImageView)itemView.findViewById(R.id.img_hero);
             itemView.setOnClickListener(this);
+            this.controllerAgilityHero = controllerAgilityHero;
 
+        }
+
+        public void setData(HeroVO heroVO){
+            this.heroVO = heroVO;
+            tvAHeroName.setText(heroVO.getHeroName());
+            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).error(R.mipmap.ic_launcher).into(imgAHero);
         }
 
         @Override
         public void onClick(View v) {
-
-            if (itemClickListener != null){
-
-                itemClickListener.onItemClick(v,getAdapterPosition());
-
-            }
-
+            controllerAgilityHero.onTapAgilityHero(heroVO,imgAHero);
         }
     }
 }

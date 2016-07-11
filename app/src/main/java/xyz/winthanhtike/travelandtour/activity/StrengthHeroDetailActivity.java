@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,8 +20,10 @@ import com.squareup.picasso.Picasso;
 
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
-import xyz.winthanhtike.travelandtour.db.DataContract;
-import xyz.winthanhtike.travelandtour.data.model.StrengthHero;
+import xyz.winthanhtike.travelandtour.adapter.HeroSpellRVAdapter;
+import xyz.winthanhtike.travelandtour.data.model.AgilityHeroModel;
+import xyz.winthanhtike.travelandtour.data.model.StrengthHeroModel;
+import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 import xyz.winthanhtike.travelandtour.utils.CustomExpendableTextView;
 
 /**
@@ -26,14 +31,23 @@ import xyz.winthanhtike.travelandtour.utils.CustomExpendableTextView;
  */
 public class StrengthHeroDetailActivity extends AppCompatActivity{
 
+    private static final String IE_HERO_NAME = "IE_HERO_NAME";
+
     private Toolbar toolbar;
     private CollapsingToolbarLayout collapsingToolbar;
     private TextView tvRole;
     private ImageView imgHero;
     private TextView tvToolbarTitle;
-    private StrengthHero strengthHero;
     private CustomExpendableTextView tvExpandableOverview,tvExpendableDetail;
     private Button btnReadMoreOverview,btnReadMoreDetail;
+    private RecyclerView rvStrength;
+    private HeroSpellRVAdapter spellAdapter;
+
+    public static Intent newInstance(String heroName){
+        Intent i = new Intent(Dota2HeroApp.getContext(),StrengthHeroDetailActivity.class);
+        i.putExtra(IE_HERO_NAME,heroName);
+        return i;
+    }
 
 
     @Override
@@ -41,17 +55,33 @@ public class StrengthHeroDetailActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.detail_item_container);
 
-        Intent intent = getIntent();
-        strengthHero = (StrengthHero) intent.getSerializableExtra(DataContract.StrengthTable.TABLE_NAME);
-
         configsView();
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        tvExpandableOverview.setText(strengthHero.getSheroOverview());
-        tvExpendableDetail.setText(strengthHero.getSheroDetail());
-        tvToolbarTitle.setText(strengthHero.getSheroName());
-        //tvRole.setText(strengthHero.getSheroRole());
-        Picasso.with(Dota2HeroApp.getContext()).load(strengthHero.getSheroImageUrl()).error(R.mipmap.ic_launcher).into(imgHero);
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setDisplayShowTitleEnabled(false);
+        }
 
+        String heroName = getIntent().getStringExtra(IE_HERO_NAME);
+        HeroVO heroVO = StrengthHeroModel.getInstance().getBasicItemByName(heroName);
+        if (heroVO == null){
+            throw new RuntimeException("Can't find Strength Hero obj with the title : " + heroName);
+        }else{
+            tvExpandableOverview.setText(heroVO.getHeroOverview());
+            tvExpendableDetail.setText(heroVO.getHeroDetail());
+            tvToolbarTitle.setText(heroVO.getHeroName());
+            tvRole.setText(heroVO.getHeroRole());
+            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).error(R.mipmap.ic_launcher).into(imgHero);
+        }
+
+        rvStrength = (RecyclerView)findViewById(R.id.rv_hero_spell);
+        rvStrength.setHasFixedSize(true);
+        spellAdapter = new HeroSpellRVAdapter(heroVO.getHeroSpell());
+        rvStrength.setAdapter(spellAdapter);
+        rvStrength.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
 
     }
 
@@ -81,21 +111,11 @@ public class StrengthHeroDetailActivity extends AppCompatActivity{
             }
         });
 
-        //tvRole = (TextView)findViewById(R.id.tv_role);
+        tvToolbarTitle = (TextView)findViewById(R.id.toolbar_title);
+        tvRole = (TextView)findViewById(R.id.tv_role);
         imgHero = (ImageView)findViewById(R.id.col_img_hero);
         collapsingToolbar = (CollapsingToolbarLayout)findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitleEnabled(false);
-        toolbarAndTitle();
-
-    }
-
-    private void toolbarAndTitle() {
-
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        tvToolbarTitle = (TextView) findViewById(R.id.toolbar_title);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 

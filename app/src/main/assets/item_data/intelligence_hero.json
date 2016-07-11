@@ -1,0 +1,42 @@
+[
+ {
+ 	"hero_name":"Necrohpos",
+ 	"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/necrolyte_full.png",
+ 	"hero_role":"Ranged - Carry - Nuker - Durable - Disabler",
+	"hero_detail":"V6.87 Patch ထြက္လာျပီးေနာက္မွာ Pub တစ္ခုလုံးမွာလည္း အေျပာင္းအလဲမ်ားစြာ ျဖစ္သြားခဲ့ပါတယ္။ သိသာတဲ့ အေျပာင္းအလဲမ်ားအျဖစ္ v6.86 တုန္းက Pub တစ္ခုလုံးကုိ ေမႊေႏွာက္ခဲ့တဲ့ Outworld Devourer, Enchantress, Windranger တုိ႔ဟာ Win Rate 44% ေအာက္အထိ က်ဆင္းသြားခဲ့ ရုံမက ႏွစ္ေပါင္းမ်ားစြာ Pub Stomper (Win Rate above 56%) ေနရာမွာ ရပ္တည္ခဲ့တဲ့ Zeus နဲ႕ Spectre တုိ႔ဟာလည္း 53% ေအာက္ကုိ ထူးထူးျခားျခား က်ဆင္းသြားခဲ့ပါတယ္။ ဒါေၾကာင့္ Pub Stomper အတန္းမွာ အခုခ်ိန္ထိ အခ်ိန္ၾကာျမင့္စြာ ရပ္တည္လာတဲ့ Hero ၃ ေကာင္သာ က်န္ပါေတာ့တယ္။ ဒီ ၃ ေကာင္ထဲကမွ Early Game, Mid Game, Late Game, Super Late Game အထိ တစ္ေနရာမက်န္ အသုံးဝင္တဲ့ Intelligence Hero ကေတာ့ Rotund’jere the Necrophos ပဲ ျဖစ္ပါတယ္။
+	 Abilities
+	 Death Pulse
+	 Necrophos ရဲ႕ 475 AoE အတြင္းက Unit မွန္သမွ်ကုိ သတ္ေရာက္ေစမယ့္ Death Pulse ကေတာ့ Allied Unit ေတြကုိ Heal ေစျပီး Enemy ေတြကုိ Magic Damage သတ္ေရာက္ေစမယ့္ Instant Ability ျဖစ္ပါတယ္။ ပထမဆုံး အဆင့္ကတည္းက 125 Damage ရွိတဲ့ Death Pulse ဟာ Necrophos ရဲ႕ အဓိက Nuke Ability ျဖစ္ျပီး အဆင့္တင္တုိင္း Mana Cost ဟာ သိသိသာသာ တက္လာမွာျဖစ္ျပီး ေနာက္ဆုံးအဆင့္မွာ 275 Damage နဲ႕ 185 Mana Cost အထိ ကုန္က်မွာျဖစ္ပါတယ္။
+	 Heartstopper Aura
+	 ၾကီးမားတဲ့ 1200 AoE အတြင္းမွာ ရွိသမွ် Enemy Unit အားလုံးကုိ တစ္စကၠန္႔မွာ ၄င္းတုိ႔ရဲ႕ Max Hp % ရဲ႕ 0.6%/ 0.9%/ 1.2%/ 1.5% ႏႈန္းနဲ႕ တစိမ့္စိမ့္ေလ်ာ့ေနေစမယ့္ Heartstopper Aura ကေတာ့ Necrophos ရဲ႕ AoE Passive Aura ပဲျဖစ္ပါတယ္။ Pure Damage Type ျဖစ္ျပီး Hp Removal တြက္ခ်က္ပုံအတုိင္း သြားတာျဖစ္လုိ႔ တစ္ဖက္အသင္းရဲ႕ Healing Salve, Clarity လုိ အသုံးျပဳမႈေတြကုိ ထိခုိက္မႈ မရွိနုိင္ပါဘူး။
+	 Sadist
+	 Necrophos မွာ အသုံးျပဳဖုိ႔ ပါဝင္တဲ့ Ability ၂ ခုဟာ Mana Cost အဆမတန္ မ်ားျပားတဲ့အတြက္ ၄င္းျပႆနာကုိ ေျဖရွင္းေပးႏုိင္တဲ့ Passive Ability အျဖစ္ Sadist ကုိ ထည့္သြင္းေပးထားပါတယ္။ Necrophos ဟာ Last Hit, Deny တစ္ခုခုလုပ္လုိက္တာနဲ႕ HP 1/2/3/6 Regen နဲ႕ MP 2/4/6/12 Regen ကုိ 6 seconds ခန္႔ရရွိမွာျဖစ္ပါတယ္။ မိမိ Last Hit လုပ္လုိက္တဲ့ Unit ဟာ Hero ျဖစ္ေနမယ္ဆုိရင္ေတာ့ HP MP Regen ဟာ ၁ဝ ဆ ခန္႔ ရရွိမွာျဖစ္ပါတယ္။ ဥပမာ Sadist (၄) ဆင့္ယူထားျပီးေနာက္ Enemy Hero တစ္ေကာင္ကုိ သတ္လုိက္ႏုိင္မယ္ဆုိရင္ HP 60 Regen (Total 360 Hp Heal) နဲ႕ MP 120 Regen (Total 720 Mana Restore) ကုိ 6 seconds အၾကာမွာ ရရွိေစမွာျဖစ္ပါတယ္။
+	 Ultimate Reaper’s Scythe
+	 Necrophos ရဲ႕ Signature Ability တစ္ခုျဖစ္တဲ့ Reaper’s Scythe ကေတာ့ Dota ရဲ႕ ေၾကာက္ဖုိ႔အေကာင္းဆုံး Ability ေတြထဲက တစ္ခုျဖစ္ပါတယ္။ Hero တစ္ေကာင္ရဲ႕ ေလ်ာ့ေနတဲ့ Hp ပမာဏကုိ 0.6/ 0.75/ 0.9 နဲ႕ ေျမွာက္ျပီး Damage သတ္ေရာက္ေစမယ့္ Disable Ultimate တစ္ခုျဖစ္ပါတယ္။ ဥပမာ - Reaper’s Scythe ၃ ဆင့္ယူထားျပီးေနာက္ Hp 3000 ခန္႔ရွိတဲ့ Centaur Warrunner ဟာ Hp 1700 ခန္႔ ေလ်ာ့ေနတဲ့အေျခအေနကုိ အသုံးျပဳတဲ့အခါ ေလ်ာ့ေနတဲ့ Hp 1700 x 0.9 = 1530 Magical Damage သတ္ေရာက္ေစမွာျဖစ္ပါတယ္။ တကယ္လုိ႔ Hp 300 ေလာက္ပဲ ေလ်ာ့ေသးတဲ့ Hero ကုိ အသုံးျပဳမယ္ဆုိရင္ေတာ့ 300 x 0.9 = 270 Damage သာ ရွိမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ ရုိးရွင္းတဲ့ တြက္ခ်က္ပုံကေတာ့ Necrophos ရဲ႕ Reaper’s Scythe နဲ႕ Enemy Hero တစ္ေကာင္ကို အေသသတ္ခ်င္ရင္ အဆုိပါ Hero ရဲ႕ Hp 31%/ 36%/ 40% ေအာက္ ေရာက္ေနတဲ့ အခ်ိန္မွာ အသုံးျပဳေပးရမွာျဖစ္ပါတယ္။ အားသာခ်က္ ၃ ခု ရွိပါတယ္။ ၄င္းတုိ႔မွာ ဦးစြာ 1.5 seconds Disable သတ္ေရာက္ျပီးမွ Damage တြက္ခ်က္မွာျဖစ္ျပီး Magic Immune Unit မ်ားကုိ ဖမ္းဖုိ႔အတြက္လည္း အသုံးျပဳႏုိင္ျခင္းပဲ ျဖစ္ပါတယ္။ ဒါ့အျပင္ Reaper Scythe နဲ႕ ေသသြားတဲ့ Enemy Hero ဟာ ယူထားတဲ့ အဆင့္အလုိက္ Respawn Time 10/ 20/ 30 seconds စီတုိးသြားဦးမွာျဖစ္ပါတယ္။ Aghanim’s Scepter ကုိ ေရြးခ်ယ္တဲ့အခါ Multiplier ဟာ 0.6/ 0.9/ 1.2 အထိ တုိးသြားမယ့္အျပင္ Enemy Unit ကုိ Buyback လုပ္လုိ႔မရေအာင္ ဟန္႔တားေပးျခင္းပဲျဖစ္ပါတယ္။",
+ 	"hero_overview":"Necrophos ကုိ Offlaner နဲ႕ Mid Laner အျဖစ္ အျမင္ရမ်ားေလ့ရွိျပီး Death Pulse ကုိ ဦးစားေပး တင္ေလ့ရွိတာကို ေတြ႕ရပါတယ္။ တစ္ခါတစ္ရံမွာ Offlaner Necrophos ေတြ အေနနဲ႕ Heartstopper ကုိ ဒုတိယ ဦးစားေပး တင္ေလ့ရွိေပမယ့္ ကစားပြဲအေစာပုိင္းမွာ Sadist ကုိ ဦးစြာတင္ဖုိ႔ အၾကံျပဳခ်င္ပါတယ္။ Sadist ဟာ Last Hit တစ္ခုလုပ္လုိက္တုိင္း HP MP ကုိ Regen ရေစမယ့္ အခ်က္က Necrophos ကုိ အေစာပုိင္းမွာ Mana Regen Item ေတြ ထည့္မစဥ္းစားဖုိ႔ အခြင့္အေရးရေစပါတယ္။ တကယ္လုိ႔ သင္က lvl 9 မွာ Sadist ကုိ Max ျဖစ္ေအာင္ တင္ခဲ့မယ္ဆုိရင္ မိနစ္ ၂ဝ မတုိင္ခင္ Team Fight ေတြမွာ Hero တစ္ေကာင္ Kill ႏုိင္တာနဲ႕ 360 Heal + 720 Mana Restore ဆုိတဲ့ မ်ားျပားေသာ Effective HP, MP ကုိ ရရွိေစမယ့္ အတြက္ျဖစ္ပါတယ္။ Heartstopper ဟာ အလြန္ထိေရာက္တဲ့ Aura တစ္ခုျဖစ္ေပမယ့္ ၄င္းဟာ % Calculation ျဖစ္ပါတယ္။ ဒါေၾကာင့္ အေစာပုိင္း Enemy Hero ေတြ ေသြးနည္းေနခ်ိန္မွာလည္း Dps နည္းနည္းပဲ ထိဦးမွာျဖစ္လုိ႔ AFK Jungle ေဆာ့တဲ့ (သုိ႔မဟုတ္) Aggressive Tri Offlane ေဆာ့တဲ့ Necrophos မဟုတ္ရင္ အေစာပုိင္းမွာ မ်ားမ်ား တင္ထားလည္း သိပ္ေတာ့ မထိေရာက္ပါဘူး။ (သုိ႔ေပမယ့္ ရံဖန္ရံခါမွာ Aggressive Mid Laner ေတြနဲ႕ ေဆာ့ရတဲ့အခါမ်ဴိး (ဥပမာ Outworld Devourer, TA) မွာ Heartstopper ကုိ မ်ားမ်ားယူျပီး ထိန္းရတဲ့ အေျခအေနမ်ဴိးရွိပါတယ္။) Sadist ကုိ ေရြးခ်ယ္ထားျခင္းေၾကာင့္ Dagon, Dagger, Force Staff, Blade Mail အစရွိတဲ့ Situational Item ေတြကုိ အေစာပုိင္းကတည္းက ေရြးခ်ယ္ႏုိင္ပါလိမ့္မယ္။
+	 Reaper’s Scythe ရဲ႕ အဓိက အားနည္းခ်က္ဟာ 600 သာရွိတဲ့ Cast Range ပဲျဖစ္ပါတယ္။ ဒါေၾကာင့္ အေစာပုိင္းမွာ Force Staff, Dagger တစ္ခုခုကို ေရြးခ်ယ္ႏုိင္ျပီး Aether Lens ဟာလည္း Situational Item တစ္ခု ျဖစ္ပါလိမ့္မယ္။ Reaper’s Scythe အသုံးျပဳျပီး 1.5 seconds ၾကာမွ Damage တြက္ခ်က္သက္ေရာက္မွာျဖစ္လုိ႔ Dagon နဲ႕ တြဲဖက္ျပီး အသုံးျပဳတာကေတာ့ အျမင္ရအမ်ားဆုံး ကစားပုံျဖစ္ပါတယ္။ ဒီလုိ Reaper’s Scythe အသုံးျပဳထားတဲ့ 1.5 seconds မွာမွ အဆုိပါ Hero ကုိ Lotus Orb တင္ေပးမယ္ဆုိရင္ Damage ဟာ Necrophos ကုိ ျပန္လည္ သတ္ေရာက္ေစမွာ မဟုတ္ပါဘူး။ (Lotus Orb သုံးထားျပီးသား Unit ေပၚကုိ Reaper’s Scythe သုံးမွသာ ျပန္ထိမွာျဖစ္ပါတယ္။) မိမိ Ally Hero တစ္ေကာင္ေကာင္ကုိ Reaper’s Scythe အသုံးျပဳခံေနရတဲ့အခ်ိန္မွာ Glimmer Cape တင္ေပးျခင္းက အေကာင္းဆုံး Counter ျဖစ္ပါတယ္။ အေၾကာင္းက Glimmer Cape မွာ 45% Magic Resistance ပါဝင္တဲ့အတြက္ Reaper’s Scythe ရဲ႕ Damage Output ကုိ သိသာစြာ ေလွ်ာ့ခ်ေပးမွာျဖစ္ပါတယ္။ မ်ားေသာအားျဖင့္ ကစားပြဲၾကာျမင့္လာေလေလ Necrophos ပါဝင္တဲ့အသင္းက ႏုိင္ဖုိ႔ အခြင့္အေရးရွိေလ ျဖစ္ပါတယ္။ အေၾကာင္းက Aghanim’s Scepter + Refresher Orb ကုိ အသုံးျပဳျပီး Enemy Team က Hero ၂ ေကာင္ေလာက္ကုိ လုံးဝ Buyback ထြက္လုိ႔ မရေအာင္ လုပ္ပစ္ႏုိင္တဲ့ Overpower အေျခအေန တစ္ရပ္ကုိ ပုိင္ဆုိင္ထားတဲ့အတြက္ပဲျဖစ္ပါတယ္။ Item အေနနဲ႕လည္း မ်ားစြာ ေရြးခ်ယ္ႏုိင္ပါတယ္။ ဖိနပ္ျပီးတာနဲ႕ Bloodstone တန္းထည့္တဲ့ Aggressive Durable Style, Blade Mail + Force Staff နဲ႕ Battle လုိက္တဲ့ Aggressive Initiator Style, Dagon + Aghanim’s နဲ႕ Carry Style, Guardian Greaves + Pipe နဲ႕ Support Style စ သျဖင့္ မရုိးႏုိင္ေသာ Play Style ေပါင္းမ်ားစြာ၊ ေရြးခ်ယ္စရာ Item ေပါင္းမ်ားစြာနဲ႕ ျပီးျပည့္စုံတဲ့ Flexible Intelligence Hero တစ္ေကာင္ပဲ ျဖစ္ပါေတာ့တယ္။
+	 ဒီလုိ အေၾကာင္းျပခ်က္ေပါင္း မ်ားစြာေၾကာင့္ပဲ Rotund’Jere The Necrophos ဟာ Pub Stomper တစ္ေကာင္အျဖစ္ အခ်ိန္ၾကာျမင့္စြာ ရပ္တည္ေနႏုိင္တဲ့ Hero တစ္ေကာင္ဆုိတာ ျငင္းလုိ႔မရပါဘူး။ မည္သုိ႔ပင္ ဆုိေစကာမူ မိမိႏွစ္သက္ေသာ ကစားကြက္သည္သာလွ်င္ မိမိအတြက္ အေကာင္းဆုံး ျဖစ္ပါလိမ့္မယ္။",
+ 	"hero_spell":[
+ 		{
+ 			"spell_name":"Death Pulse",
+ 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/necrolyte_death_pulse_hp1.png",
+ 			"spell_overview":"Necrophos releases a wave of death around him, dealing damage to enemy units and healing allied units."
+ 		},
+ 		{
+ 			"spell_name":"Heartstopper Aura",
+ 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/necrolyte_heartstopper_aura_hp1.png",
+ 			"spell_overview":"Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time."
+ 		},
+ 		{
+ 			"spell_name":"Sadist",
+ 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/necrolyte_sadist_hp1.png",
+ 			"spell_overview":"Necrophos gains health and mana regeneration for every unit he kills. Hero kills grant 10 times the regen bonus."
+ 		},
+ 		{
+ 			"spell_name":"Reaper's Scythe",
+ 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/necrolyte_reapers_scythe_hp1.png",
+ 			"spell_overview":"Stuns the target enemy hero, then deals damage based on how much life it is missing. Heroes killed by Reaper's Scythe will have 10 seconds added to their respawn timer. Any kill under this effect is credited to Necrophos. Upgradable by Aghanim's Scepter."
+ 		}
+ 	]
+ }
+]
