@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Dota 2 Hero</string>
+    <string name="app_name">Dota 2 Heros Review</string>
     <string name="overview">Overview</string>
     <string name="detail">Detail</string>
     <string name="agility">Agility</string>
@@ -23,4 +23,9 @@
     <string name="item_overview">Overview</string>
     <string name="item_detail">Detail</string>
     <string name="share_image_transition">share image transition</string>
+    <string name="title_activity_upgrade_item_detail">UpgradeItemDetailActivity</string>
+    <string name="item_recipe">Recipe</string>
+    <string name="lbl_search">Search</string>
+
+    <integer name="swing_anim_time">750</integer>
 </resources>

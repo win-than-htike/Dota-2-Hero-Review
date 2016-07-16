@@ -9,24 +9,27 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.squareup.picasso.Picasso;
 
+import me.drakeet.materialdialog.MaterialDialog;
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.adapter.HeroSpellRVAdapter;
 import xyz.winthanhtike.travelandtour.data.model.IntelligenceHeroModel;
+import xyz.winthanhtike.travelandtour.data.vos.HeroSpellVO;
 import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 import xyz.winthanhtike.travelandtour.utils.CustomExpendableTextView;
+import xyz.winthanhtike.travelandtour.utils.ItemClickListener;
 
 /**
  * Created by winthanhtike on 6/11/16.
  */
-public class IntelligenceHeroDetailActivity extends AppCompatActivity {
+public class IntelligenceHeroDetailActivity extends AppCompatActivity implements ItemClickListener {
 
     private static final String IE_HERO_NAME = "IE_HERO_NAME";
 
@@ -37,6 +40,7 @@ public class IntelligenceHeroDetailActivity extends AppCompatActivity {
     private CustomExpendableTextView tvExpandableOverview,tvExpendableDetail;
     private Button btnReadMoreOverview,btnReadMoreDetail;
     private HeroSpellRVAdapter heroSpellAdapter;
+    private MaterialDialog materialDialog;
 
     public static Intent newInstance(String heroName){
         Intent intent = new Intent(Dota2HeroApp.getContext(),IntelligenceHeroDetailActivity.class);
@@ -69,14 +73,14 @@ public class IntelligenceHeroDetailActivity extends AppCompatActivity {
             tvExpendableDetail.setText(heroVO.getHeroDetail());
             tvToolbarTitle.setText(heroVO.getHeroName());
             tvRole.setText(heroVO.getHeroRole());
-            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).error(R.mipmap.ic_launcher).into(imgHero);
+            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(imgHero);
         }
 
         RecyclerView rvHeroSpell = (RecyclerView)findViewById(R.id.rv_hero_spell);
         rvHeroSpell.setHasFixedSize(true);
-        heroSpellAdapter = new HeroSpellRVAdapter(heroVO.getHeroSpell());
+        heroSpellAdapter = new HeroSpellRVAdapter(heroVO.getHeroSpell(),this);
         rvHeroSpell.setAdapter(heroSpellAdapter);
-        rvHeroSpell.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
+        rvHeroSpell.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
 
 
 
@@ -115,10 +119,30 @@ public class IntelligenceHeroDetailActivity extends AppCompatActivity {
         collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitleEnabled(false);
 
-        RecyclerView rvHeroSpell = (RecyclerView)findViewById(R.id.rv_hero_spell);
-        rvHeroSpell.setHasFixedSize(true);
-        rvHeroSpell.setAdapter(heroSpellAdapter);
-        rvHeroSpell.setLayoutManager(new LinearLayoutManager(Dota2HeroApp.getContext(),LinearLayoutManager.VERTICAL,false));
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId() == android.R.id.home){
+            onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View view, int position) {
+        HeroSpellVO heroSpell = heroSpellAdapter.getHeroSpell(position);
+        materialDialog = new MaterialDialog(this)
+                .setTitle(heroSpell.getSpellName())
+                .setMessage(heroSpell.getSpellOverview())
+                .setPositiveButton("OK", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        materialDialog.dismiss();
+                    }
+                });
+
+        materialDialog.show();
     }
 }

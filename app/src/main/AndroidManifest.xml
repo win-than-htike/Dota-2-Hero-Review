@@ -24,6 +24,10 @@
         <activity
             android:name=".activity.BasicItemDetailActivity"
             android:label="@string/title_activity_basic_item_detail"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.UpgradeItemDetailActivity"
+            android:label="@string/title_activity_upgrade_item_detail"
             android:theme="@style/MyMaterialTheme"></activity>
     </application>
 

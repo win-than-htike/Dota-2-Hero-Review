@@ -1,5 +1,6 @@
 package xyz.winthanhtike.travelandtour.fragment;
 
+import android.content.Context;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,10 +10,13 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.adapter.ItemViewPagerAdapter;
+import xyz.winthanhtike.travelandtour.data.vos.BasicItemVO;
+import xyz.winthanhtike.travelandtour.data.vos.UpgradeItemVO;
 
 /**
  * Created by winthanhtike on 6/23/16.
@@ -21,6 +25,7 @@ public class ItemFragment extends Fragment {
 
     private ViewPager carryViewPager;
     private TabLayout carryTabLayout;
+    private ControllerItem controllerItem;
 
     @Nullable
     @Override
@@ -39,6 +44,12 @@ public class ItemFragment extends Fragment {
     }
 
     @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        controllerItem = (ControllerItem) context;
+    }
+
+    @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
 
@@ -48,9 +59,14 @@ public class ItemFragment extends Fragment {
 
         ItemViewPagerAdapter pagerAdapter = new ItemViewPagerAdapter(getChildFragmentManager());
         pagerAdapter.addFragment(BasicItemFragment.getInstance(),"Basic Item");
-        pagerAdapter.addFragment(new UpgradeItemFragment(),"Upgrade Item");
+        pagerAdapter.addFragment(UpgradeItemFragment.getInstance(),"Upgrade Item");
         viewPager.setAdapter(pagerAdapter);
 
+    }
+
+    public interface ControllerItem{
+        void onTapBasicItem(BasicItemVO basicItem, ImageView ivBasicItemImage);
+        void onTapUpgradeItem(UpgradeItemVO upgradeItem, ImageView ivUpgradeItemImage);
     }
 
 }

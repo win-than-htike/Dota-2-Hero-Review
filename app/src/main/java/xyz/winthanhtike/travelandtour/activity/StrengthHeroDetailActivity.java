@@ -18,18 +18,20 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
+import me.drakeet.materialdialog.MaterialDialog;
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.adapter.HeroSpellRVAdapter;
-import xyz.winthanhtike.travelandtour.data.model.AgilityHeroModel;
 import xyz.winthanhtike.travelandtour.data.model.StrengthHeroModel;
+import xyz.winthanhtike.travelandtour.data.vos.HeroSpellVO;
 import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 import xyz.winthanhtike.travelandtour.utils.CustomExpendableTextView;
+import xyz.winthanhtike.travelandtour.utils.ItemClickListener;
 
 /**
  * Created by winthanhtike on 6/10/16.
  */
-public class StrengthHeroDetailActivity extends AppCompatActivity{
+public class StrengthHeroDetailActivity extends AppCompatActivity implements ItemClickListener {
 
     private static final String IE_HERO_NAME = "IE_HERO_NAME";
 
@@ -42,6 +44,7 @@ public class StrengthHeroDetailActivity extends AppCompatActivity{
     private Button btnReadMoreOverview,btnReadMoreDetail;
     private RecyclerView rvStrength;
     private HeroSpellRVAdapter spellAdapter;
+    private MaterialDialog materialDialog;
 
     public static Intent newInstance(String heroName){
         Intent i = new Intent(Dota2HeroApp.getContext(),StrengthHeroDetailActivity.class);
@@ -74,14 +77,14 @@ public class StrengthHeroDetailActivity extends AppCompatActivity{
             tvExpendableDetail.setText(heroVO.getHeroDetail());
             tvToolbarTitle.setText(heroVO.getHeroName());
             tvRole.setText(heroVO.getHeroRole());
-            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).error(R.mipmap.ic_launcher).into(imgHero);
+            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(imgHero);
         }
 
         rvStrength = (RecyclerView)findViewById(R.id.rv_hero_spell);
         rvStrength.setHasFixedSize(true);
-        spellAdapter = new HeroSpellRVAdapter(heroVO.getHeroSpell());
+        spellAdapter = new HeroSpellRVAdapter(heroVO.getHeroSpell(),this);
         rvStrength.setAdapter(spellAdapter);
-        rvStrength.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
+        rvStrength.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
 
     }
 
@@ -130,7 +133,26 @@ public class StrengthHeroDetailActivity extends AppCompatActivity{
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        return true;
+        if(item.getItemId() == android.R.id.home){
+            onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View view, int position) {
+        HeroSpellVO heroSpell = spellAdapter.getHeroSpell(position);
+        materialDialog = new MaterialDialog(this)
+                .setTitle(heroSpell.getSpellName())
+                .setMessage(heroSpell.getSpellOverview())
+                .setPositiveButton("OK", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        materialDialog.dismiss();
+                    }
+                });
+
+        materialDialog.show();
 
     }
 }

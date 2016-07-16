@@ -5,14 +5,14 @@
     android:id="@+id/placeCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginRight="@dimen/margin_medium"
-    android:layout_marginLeft="@dimen/margin_medium"
-    android:layout_marginTop="@dimen/margin_medium"
     card_view:cardCornerRadius="@dimen/margin_small"
+    android:layout_marginLeft="@dimen/margin_small"
+    android:layout_marginRight="@dimen/margin_small"
+    android:layout_marginTop="@dimen/margin_small"
     android:background="#fff"
-    card_view:cardElevation="@dimen/margin_medium">
+    card_view:cardElevation="@dimen/margin_small">
 
-    <LinearLayout
+    <FrameLayout
         android:id="@+id/placeNameHolder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,17 +28,16 @@
         <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
             android:id="@+id/tv_hero_name"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/text_area"
+            android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:gravity="center"
             android:text="Hello"
-            android:background="#fff"
+            android:fontFamily="sans-serif-light"
+            android:background="#5b000000"
             android:textStyle="bold"
-            android:padding="@dimen/margin_medium"
-            android:paddingLeft="@dimen/margin_medium"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#000"/>
+            android:textColor="#fff"/>
 
-    </LinearLayout>
+    </FrameLayout>
 
 </android.support.v7.widget.CardView>

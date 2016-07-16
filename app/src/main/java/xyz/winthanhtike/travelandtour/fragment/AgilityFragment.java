@@ -24,18 +24,18 @@ public class AgilityFragment extends Fragment {
 
     private RecyclerView rvAgilityHero;
     private AgilityRVAdapter aAdapter;
-    private ControllerAgilityHero controllerAgilityHero;
+    private HomeFragment.ControllerHero controllerHero;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        aAdapter = new AgilityRVAdapter(AgilityHeroModel.getInstance().getStrengthHeroList(),controllerAgilityHero);
+        aAdapter = new AgilityRVAdapter(AgilityHeroModel.getInstance().getStrengthHeroList(),controllerHero);
     }
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        controllerAgilityHero = (ControllerAgilityHero) context;
+        controllerHero = (HomeFragment.ControllerHero) context;
     }
 
     @Nullable
@@ -50,10 +50,6 @@ public class AgilityFragment extends Fragment {
             rvAgilityHero.setLayoutManager(new GridLayoutManager(Dota2HeroApp.getContext(),gridColumn));
 
         return view;
-    }
-
-    public interface ControllerAgilityHero{
-        void onTapAgilityHero(HeroVO heroVO, ImageView imageView);
     }
 
 }

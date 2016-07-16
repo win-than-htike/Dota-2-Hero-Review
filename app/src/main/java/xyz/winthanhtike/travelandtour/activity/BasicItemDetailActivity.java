@@ -8,6 +8,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -73,10 +74,18 @@ public class BasicItemDetailActivity extends AppCompatActivity {
             tvItemOverview.setText(basicItem.getbItemOverview());
             tvItemDetail.setText(basicItem.getbItemDetail());
 
-            Picasso.with(ivItemPhoto.getContext()).load(basicItem.getbItemImageUrl()).placeholder(R.mipmap.ic_launcher).error(R.mipmap.ic_launcher).into(ivItemPhoto);
+            Picasso.with(ivItemPhoto.getContext()).load(basicItem.getbItemImageUrl()).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(ivItemPhoto);
 
         }
 
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId() == android.R.id.home){
+            onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

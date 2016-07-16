@@ -11,6 +11,7 @@ import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.data.vos.BasicItemVO;
 import xyz.winthanhtike.travelandtour.fragment.BasicItemFragment;
+import xyz.winthanhtike.travelandtour.fragment.ItemFragment;
 
 /**
  * Created by winthanhtike on 7/7/16.
@@ -20,15 +21,15 @@ public class BasicItemViewHolder extends RecyclerView.ViewHolder implements View
     private TextView tvItemName;
     private ImageView ivItemImage;
     private BasicItemVO basicItem;
-    private BasicItemFragment.ControllerBasicItem mControllerBasicItem;
+    private ItemFragment.ControllerItem controllerItem;
 
-    public BasicItemViewHolder(View itemView, BasicItemFragment.ControllerBasicItem controllerBasicItem) {
+    public BasicItemViewHolder(View itemView, ItemFragment.ControllerItem controllerItem) {
         super(itemView);
 
         tvItemName = (TextView)itemView.findViewById(R.id.tv_item_name);
         ivItemImage = (ImageView)itemView.findViewById(R.id.iv_item_image);
         itemView.setOnClickListener(this);
-        mControllerBasicItem = controllerBasicItem;
+        this.controllerItem = controllerItem;
 
     }
 
@@ -36,11 +37,11 @@ public class BasicItemViewHolder extends RecyclerView.ViewHolder implements View
         this.basicItem = basicItemVO;
 
         tvItemName.setText(basicItemVO.getbItemName());
-        Picasso.with(Dota2HeroApp.getContext()).load(basicItemVO.getbItemImageUrl()).placeholder(R.mipmap.ic_launcher).error(R.mipmap.ic_launcher).into(ivItemImage);
+        Picasso.with(Dota2HeroApp.getContext()).load(basicItemVO.getbItemImageUrl()).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(ivItemImage);
     }
 
     @Override
     public void onClick(View v) {
-        mControllerBasicItem.onTapBasicItem(basicItem,ivItemImage);
+        controllerItem.onTapBasicItem(basicItem,ivItemImage);
     }
 }

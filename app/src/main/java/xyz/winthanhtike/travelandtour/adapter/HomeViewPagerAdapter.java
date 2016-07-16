@@ -15,7 +15,6 @@ import java.util.List;
 public class HomeViewPagerAdapter extends FragmentStatePagerAdapter {
 
     private final List<Fragment> mFragmentList = new ArrayList<>();
-    private final List<String> mFragmentTitleList = new ArrayList<>();
 
     public HomeViewPagerAdapter(FragmentManager fm) {
         super(fm);
@@ -31,15 +30,9 @@ public class HomeViewPagerAdapter extends FragmentStatePagerAdapter {
         return mFragmentList.size();
     }
 
-    public void addFragment(Fragment fragment, String title){
+    public void addFragment(Fragment fragment){
 
         mFragmentList.add(fragment);
-        mFragmentTitleList.add(title);
 
-    }
-
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return mFragmentTitleList.get(position);
     }
 }

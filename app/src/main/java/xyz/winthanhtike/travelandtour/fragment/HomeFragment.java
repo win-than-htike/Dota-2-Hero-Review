@@ -1,6 +1,7 @@
 package xyz.winthanhtike.travelandtour.fragment;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -19,14 +20,22 @@ import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.activity.BasicItemDetailActivity;
 import xyz.winthanhtike.travelandtour.adapter.HomeViewPagerAdapter;
 import xyz.winthanhtike.travelandtour.data.vos.BasicItemVO;
+import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 
 /**
  * Created by winthanhtike on 6/23/16.
  */
-public class HomeFragment extends Fragment implements BasicItemFragment.ControllerBasicItem{
+public class HomeFragment extends Fragment{
 
     private ViewPager viewPager;
     private TabLayout tabLayout;
+    private int[] tabIcons = {
+            R.drawable.strength,
+            R.drawable.agility,
+            R.drawable.intelligence
+    };
+
+    private ControllerHero controllerHero;
 
     @Nullable
     @Override
@@ -39,6 +48,12 @@ public class HomeFragment extends Fragment implements BasicItemFragment.Controll
         return view;
     }
 
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        controllerHero = (ControllerHero) context;
+    }
+
     private void initConfigView(View v){
 
         viewPager = (ViewPager)v.findViewById(R.id.viewpager);
@@ -47,24 +62,30 @@ public class HomeFragment extends Fragment implements BasicItemFragment.Controll
 
         tabLayout = (TabLayout)v.findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+        setupTabIcons();
 
     }
 
     private void setupViewPager(ViewPager viewPager) {
 
         HomeViewPagerAdapter pagerAdapter = new HomeViewPagerAdapter(getChildFragmentManager());
-        pagerAdapter.addFragment(new StrengthFragment(),"STRENGTH");
-        pagerAdapter.addFragment(new AgilityFragment(),"AGILITY");
-        pagerAdapter.addFragment(new IntelligenceFragment(),"INTELLIGENCE");
+        pagerAdapter.addFragment(new StrengthFragment());
+        pagerAdapter.addFragment(new AgilityFragment());
+        pagerAdapter.addFragment(new IntelligenceFragment());
         viewPager.setAdapter(pagerAdapter);
 
     }
 
-
-    @Override
-    public void onTapBasicItem(BasicItemVO basicItemVO, ImageView ivBasicItemImage) {
-        Intent intent = BasicItemDetailActivity.newInstance(basicItemVO.getbItemName());
-        ActivityOptionsCompat activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(getActivity(),new Pair(ivBasicItemImage,getString(R.string.share_image_transition)));
-        ActivityCompat.startActivity(getActivity(),intent,activityOptions.toBundle());
+    private void setupTabIcons() {
+        tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+        tabLayout.getTabAt(2).setIcon(tabIcons[2]);
     }
+
+    public interface ControllerHero{
+        void onTapStrengthHero(HeroVO hero,ImageView ivHeroImage);
+        void onTapAgilityHero(HeroVO hero,ImageView ivHeroImage);
+        void onTapIntellHero(HeroVO hero,ImageView ivHeroImage);
+    }
+
 }

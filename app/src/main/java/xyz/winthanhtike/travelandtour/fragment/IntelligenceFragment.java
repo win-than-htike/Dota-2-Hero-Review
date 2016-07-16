@@ -24,18 +24,18 @@ public class IntelligenceFragment extends Fragment {
 
     private RecyclerView rvIntellHero;
     private IntelligenceRVAdapter iAdapter;
-    private ControllerIntelligenceHero heroController;
+    private HomeFragment.ControllerHero controllerHero;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        iAdapter = new IntelligenceRVAdapter(IntelligenceHeroModel.getInstance().getStrengthHeroList(),heroController);
+        iAdapter = new IntelligenceRVAdapter(IntelligenceHeroModel.getInstance().getStrengthHeroList(),controllerHero);
     }
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        heroController = (ControllerIntelligenceHero) context;
+        controllerHero = (HomeFragment.ControllerHero) context;
     }
 
     @Nullable
@@ -51,9 +51,4 @@ public class IntelligenceFragment extends Fragment {
 
         return view;
     }
-
-    public interface ControllerIntelligenceHero{
-        void onTapIntellHero(HeroVO heroVO, ImageView imageView);
-    }
-
 }
