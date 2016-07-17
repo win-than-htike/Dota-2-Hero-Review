@@ -1,41 +1,110 @@
 [
- {
- 	"hero_name":"Anti-Mage",
- 	"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/antimage_full.png",
- 	"hero_role":"Melee - Carry - Escape - Nuker",
-	"hero_detail":"တကယ္လုိ႔ သင္က Carry ကစားသမားတစ္ေယာက္ဆုိရင္ ေရွာင္လႊဲလုိ႔ မရတဲ့ Hard Carry တစ္ေကာင္ရွိပါတယ္။ ေယဘုယ်အားျဖင့္ Hard Carry ေတြဟာ Item လုိအပ္တဲ့ Agility Hero မ်ား ျဖစ္ေလ့ရွိျပီး အခ်ိန္အတုိင္းအတာ တစ္ခုထိ Team Fight ကုိ ေရွာင္ရေလ့ရွိပါတယ္။ ဒါေၾကာင့္ Escape Ability ပါဝင္တဲ့ Hard Carry မ်ားဟာ လူၾကဳိက္မ်ားေလ့ရွိျပီး ကစားသမားတုိင္းနဲ႕လည္း မကင္းကြာပါဘူး။ ဒီလုိ အေျခခံက်တဲ့ Hard Carry တစ္ေကာင္ျဖစ္တဲ့ Anti-Mage ဟာ လူၾကဳိက္မ်ားတဲ့ Hero တစ္ေကာင္ျဖစ္ျပီး Dota 2 သမုိင္းေၾကာင္းတစ္ေလွ်ာက္ ပြဲေပါင္း ၁၃၁ သန္း ေက်ာ္ ေရြးခ်ယ္ ကစားခံရတဲ့ ၂၂ ေကာင္ေျမာက္ လူၾကဳိက္အမ်ားဆုံး Hero တစ္ေကာင္လည္းျဖစ္ပါတယ္။ တစ္ဖက္အသင္းမွာ Manapool ၾကီးတဲ့ Caster ေတြ ပါခဲ့ရင္၊ ပြဲက RAT တဲ့ ပုံစံနဲ႕ ေဆာ့မွ ရမယ့္ အေျခအေနမ်ဴိးဆုိရင္၊ မိမိအသင္းမွာ Ganker ေတြ မ်ားေနတဲ့ အေျခအေနမ်ဴိးဆုိရင္၊ တစ္ဖက္အသင္းမွာ ပြဲေနာက္ပုိင္းအထိ သတိထားရမယ့္ Carry တစ္ေကာင္ေကာင္ ပါေနခဲ့ရင္၊ စတဲ့ အေျခအေနမ်ဴိးစုံေပၚကုိ မူတည္ျပီး Anti-Mage ကို ေရြးခ်ယ္ႏုိင္တဲ့အတြက္ သင္က Last Hit ပုိင္းမွာ မိမိကုိယ္ကုိ ယုံၾကည္မႈရွိမယ္ဆုိရင္ ေရြးခ်ယ္ ႏုိင္တဲ့ Hero ေကာင္းတစ္ေကာင္ဆုိတာ ျငင္းလုိ႔ မရပါဘူး။
-	 Abilities
-	 Mana Break
-	 Anti-Mage ဆုိတဲ့ နာမည္အတုိင္း Mana အသုံးျပဳတဲ့ Mage ေတြကုိ ဆန္႔က်င္ေသာ အဓိက Ability တစ္ခုျဖစ္တဲ့ Mana Break ဟာ Unique Attack modifier Ability တစ္ခုျဖစ္ပါတယ္။ Dota အေခၚအရ Orb Effect ျဖစ္ျပီး Dominator, Satanic, Skadi, Desolator စတဲ့ Item ေတြ ေရြးခ်ယ္ခဲ့မယ္ဆုိရင္ Mana Break Passive ရပ္တန္႔သြားမွာျဖစ္ပါတယ္။ Maelstrom နဲ႕ Mjollnir တုိ႔ကုိ ဆက္ခဲ့မယ္ဆုိရင္ေတာ့ Chain Lightning ထြက္တဲ့အခ်ိန္မွာ Mana Break သတ္ေရာက္မွာ မဟုတ္ပါဘူး။ Diffusal Blade ဟာ Unit Attack Modifier မဟုတ္ေပမယ့္ Mana Break နဲ႕ တြဲဖက္ သတ္ေရာက္ႏုိင္ျခင္း မရွိတဲ့ ခြ်င္းခ်က္တစ္ခု ရွိပါတယ္။ Mana Break ဟာ 28/ 40/ 58/ 64 ဆုိတဲ့ Mana ပမာဏကုိ Burn ပစ္လုိက္မွာျဖစ္ျပီး အဆုိပါ ပမာဏရဲ႕ 60% ဟာ Physical Damage အျဖစ္ အပုိေဆာင္း ထိမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ Mana ရွိတဲ့ Hero တစ္ေကာင္ကုိ တုိက္ခုိက္တဲ့အခါမွာ မိမိမူလ Physical attack damage အျပင္ ဒီ 60% ကေန ရရွိမယ့္ အပုိ 19/ 24/ 31/ 38 ဆုိတဲ့ Bonus Damage ကုိ ရရွိမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ မိမိတုိက္ခုိက္ေနတဲ့ Unit က Mana မရွိတဲ့အေျခအေန၊ Mana ကုန္ေနတဲ့ အေျခအေနမ်ဴိးမွာ ဒီ Bonus Damage ကုိ ရရွိမွာ မဟုတ္ပါဘူး။
-	 Blink
-	 ေထြေထြထူးထူးေျပာစရာ မရွိတဲ့ Blink ကေတာ့ Anti-Mage ရဲ႕ Escape Ability တစ္ခုပဲျဖစ္ပါတယ္။ ပုံေသ Mana Cost 60 ပဲ ရွိျပီး ေနာက္ဆုံးအဆင့္မွာ Cooldown ဟာ 5 seconds အထိ ေလ်ာ့က်သြားမွာျဖစ္ပါတယ္။ Anti-Mage ရဲ႕ Farming နဲ႕ Escape ဟာ ဒီ Blink ေပၚမွာ မ်ားစြာ မူတည္ေနတဲ့အတြက္ မရွိမျဖစ္ လုိအပ္တဲ့ Ability တစ္ခုဆုိလည္း မမွားပါဘူး။ ပထမဆုံးအဆင့္မွာ 925 Range အကြာအေဝးထိ ခုန္ႏုိင္ျပီး ေနာက္ဆုံးအဆင့္ေရာက္မွသာ 1150 Range အထိ ခုန္ႏုိင္မွာျဖစ္ပါတယ္။ အားနည္းခ်က္ကေတာ့ Frostbite, Searing Chain, Entangling Claw, Ensnare, Overgrowth နဲ႕ Earthbind ကဲ့သုိ႔ Root Ability ေတြ သက္ေရာက္ခံထားရခ်ိန္မွာေတာ့ Disable ျဖစ္မေနသည့္တုိင္ေအာင္ Blink ကုိ အသုံးျပဳႏုိင္မွာ မဟုတ္ဘဲ အားသာခ်က္ကေတာ့ Global Cast Range ရွိျခင္းျဖစ္ျပီး မိမိ အသုံးျပဳလုိက္တဲ့ အရပ္ကုိ လက္ရွိယူထားတဲ့ အဆင့္အကြာအေဝးအတုိင္း ေရာက္ရွိသြားမွာျဖစ္ပါတယ္။ (Faceless Void ရဲ႕ Timewalk, QoP ရဲ႕ Blink, PA ရဲ႕ Blink Strike တုိ႔မွာ ဒီလုိ အားသာခ်က္ မရွိပါဘူး)
-	 Spell Shield
-	 Anti-Mage ရဲ႕ Basic Magic Resistance ဟာ 25% ရွိပါတယ္။ Spell Shield ကုိ တင္လုိက္တဲ့အခါမွာ Magic Resistance မရွိတဲ့ 75% ေပၚမွာတြက္ခ်က္ျပီး Overall Magic Resistance ေတြ ဟာ တုိးလာမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ တတိယအဆင့္မွာ ရရွိမယ့္ 42% Magic Resistance ဆုိတာေၾကာင့္ Anti-Mage ဟာ 25%+42%=64% Magic Resistance ကုိ ရရွိမွာ မဟုတ္ဘဲ က်န္ရွိေနတဲ့ 75% ရဲ႕ 42% ျဖစ္တဲ့ 31.5% Magic Resistance ကုိ ရရွိေနမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ ေနာက္ဆုံးအဆင့္မွာ Anti-Mage ဟာ စုစုေပါင္း 62.5% Magic Resistance ေတာင္ ရရွိေနေစမွာျဖစ္ပါတယ္။
-	 Ultimate Mana Void
-	 မိမိ Target ေထာက္အသုံးျပဳမယ့္ Unit ရဲ႕ Mana Pool ထဲမွာ ေလ်ာ့ေနတဲ့ Mana ပမာဏကုိ 0.6/ 0.85/ 1.1 နဲ႕ ေျမွာက္ျပီး AoE 500 အတြင္းက Unit ေတြကုိ Magic Damage သတ္ေရာက္မွာျဖစ္ပါတယ္။ ဥပမာ Mana 3000 ရွိတဲ့ Leshrac ဟာ Team Fight တစ္ခုမွာ တုိက္ခုိက္ေနရင္း Mana 453 ခန္႔သာ က်န္တယ္ဆုိပါစုိ႔။ Leshrac ဟာ စုစုေပါင္း Mana 3000-453= 2547 Mana ေလ်ာ့ေနပါတယ္။ ဒီ ေလ်ာ့ေနတဲ့ ပမာဏကုိ ေနာက္ဆုံးအဆင့္ ရဲ႕ေျမွာက္လဒ္ 1.1 နဲ႕ ေျမွာက္ၾကည့္တဲ့အခါမွာ 1.1 x 2547 = 2801 Damage ဟာ အသုံးျပဳခံရတဲ့ Leshrac ရဲ႕ 500 AoE အတြင္းက Unit ေတြ အကုန္လုံးကုိ ထိသြားမွာျဖစ္ပါတယ္။",
- 	"hero_overview":"လက္ရွိ Meta အရေတာ့ Anti-Mage ဟာ Battle Fury ကုိ ဦးစြာ Farm ျပီး Battle ေရွာင္ကာ Farm တဲ့ ပုံစံနဲ႕ ကစားလ်က္ရွိပါတယ္။ Anti-Mage ဟာ BAT (Base Attack Time) 1.45 ရွိတဲ့ Hero တစ္ေကာင္ျဖစ္လုိ႔ ပုံမွန္ Agility Carry ေတြနဲ႕ ယွဥ္ရင္ မ်ားစြာ အားသာခ်က္ ရွိပါတယ္။ BAT ဟာ Attack Speed Increase Amount ကုိ စားျပီး တြက္ခ်က္ ရတဲ့ ကိန္းဂဏန္းျဖစ္လုိ႔ ဂဏန္းေသးေလ ပုိေကာင္းေလျဖစ္ပါတယ္။ (ေယဘုယ် Hero တစ္ေကာင္ရဲ႕ BAT ဟာ 1.7 ခန္႔ရွိပါတယ္။) ဒါေၾကာင့္ ပုံမွန္ Hero ေတြက Attack Speed Item ထည့္ျပီး ျမန္လာတဲ့ Attack Speed ထက္ Anti-Mage က ပုိမ်ားတဲ့ Attack Speed ကုိ ရရွိေနရျခင္းျဖစ္ပါတယ္။ ဒါေၾကာင့္ပဲ Anti-Mage ကုိ Attribute Item ေတြ ျဖစ္တဲ့ Manta-Style, Butterfly စတဲ့ Agility ကုိ တုိးေစတဲ့ Item ေတြကုိ ေရြးခ်ယ္ရျခင္းပဲျဖစ္ပါတယ္။ Attack Speed ျမန္တဲ့အျပင္ Agility ဟာ Anti-Mage ရဲ႕ Base Armor ကုိ တုိးေစတဲ့အျပင္ Illusion Unit ေတြရဲ႕ Damage Output ကုိပါတုိးေစမွာျဖစ္ပါတယ္။ ယခင္ Frozen Throne Dota တုန္းက Anti-Mage ကုိ Power Tread + Vanguard + Offering + Sange and Yasha ပုံစံနဲ႕ အေစာပိုင္း Team Fight ဝင္တဲ့ ပုံစံဟာ ျမင္ေနရၾက ျဖစ္ခဲ့ေပမယ့္ တရုတ္ႏုိင္ငံရဲ႕ သက္ရွိထင္ရွား Legendary Carry Player BurNIng ရဲ႕ ေသသပ္လြန္းတဲ့ Last Hit ေတြကေန ရရွိလာတဲ့ Battle Fury တစ္လက္ဟာ ပြဲအေျပာင္းအလဲ မည္မွ် ျဖစ္သြားေစသလဲဆုိတာကုိ အားလုံးသိရွိျပီးခဲ့တဲ့ ေနာက္မွာေတာ့ Anti-Mage ရဲ႕ လက္ရွိ Meta ဟာ Battle Fury, Offering, Manta Style, Fly, Bkb, Heart ဆုိတဲ့ ေယဘုယ် Build မွာ လည္ပတ္သြားခဲ့ပါတယ္။
-	 Anti-Mage အတြက္ေတာ့ တျခား Hero ေတြထက္ အားသာတဲ့ အခ်က္က သူ႔ရဲ႕ Blink ပဲ ျဖစ္ပါတယ္။ Anti-Mage ဟာ မိမိ အသင္းသားေတြနဲ႕အတူ Smoke ကုိ အသုံးျပဳကာ တစ္ဖက္အသင္းရဲ႕ Jungle ကုိ ထုိးေဖာက္ျပီးေနာက္ က်န္ရွိတဲ့ မိမိအသင္းသားမ်ားက Battle ဖန္တီးျပီး အာရုံလႊဲေနခ်ိန္မွာ လြတ္ေနတဲ့ လမ္းကုိ RAT တဲ့ ကစားကြက္ကုိလည္း အေျခအေနအရ အသုံးျပဳႏုိင္ပါေသးတယ္။ ဒီလုိတုိက္ခုိက္ဖုိ႔အတြက္ ျဖစ္ႏုိင္ရင္ မိမိအသင္းသားေတြထဲမွာ Ganker ေတြ မ်ားမ်ား ရွိေနဖုိ႔ လုိအပ္ပါတယ္။ Manta Style ဟာ Antimage ရဲ႕ တတိယေျမာက္ အေရးအၾကီးဆုံး Item ထဲမွာ ပါဝင္ပါတယ္။ Enemy အသင္းက တုိက္ခုိက္မယ့္ Debuff (Silence, Slow, etc..) ေတြကုိ ဖယ္ရွားႏုိင္တဲ့အျပင္ Enemy ကုိ တုိက္ခုိက္တဲ့အခါမွာလည္း Mana Break ကုိလည္း ၃ ဆ ျဖစ္ေစဖုိ႔ အေထာက္အကူေပးတဲ့အတြက္ ျဖစ္ပါတယ္။ မိမိတုိ္က္ခုိက္မယ့္ Enemy Unit ေပၚကုိ Blink ခုန္ျပီးမွ Manta Style ကုိ အသုံးျပဳေပးဖုိ႔ေတာ့ လုိပါတယ္။ မည္သုိ႔ပင္ ဆုိေစကာမူ မိမိႏွစ္သက္ေသာ ကစားကြက္သည္သာလွ်င္ မိမိအတြက္ အေကာင္းဆုံး ျဖစ္ပါလိမ့္မယ္။",
- 	"hero_spell":[
- 		{
- 			"spell_name":"Mana Break",
- 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/antimage_mana_break_hp1.png",
- 			"spell_overview":"Burns an opponent's mana on each attack. Mana Break deals 60% of the mana burned as damage to the target. Mana Break is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers."
- 		},
- 		{
- 			"spell_name":"Blink",
- 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/antimage_blink_hp1.png",
- 			"spell_overview":"Short distance teleportation that allows Anti-Mage to move in and out of combat."
- 		},
- 		{
- 			"spell_name":"Spell Shield",
- 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/antimage_spell_shield_hp1.png",
- 			"spell_overview":"Increases Anti-Mage's resistance to magic damage."
- 		},
- 		{
- 			"spell_name":"Mana Void",
- 			"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/antimage_mana_void_hp1.png",
- 			"spell_overview":"For each point of mana missing by the target unit, damage is dealt to it and surrounding enemies. The main target is also mini-stunned."
- 		}
- 	]
- }
+ 	{
+		"share_hero":"https://www.facebook.com/yahooyeehadotasuggestion/posts/611887778962094",
+		"hero_intellgience":"15 + 1.80",
+		"hero_agility":"22 + 2.80",
+		"hero_strength":"22 + 1.20",
+		"hero_damage":"27 - 31",
+		"hero_movement_speed":"315",
+		"hero_armor":"2.08",
+		"hero_name":"Anti-Mage",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/antimage_vert.jpg",
+		"hero_role":"Melee - Carry - Escape - Nuker",
+		"hero_detail":"",
+		"hero_overview":"လက္ရွိ Meta အရေတာ့ Anti-Mage ဟာ Battle Fury ကုိ ဦးစြာ Farm ျပီး Battle ေရွာင္ကာ Farm တဲ့ ပုံစံနဲ႕ ကစားလ်က္ရွိပါတယ္။ Anti-Mage ဟာ BAT (Base Attack Time) 1.45 ရွိတဲ့ Hero တစ္ေကာင္ျဖစ္လုိ႔ ပုံမွန္ Agility Carry ေတြနဲ႕ ယွဥ္ရင္ မ်ားစြာ အားသာခ်က္ ရွိပါတယ္။ BAT ဟာ Attack Speed Increase Amount ကုိ စားျပီး တြက္ခ်က္ ရတဲ့ ကိန္းဂဏန္းျဖစ္လုိ႔ ဂဏန္းေသးေလ ပုိေကာင္းေလျဖစ္ပါတယ္။ (ေယဘုယ် Hero တစ္ေကာင္ရဲ႕ BAT ဟာ 1.7 ခန္႔ရွိပါတယ္။) ဒါေၾကာင့္ ပုံမွန္ Hero ေတြက Attack Speed Item ထည့္ျပီး ျမန္လာတဲ့ Attack Speed ထက္ Anti-Mage က ပုိမ်ားတဲ့ Attack Speed ကုိ ရရွိေနရျခင္းျဖစ္ပါတယ္။ ဒါေၾကာင့္ပဲ Anti-Mage ကုိ Attribute Item ေတြ ျဖစ္တဲ့ Manta-Style, Butterfly စတဲ့ Agility ကုိ တုိးေစတဲ့ Item ေတြကုိ ေရြးခ်ယ္ရျခင္းပဲျဖစ္ပါတယ္။ Attack Speed ျမန္တဲ့အျပင္ Agility ဟာ Anti-Mage ရဲ႕ Base Armor ကုိ တုိးေစတဲ့အျပင္ Illusion Unit ေတြရဲ႕ Damage Output ကုိပါတုိးေစမွာျဖစ္ပါတယ္။ ယခင္ Frozen Throne Dota တုန္းက Anti-Mage ကုိ Power Tread + Vanguard + Offering + Sange and Yasha ပုံစံနဲ႕ အေစာပိုင္း Team Fight ဝင္တဲ့ ပုံစံဟာ ျမင္ေနရၾက ျဖစ္ခဲ့ေပမယ့္ တရုတ္ႏုိင္ငံရဲ႕ သက္ရွိထင္ရွား Legendary Carry Player BurNIng ရဲ႕ ေသသပ္လြန္းတဲ့ Last Hit ေတြကေန ရရွိလာတဲ့ Battle Fury တစ္လက္ဟာ ပြဲအေျပာင္းအလဲ မည္မွ် ျဖစ္သြားေစသလဲဆုိတာကုိ အားလုံးသိရွိျပီးခဲ့တဲ့ ေနာက္မွာေတာ့ Anti-Mage ရဲ႕ လက္ရွိ Meta ဟာ Battle Fury, Offering, Manta Style, Fly, Bkb, Heart ဆုိတဲ့ ေယဘုယ် Build မွာ လည္ပတ္သြားခဲ့ပါတယ္။Anti-Mage အတြက္ေတာ့ တျခား Hero ေတြထက္ အားသာတဲ့ အခ်က္က သူ႔ရဲ႕ Blink ပဲ ျဖစ္ပါတယ္။ Anti-Mage ဟာ မိမိ အသင္းသားေတြနဲ႕အတူ Smoke ကုိ အသုံးျပဳကာ တစ္ဖက္အသင္းရဲ႕ Jungle ကုိ ထုိးေဖာက္ျပီးေနာက္ က်န္ရွိတဲ့ မိမိအသင္းသားမ်ားက Battle ဖန္တီးျပီး အာရုံလႊဲေနခ်ိန္မွာ လြတ္ေနတဲ့ လမ္းကုိ RAT တဲ့ ကစားကြက္ကုိလည္း အေျခအေနအရ အသုံးျပဳႏုိင္ပါေသးတယ္။ ဒီလုိတုိက္ခုိက္ဖုိ႔အတြက္ ျဖစ္ႏုိင္ရင္ မိမိအသင္းသားေတြထဲမွာ Ganker ေတြ မ်ားမ်ား ရွိေနဖုိ႔ လုိအပ္ပါတယ္။ Manta Style ဟာ Antimage ရဲ႕ တတိယေျမာက္ အေရးအၾကီးဆုံး Item ထဲမွာ ပါဝင္ပါတယ္။ Enemy အသင္းက တုိက္ခုိက္မယ့္ Debuff (Silence, Slow, etc..) ေတြကုိ ဖယ္ရွားႏုိင္တဲ့အျပင္ Enemy ကုိ တုိက္ခုိက္တဲ့အခါမွာလည္း Mana Break ကုိလည္း ၃ ဆ ျဖစ္ေစဖုိ႔ အေထာက္အကူေပးတဲ့အတြက္ ျဖစ္ပါတယ္။ မိမိတုိ္က္ခုိက္မယ့္ Enemy Unit ေပၚကုိ Blink ခုန္ျပီးမွ Manta Style ကုိ အသုံးျပဳေပးဖုိ႔ေတာ့ လုိပါတယ္။ မည္သုိ႔ပင္ ဆုိေစကာမူ မိမိႏွစ္သက္ေသာ ကစားကြက္သည္သာလွ်င္ မိမိအတြက္ အေကာင္းဆုံး ျဖစ္ပါလိမ့္မယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Mana Break",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/antimage_mana_break_hp1.png",
+				"spell_overview":"Anti-Mage ဆုိတဲ့ နာမည္အတုိင္း Mana အသုံးျပဳတဲ့ Mage ေတြကုိ ဆန္႔က်င္ေသာ အဓိက Ability တစ္ခုျဖစ္တဲ့ Mana Break ဟာ Unique Attack modifier Ability တစ္ခုျဖစ္ပါတယ္။ Dota အေခၚအရ Orb Effect ျဖစ္ျပီး Dominator, Satanic, Skadi, Desolator စတဲ့ Item ေတြ ေရြးခ်ယ္ခဲ့မယ္ဆုိရင္ Mana Break Passive ရပ္တန္႔သြားမွာျဖစ္ပါတယ္။ Maelstrom နဲ႕ Mjollnir တုိ႔ကုိ ဆက္ခဲ့မယ္ဆုိရင္ေတာ့ Chain Lightning ထြက္တဲ့အခ်ိန္မွာ Mana Break သတ္ေရာက္မွာ မဟုတ္ပါဘူး။ Diffusal Blade ဟာ Unit Attack Modifier မဟုတ္ေပမယ့္ Mana Break နဲ႕ တြဲဖက္ သတ္ေရာက္ႏုိင္ျခင္း မရွိတဲ့ ခြ်င္းခ်က္တစ္ခု ရွိပါတယ္။ Mana Break ဟာ 28/ 40/ 58/ 64 ဆုိတဲ့ Mana ပမာဏကုိ Burn ပစ္လုိက္မွာျဖစ္ျပီး အဆုိပါ ပမာဏရဲ႕ 60% ဟာ Physical Damage အျဖစ္ အပုိေဆာင္း ထိမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ Mana ရွိတဲ့ Hero တစ္ေကာင္ကုိ တုိက္ခုိက္တဲ့အခါမွာ မိမိမူလ Physical attack damage အျပင္ ဒီ 60% ကေန ရရွိမယ့္ အပုိ 19/ 24/ 31/ 38 ဆုိတဲ့ Bonus Damage ကုိ ရရွိမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ မိမိတုိက္ခုိက္ေနတဲ့ Unit က Mana မရွိတဲ့အေျခအေန၊ Mana ကုန္ေနတဲ့ အေျခအေနမ်ဴိးမွာ ဒီ Bonus Damage ကုိ ရရွိမွာ မဟုတ္ပါဘူး။"
+			},
+			{
+				"spell_name":"Blink",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/antimage_blink_hp1.png",
+				"spell_overview":"ထြေထြထူးထူးေျပာစရာ မရွိတဲ့ Blink ကေတာ့ Anti-Mage ရဲ႕ Escape Ability တစ္ခုပဲျဖစ္ပါတယ္။ ပုံေသ Mana Cost 60 ပဲ ရွိျပီး ေနာက္ဆုံးအဆင့္မွာ Cooldown ဟာ 5 seconds အထိ ေလ်ာ့က်သြားမွာျဖစ္ပါတယ္။ Anti-Mage ရဲ႕ Farming နဲ႕ Escape ဟာ ဒီ Blink ေပၚမွာ မ်ားစြာ မူတည္ေနတဲ့အတြက္ မရွိမျဖစ္ လုိအပ္တဲ့ Ability တစ္ခုဆုိလည္း မမွားပါဘူး။ ပထမဆုံးအဆင့္မွာ 925 Range အကြာအေဝးထိ ခုန္ႏုိင္ျပီး ေနာက္ဆုံးအဆင့္ေရာက္မွသာ 1150 Range အထိ ခုန္ႏုိင္မွာျဖစ္ပါတယ္။ အားနည္းခ်က္ကေတာ့ Frostbite, Searing Chain, Entangling Claw, Ensnare, Overgrowth နဲ႕ Earthbind ကဲ့သုိ႔ Root Ability ေတြ သက္ေရာက္ခံထားရခ်ိန္မွာေတာ့ Disable ျဖစ္မေနသည့္တုိင္ေအာင္ Blink ကုိ အသုံးျပဳႏုိင္မွာ မဟုတ္ဘဲ အားသာခ်က္ကေတာ့ Global Cast Range ရွိျခင္းျဖစ္ျပီး မိမိ အသုံးျပဳလုိက္တဲ့ အရပ္ကုိ လက္ရွိယူထားတဲ့ အဆင့္အကြာအေဝးအတုိင္း ေရာက္ရွိသြားမွာျဖစ္ပါတယ္။ (Faceless Void ရဲ႕ Timewalk, QoP ရဲ႕ Blink, PA ရဲ႕ Blink Strike တုိ႔မွာ ဒီလုိ အားသာခ်က္ မရွိပါဘူး)"
+			},
+			{
+				"spell_name":"Spell Shield",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/antimage_spell_shield_hp1.png",
+				"spell_overview":"Anti-Mage ရဲ႕ Basic Magic Resistance ဟာ 25% ရွိပါတယ္။ Spell Shield ကုိ တင္လုိက္တဲ့အခါမွာ Magic Resistance မရွိတဲ့ 75% ေပၚမွာတြက္ခ်က္ျပီး Overall Magic Resistance ေတြ ဟာ တုိးလာမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ တတိယအဆင့္မွာ ရရွိမယ့္ 42% Magic Resistance ဆုိတာေၾကာင့္ Anti-Mage ဟာ 25%+42%=64% Magic Resistance ကုိ ရရွိမွာ မဟုတ္ဘဲ က်န္ရွိေနတဲ့ 75% ရဲ႕ 42% ျဖစ္တဲ့ 31.5% Magic Resistance ကုိ ရရွိေနမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ ေနာက္ဆုံးအဆင့္မွာ Anti-Mage ဟာ စုစုေပါင္း 62.5% Magic Resistance ေတာင္ ရရွိေနေစမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Mana Void",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/antimage_mana_void_hp1.png",
+				"spell_overview":"မိမိ Target ေထာက္အသုံးျပဳမယ့္ Unit ရဲ႕ Mana Pool ထဲမွာ ေလ်ာ့ေနတဲ့ Mana ပမာဏကုိ 0.6/ 0.85/ 1.1 နဲ႕ ေျမွာက္ျပီး AoE 500 အတြင္းက Unit ေတြကုိ Magic Damage သတ္ေရာက္မွာျဖစ္ပါတယ္။ ဥပမာ Mana 3000 ရွိတဲ့ Leshrac ဟာ Team Fight တစ္ခုမွာ တုိက္ခုိက္ေနရင္း Mana 453 ခန္႔သာ က်န္တယ္ဆုိပါစုိ႔။ Leshrac ဟာ စုစုေပါင္း Mana 3000-453= 2547 Mana ေလ်ာ့ေနပါတယ္။ ဒီ ေလ်ာ့ေနတဲ့ ပမာဏကုိ ေနာက္ဆုံးအဆင့္ ရဲ႕ေျမွာက္လဒ္ 1.1 နဲ႕ ေျမွာက္ၾကည့္တဲ့အခါမွာ 1.1 x 2547 = 2801 Damage ဟာ အသုံးျပဳခံရတဲ့ Leshrac ရဲ႕ 500 AoE အတြင္းက Unit ေတြ အကုန္လုံးကုိ ထိသြားမွာျဖစ္ပါတယ္။"
+			}
+		]
+ 	},
+ 	{
+		"share_hero":"https://www.facebook.com/yahooyeehadotasuggestion/posts/620199361464269",
+		"hero_intellgience":"19 + 2.00",
+		"hero_agility":"21 + 3.00",
+		"hero_strength":"17 + 1.80",
+		"hero_damage":"24 - 38",
+		"hero_movement_speed":"315",
+		"hero_armor":"5.94",
+		"hero_name":"Bounty Hunter",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/bounty_hunter_vert.jpg",
+		"hero_role":"Melee - Escape - Nuker",
+		"hero_detail":"V6.87 Patch Update မွာေတာ့ Hero မ်ားစြာကို Balance လုပ္ေပးခဲ့ေပမယ့္ ယခုအခ်ိန္ထိ Pub တစ္ခုလုံးကုိ ေမႊေႏွာက္လုိ႔ ေကာင္းဆဲျဖစ္တဲ့ Core Support Hero တစ္ေကာင္ကိုေတာ့ ေထြေထြထူးထူး ေျပာင္းလဲျခင္း မရွိေသးပါဘူး။ အဆုိပါ Hero ကေတာ့ 5k အထက္မွာ ဒုတိယေျမာက္ Win Rate အေကာင္းဆုံး Hero အျဖစ္ ရပ္တည္လ်က္ရွိတဲ့အျပင္ Pub သာမက Premium တန္း ျပဳိင္ပြဲေတြမွာပါ ခက္စိပ္စိပ္ ျမင္ေတြ႕ရေနတဲ့ Gondar The Bounty Hunter ပဲျဖစ္ပါတယ္။ MMR Pusher ေတြ အသုံးျပဳေလ့ရွိတဲ့ Alchemist ဟာ ယခုေျပာင္းလဲသြားတဲ့ Ranked All Pick Mode မွာဆုိရင္ ကစားပြဲတုိင္းနီးပါး Ban ခံရတဲ့ Hero စာရင္းထဲမွာ ပါေလ့ရွိပါတယ္။ သူ႔ရဲ႕ ထိန္းသိမ္းရခက္ခဲတဲ့ Gold ရရွိမႈေၾကာင့္ Over ျဖစ္ေနတဲ့ Hero တစ္ေကာင္ျဖစ္သလုိ Gondar ရဲ႕ Ultimate Track ဟာလည္း Click တစ္ခ်က္တည္းနဲ႕ သိသာတဲ့ Team AoE Gold ကုိ ရရွိေစမွာျဖစ္လုိ႔ သြယ္ဝုိက္ေသာ Overpower Hero တစ္ေကာင္အျဖစ္ သတ္မွတ္လုိ႔ရပါတယ္။",
+		"hero_overview":"Frozen Throne Dota တုန္းက Gondar ရဲ႕ Ability Build ဟာ Carry ဆန္တဲ့ ဖြဲ႕စည္းပုံ ျဖစ္ခဲ့ပါတယ္။ လက္ရွိမွာေတာ့ Gondar ရဲ႕ ဖြဲ႕စည္းပုံက Support, Ganker ပုံစံနဲ႕ ပုိျပီး လုိက္ဖက္တာကုိ ေတြ႕ရပါတယ္။ Cast Range 400 ပဲ ရွိတဲ့ Shuriken Toss ဟာ တကယ္ေတာ့ Range 1200 အကြာအေဝးက Enemy ကုိ သြယ္ဝုိက္ျပီး တုိက္ခုိက္လုိ႔ရပါတယ္။ မိမိတုိက္ခုိက္လုိတဲ့ Enemy Hero ကုိ Track တင္ျပီးတာနဲ႕ မိမိနဲ႕ နီးစပ္ရာက Enemy Unit တစ္ခုခုကုိ Shuriken ပစ္လုိက္တာနဲ႕ Track ရဲ႕ Bounce ေၾကာင့္ အဆုိပါ Unit ဆီကုိ ခုန္သြားမယ့္ အားသာခ်က္ကုိ ေမ့မထားသင့္ပါဘူး။ တကယ္လုိ႔ သင္က Aether Lens ကုိ ေရြးခ်ယ္ခဲ့မယ္ဆုိရင္ေတာ့ 1400 Range က Unit အထိ တုိက္ခုိက္ႏုိင္မယ့္ အျပင္ 394 Damage အထိေတာင္ သတ္ေရာက္ႏုိင္ဦးမွာျဖစ္ပါတယ္။ Jinada ကေတာ့ အေစာပုိင္းမွာ အေလာတၾကီး တင္စရာမလုိတဲ့ Ability ျဖစ္ပါတယ္။ အေစာပုိင္း Dps နည္းတုန္းမွာ Critical Rate ဟာ Support Hero တစ္ေကာင္အတြက္ အဓိက မလုိအပ္ေသးပါဘူး။ Cooldown ထက္ Duration အျမဲတမ္းမ်ားေလ့ရွိတဲ့ Shadow Walk ကုိေတာ့ ဒုတိယ ဦးစားေပးတင္သင့္ပါတယ္။ သူ႔ရဲ႕ Backstab Damage ဟာ မ်ားမ်ားယူေလ တုိးလာေလ ျဖစ္တဲ့အျပင္ Fade Time လည္း နည္းသြားမွာျဖစ္လုိ႔ ပြဲအေျခအေနကုိ ၾကည့္ျပီး Gondar ကုိ မပင္မပန္းပဲ Team Fight တစ္ခုကေန ပုိက္ဆံ ခ်မ္းသာေစမွာျဖစ္လုိ႔ Track ကိုေတာ့ အေျခအေနေပးတာနဲ႕ ရရင္ရသလုိ အသုံးျပဳေပးသင့္ပါတယ္။ကစားပြဲအေစာပုိင္းမွာ Gondar ရဲ႕ Inventory ထဲ ရွိေနသင့္တဲ့ Item ေတြကေတာ့ Orb of Venom, Quelling Blade, Blight Stone, Magic Stick, Urn, Bracer တုိ႔ပဲ ျဖစ္ပါတယ္။ တစ္ဖက္အသင္းက Gondar ကုိ ကာကြယ္ဖုိ႔ Sentry ႏုိင္ႏုိင္သုံးတတ္တဲ့ Enemy မ်ဴိးဆုိရင္ေတာ့ မိမိက လက္ဦးေအာင္ Deward လုပ္ဖုိ႔ Quelling Blade ကုိ လုိအပ္ပါတယ္။ Roamer တစ္ေကာင္အေနနဲ႕လည္း Quelling Blade ကုိ လက္ထဲ ကုိင္ထားသင့္ပါတယ္။ Gank တဲ့အခါမွာလည္း Jinada ကေန ရရွိတဲ့ MS Slow အျပင္ Orb of Venom က ရရွိမယ့္ Slow ကုိပါ ထပ္ေပါင္းေပးႏုိင္ရင္ ပုိထိေရာက္ပါလိမ့္မယ္။ Mid Game ေရြးခ်ယ္မႈအျဖစ္ Guardian Greaves က အေရးအၾကီးဆုံးျဖစ္ျပီး Drum, Mekansm, Medallion, Offering, Pipe, Crimson Guard စတဲ့ မိမိအသင္းအတြက္ အက်ဴိးျဖစ္မယ့္ Team Fight Item ေတြ အားလုံးကုိ Gondar အေနနဲ႕ တာဝန္ယူ ဆက္ေပးႏုိင္ပါတယ္။ Team Fight တုိင္းမွာ Track တင္ႏုိင္ေလေလ၊ ပုိက္ဆံရဖုိ႔ လြယ္ေလေလ ျဖစ္လုိ႔ Hard Support Hero မ်ား ဆက္ေပးဖုိ႔ ခက္ခဲတ့ဲ Item မ်ားကုိ Gondar က တာဝန္ယူႏုိင္ပါတယ္။ Linken, Lotus Orb, Vyse, Solar Crest, Dagger, Force Staff တုိ႔ကုိေတာ့ Situational Item မ်ားအျဖစ္ စဥ္းစားႏုိင္ပါတယ္။ Gondar ဟာ Melee Hero တစ္ေကာင္ျဖစ္ေပမယ့္ Battle တစ္ခုရဲ႕ အျပင္ကေန Position ေကာင္းေကာင္းနဲ႕ ေဆာ့လုိ႔ရတဲ့ Hero တစ္ေကာင္ဆုိတာကုိလည္း ေမ့မထားသင့္ပါဘူး။Gondar ဟာ Carry Build နဲ႕လည္း ေဆာ့လုိ႔ေကာင္းတဲ့ Hero တစ္ေကာင္ျဖစ္ပါတယ္။ ဒါေပမယ့္ Public Match ေတြမွာ Solo ေဆာ့ရင္ေတာ့ လက္ရွိ Ability Buil အရ Support Role ကပုိျပီး ထိေရာက္ပါတယ္။ IceFrog ဟာ ထင္ထားသလုိ Hero ေတြကုိ သိသိသာသာ Nerf ျခင္း မရွိေတာ့တဲ့အတြက္ Gondar ကုိ သင့္ရဲ႕ Solo MMR အတြက္ Spam ဖုိ႔ အခြင့္အေရးရွိပါေသးတယ္။ မည္သုိ႔ပင္ဆုိေစကာမူ မိမိႏွစ္သက္ေသာ ကစားကြက္သည္သာလွ်င္ မိမိအတြက္ အေကာင္းဆုံး ျဖစ္ပါလိမ့္မယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Shuriken Toss",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/bounty_hunter_shuriken_toss_hp1.png",
+				"spell_overview":"V6.84 Patch ကေန စျပီး Shuriken ရဲ႕ Cast Range ကုိ 250 ေလွ်ာ့ခ်ကာ Damage ကုိ 50 ခန္႔တုိးျမွင့္ေပးခဲ့ပါတယ္။ Shuriken ပစ္ခံရတဲ့ Unit ရဲ႕ 1200 AoE အတြင္းက Ultimate Track Buff တင္ခံထားရတဲ့ အနီးဆုံး Unit ဆီကုိ Bounce ခုန္သြားမွာျဖစ္ျပီး အဲ့ဒီ့ Unit ရဲ႕ AoE 1200 အတြင္းက ေနာက္ထပ္ Track တင္ခံထားရတဲ့ Unit ဆီကုိ ထက္ခုန္သြားမွာျဖစ္ပါတယ္။ Track တင္ခံထားရတဲ့ Unit တစ္ခုဆီကုိ တစ္ခါဆီ Bounce ခုန္မွာျဖစ္ျပီး 0.01 second Mini Stun ကုိလည္း သတ္ေရာက္ေစဦးမွာျဖစ္ပါတယ္။ ေနာက္ဆုံးအဆင့္မွာ 375 Damage ရွိမွာျဖစ္ျပီး ပုံေသ Cooldown မေျပာင္းလဲတဲ့အတြက္ လက္ရွိ Meta အရ lvl 7 မွာ ဂိတ္ဆုံးထိ တင္သင့္တဲ့ Ability ျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Jinada",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/bounty_hunter_jinada_hp1.png",
+				"spell_overview":"V6.87c မွာေတာ့ Jinada ကုိ သိသိသာသာ nerf ထားပါတယ္။ ပထမဆုံး အဆင့္မွာ Enemy ကုိ Slow ေစမယ့္ MS ပမာဏဟာ ယခင္ 25% ကေန ယခု 15% အထိ ေလွ်ာ့ေပးလုိက္ျပီျဖစ္ပါတယ္။ ရုိးရွင္းတဲ့ ဒီ Passive Ability Jinada ဟာ Cooldown 12/ 10/ 8/ 6 seconds တုိင္းမွာ 100% ေသခ်ာတဲ့ Critical Damage နဲ႕ MS AS Slow ကုိ သတ္ေရာက္ေစတာ ျဖစ္ပါတယ္။ Gondar မွာရွိတဲ့ Overall Damage ကုိ 150%/175%/200%/225% ခန္႔ အပုိေဆာင္းျပီး သတ္ေရာက္ေစမွာျဖစ္ပါတယ္။ ဥပမာ - Gondar မွာ စုစုေပါင္း Normal Damage 150 အတိရွိျပီး ေနာက္ဆုံးအဆင့္ Jinada Ready ျဖစ္ေနခ်ိန္မွာ သတ္ေရာက္မယ့္ စုစုေပါင္း Damage အေနနဲ႕ 150 + 338 = 480 Physical Damage အထိ ရွိမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Shadow Walk",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/bounty_hunter_wind_walk_hp1.png",
+				"spell_overview":"ရုိးရွင္းတဲ့ Wind Walk Ability တစ္ခုျဖစ္ျပီး ထူးျခားခ်က္ကေတာ့ Backstab Damage တစ္ခု ပါဝင္ေနျခင္းပဲျဖစ္ပါတယ္။ Gondar ရဲ႕ Normal Attack, Jinada တုိ႔နဲ႕ မဆုိင္ဘဲ Shadow ေဖ်ာက္ထားစဥ္ ပထမဆုံး တုိက္ခုိက္မႈမွာ ပုံေသ 30/ 60/ 90/ 120 Damage ဟာ သီးျခားစြာ သက္ေရာက္မွာျဖစ္ပါတယ္။ ဒီ Extra Damage ဟာ Jinada, Critical, Cleave စတဲ့ Buff ေတြမွာထည့္သြင္းတြက္ခ်က္ျခင္း မရွိဘဲ Lifesteal ႏိုင္စြမ္းမရွိတဲ့ Damage ျဖစ္ပါတယ္။ Shadow Walk ေဖ်ာက္ထားစဥ္မွာ Phase Effect ကုိ ရရွိေနမွာျဖစ္ျပီး Town Portal အသုံးျပဳေနစဥ္မွာလည္း Channeling ကို မပ်က္ေစဘဲ Shadow Walk ကုိ အသုံးျပဳလုိ႔ရပါတယ္။"
+			},
+			{
+				"spell_name":"Track",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/bounty_hunter_track_hp1.png",
+				"spell_overview":"လက္ရွိအခ်ိန္ထိ Overpower ျဖစ္ေနဆဲ Ultimate တစ္ခုျဖစ္ပါတယ္။ Team တစ္ခုအေနနဲ႕ ကစားတဲ့အခါမွာ ပိုျပီးသိသာပါတယ္။ ပုံေသ Cooldown 4 seconds, Cast Range 1200, Duration 30 seconds ရွိျပီး 40 Mana ရွိပါတယ္။ Hero အေပၚသာ အသုံးျပဳလုိ႔ရျပီး True Sight, Single Vision, AoE Bonus MS, Extra Reliable Gold အစရွိတဲ့ အက်ဴိးေက်းဇူးေပါင္းမ်ားစြာ ရရွိမွာျဖစ္ပါတယ္။ အသုံးျပဳခံရတဲ့ Unit ရဲ႕ တည္ေနရာႏွင့္ True Sight ကုိ သိေစရမယ့္အျပင္ အဆုိပါ Unit ရဲ႕ 900 AoE အတြင္းမွာ ရွိတဲ့ Gondar ဘက္က Ally Hero မ်ားအားလုံးဟာလည္း Track 30 Seconds မကုန္မခ်င္း 20% Bonus Movement Speed ကုိ ရရွိေနမွာလည္း ျဖစ္ပါတယ္။ အဆုိပါ Tracked Hero ေသသြားတဲ့အခါမွာ Gondar အေနနဲ႕ 200/ 275/ 350 Bonus Reliable Gold ကုိ ရရွိမွာျဖစ္သလုိ 900 AoE အတြင္းမွာ ရွိတဲ့ Ally Hero ေတြ အားလုံးဟာလည္း 40/ 80/ 120 Bonus Reliable Gold ကုိ ရရွိမွာျဖစ္ပါတယ္။ (Reliable Gold ကေတာ့ မိမိ Hero ေသသြားတဲ့အခါမွာ Death Cost အတြက္ ကုန္က်ျခင္း မရွိေသာ စိတ္ခ်ရတဲ့ ပုိက္ဆံ ျဖစ္ပါတယ္။) v6.84 ကေန စျပီး အသစ္ထည့္ေပးလုိက္တဲ့ Track ရဲ႕ အားသာခ်က္တစ္ခုကေတာ့ အသုံးျပဳခံထားရတဲ့ Hero ရဲ႕ Status Bar ေပၚက Track Debuff Icon ကုိ ေထာက္ၾကည့္တဲ့အခါ အဆုိ Hero ရဲ႕ လက္ရွိ Gold ပမာဏ ဘယ္ေလာက္ရွိသလဲဆုိတာကုိ သိႏုိင္မယ့္ အခ်က္ပဲျဖစ္ပါတယ္။ (အဆုိပါ Debuff ေပၚကုိ Alt+Left Click ႏွိပ္ေပးျခင္းျဖင့္ Enemy ရဲ႕ ပုိက္ဆံကုိ မိမိအသင္းသားေတြ သိေအာင္ အသိေပးႏုိင္မွာျဖစ္ပါတယ္။)"
+			}
+		]
+ 	},
+	{
+		"share_hero":"https://web.facebook.com/yahooyeehadotasuggestion/posts/622704954547043",
+		"hero_intellgience":"18 + 2.10",
+		"hero_agility":"19 + 2.20",
+		"hero_strength":"18 + 2.00",
+		"hero_damage":"30 - 34",
+		"hero_movement_speed":"305",
+		"hero_armor":"3.66",
+		"hero_name":"Nyx Assassin",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/nyx_assassin_vert.jpg",
+		"hero_role":"Melee - Disabler - Nuker - Initiator - Escape",
+		"hero_detail":"ကစားပြဲတစ္ခုရဲ႕ အေျခအေနေပၚ မူတည္ျပီး Situational Item ေတြ စဥ္းစားရသလုိမ်ဴိး၊ ပြဲတစ္ခုရဲ႕အေျပာင္းအလဲကုိ အမွတ္မထင္တဲ့အေျခအေနမ်ဴိးမွာ ထုတ္သုံးရတဲ့ ဝွက္ဖဲလုိ Hero မ်ဴိးေတြ ရွိပါတယ္။ အဆုိပါ Hero မ်ားဟာ မၾကာခဏ Pick/ Ban ခံရေလ့ မရွိေပမယ့္ ပါဝင္လာတဲ့အခါမွာလည္း ကစားပဲြရဲ႕ အေျပာင္းအလဲကုိ မ်ားစြာ ေဆာင္က်ဥ္းေပးေလ့ရွိတဲ့အတြက္ အေရးပါတဲ့ အခန္းက႑က ပါဝင္ေလ့ရွိပါတယ္။ Pugna, Abaddon, Phoenix, Visage တုိ႔ကဲ့သုိ႔ Situational Hero မ်ားထဲက တစ္ေကာင္ျဖစ္တဲ့ Nyx Assassin ကေတာ့ ကစားသမားမ်ားနဲ႕ သိပ္မစိမ္းတဲ့ Melee Agility Hero တစ္ေကာင္လုိ႔ ေျပာလုိ႔ရပါတယ္။ Nyx Assassin ဟာ Ganker ေကာင္းတစ္ေကာင္ျဖစ္တဲ့အျပင္ နာမည္နဲ႕လုိက္ဖက္ေလာက္ေအာင္ Enemy Hero တစ္ေကာင္ကုိ တစ္ကုိယ္ေတာ္ ေခ်ာင္းေျမာင္းလုပ္ၾကံႏုိင္တဲ့ Roamer Ganker Hero တစ္ေကာင္လည္း ျဖစ္ပါတယ္။",
+		"hero_overview":"Nyx Assassin ဟာ Ganker တစ္ေကာင္ျဖစ္ျပီး အထူးသျဖင့္ Hp Pool နည္းပါးတဲ့ Intelligence, Agility Hero ေတြကုိ တာဝန္ယူဖုိ႔ Pick ေလ့ရွိပါတယ္။ Nyx ရဲ႕ Ability ေတြကေန 260 + Avg 300 + 550 + Avg 100 = 1210 Damage ေလာက္အထိ အခ်ိန္တုိအတြင္းမွာ ထြက္ႏုိင္တဲ့အတြက္ Hero တစ္ေကာင္ကုိ ေဖ်ာက္ဖုိ႔ သုံးသလုိ ပုိေသခ်ာတဲ့ Damage output ကုိ ရရွိဖုိ႔ Dagon ကဲ့သုိ႔ Nuke Item ေတြကုိ ေယဘုယ် Build အျဖစ္ ေရြးခ်ယ္ေလ့ရွိပါတယ္။ Initiator, Ganker ေတြရဲ႕ ထုံးစံအတုိင္း Dagger, Force Staff, Eul Secpter တုိ႔ကုိ Battle တစ္ခုကုိ အစျပဳဖုိ႔အတြက္ ေရြးခ်ယ္ေလ့ရွိသလုိ Aghanim’s Scepter ရျပီးေနာက္မွာလည္း ေသခ်ာတဲ့ Spiked Carapace Stun ျဖင့္ တုိက္ခုိက္ႏုိင္ဖုိ႔ Dagger, Force Staff တုိ႔က အေထာက္အပံ့ေပးဦးမွာျဖစ္ပါတယ္။ လက္ရွိမွာေတာ့ Enemy Farmer တစ္ေကာင္ကုိ ထိန္းသိမ္းဖုိ႔ Global Caster Hero ေတြနဲ႕ တြဲျပီး ပြဲထုတ္ေလ့ရွိသလုိ လက္ရွိမွာေတာ့ အတြဲအမ်ားဆုံး Hero အေနနဲ႕ N’aix ကို ေတြ႕ရမွာျဖစ္ပါတယ္။ 2.25 seconds ရွိတဲ့ Spiked Carapace ကုိသုံးျပီး ထိပ္ဆုံးက ဝင္ေလ့ရွိတဲ့ Initiator ျဖစ္တဲ့အတြက္ Lotus Orb, Linken Sphere တုိ႔ကုိလည္း အေျခအေနအရ ေရြးခ်ယ္ႏုိင္ပါတယ္။ v6.67 မတုိင္ခင္ကာလမ်ားက Spiked Carapace ေၾကာင့္ Sange Yasha, Offering, Battle Fury ဆက္တဲ့ Carry Hero အျဖစ္ကုိ မျမင္ရတာၾကာျပီျဖစ္ေပမယ့္ လက္ရွိလူသုံးမ်ားေနတဲ့ Ganker, Initiator Hero တစ္ေကာင္ အျဖစ္က လက္ရွိ Meta နဲ႕ လုိက္ေလ်ာညီေထြမႈ အရွိဆုံးဆုိတာကုိ ျငင္းလုိ႔ မရပါဘူး။ မည္သုိ႔ပင္ဆုိေစကာမူ မိမိႏွစ္သက္ေသာ ကစားကြက္သည္သာလွ်င္ မိမိအတြက္ အေကာင္းဆုံးျဖစ္ပါလိမ့္မယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Impale",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/nyx_assassin_impale_hp1.png",
+				"spell_overview":"Nyx ရဲ႕ Impale ဟာ Sand King ရဲ႕ Burrow Strike, Lion ရဲ႕ Earth Spike တုိ႔နဲ႕ ကြဲျပားတဲ့ Ground Target Ability တစ္ခုျဖစ္ပါတယ္။ ပုံေသ Cast Range 700 ရွိျပီး မိမိ Target ေထာက္လုိက္တဲ့ အကြာအေဝးအထိပဲ Impale ထြက္မွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ Impale ကုိ တိက်စြာ အသုံးျပဳဖုိ႔အတြက္ Earthshaker ရဲ႕ Fissure ကုိ အသုံးျပဳသလုိ တုိက္ခုိက္ခ်င္တဲ့ Hero ေပၚကုိ ေထာက္မသုံးပဲ ေျမၾကီးေပၚက အေျခအေနကုိ ၾကည့္ျပီး သုံးေပးသင့္ပါတယ္။ အဓိကမွတ္သားထားဖုိ႔ လုိအပ္တဲ့ အခ်က္ကေတာ့ Cast Time 0.4 second ရွိလုိ႔ Enemy သြားမယ့္ လမ္းေၾကာင္းေပၚကုိ ခန္႔မွန္းျပီး သုံးတတ္တဲ့ အေလ့အက်င့္ရွိဖုိ႔ေတာ့ လုိပါတယ္။ Impale ဟာ Cooldown 13 seconds ရွိျပီး Stun Duration ဟာ 1.6/ 2/ 2.2/ 2.8 ဆုိတဲ့ ၾကာခ်ိန္အထိ တုိးလာမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Mana Burn",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/nyx_assassin_mana_burn_hp1.png",
+				"spell_overview":"Cast Range 600 ရွိတဲ့ Mana Burn ကေတာ့ Intelligence Hero ေတြကုိ Counter Pick ဖုိ႔နဲ႕ ေခ်ာင္းေျမာင္းတုိက္ခုိက္ဖုိ႔အတြက္ အေကာင္းဆုံး Ability တစ္ခုျဖစ္ေနပါတယ္။ တုိက္ခုိက္ခံရမယ့္ Hero ရဲ႕ Intelligence ပမာဏကုိ တြက္ခ်က္၍ Mana Burn ကာ Damage ထိမယ့္ ဒီ Ability ဟာ မ်ားမ်ားယူေလ Intelligence Multiplier တုိးျပီး Cooldown က်သြားမွာျဖစ္ပါတယ္။ ဥပမာ ပထမတစ္ဆင့္ယူထားခ်ိန္မွာ Intelligence 30 ခန္႔ရွိတဲ့ Enemy ကုိ Mana Burn ျဖင့္တုိက္ခုိက္မယ္ဆုိပါက 30 x 3.5 = 105 Mana Burn ျပီး 105 Magical Damage သတ္ေရာက္မွာျဖစ္ပါတယ္။ ကစားပြဲေနာက္ပုိင္း Intelligence Carry တစ္ေကာင္ေကာင္က Intelligence 140 ခန္႔ရွိခ်ိန္မွာ တုိ္က္ခုိက္မယ္ဆုိရင္ 140 x 5 = 700 Mana Burn ျပီး 700 Magical Damage ျဖင့္တုိက္ခုိက္ႏုိင္စြမ္းရွိမွာျဖစ္ပါတယ္။ ေနာက္ဆုံးအဆင့္ Cooldown 4 seconds ထဲရွိတဲ့ Ability တစ္ခုဟာ Intelligence Build ေတြနဲ႕ ေဆာ့ကစားရတဲ့ Hero တုိင္းကုိ Counter Pick အေနနဲ႕ စဥ္းစားႏုိင္ေစတဲ့ Ability ေကာင္းတစ္ခုျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Spiked Carapace",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/nyx_assassin_spiked_carapace_hp1.png",
+				"spell_overview":"Duration 2.25 seconds တည္းရွိေပမယ့္ မိမိေပၚက်လာမယ့္ Damage Source တစ္ခုကုိ reflect ျပန္ေပးမယ့္ Spiked Carapace ဟာ မ်ားမ်ားယူေလ Cooldown က်ျပီး Stun Duration တုိးလာမွာျဖစ္ပါတယ္။ Spiked Carapace Duration အတြင္းမွာ မိမိအေပၚကုိ Damage တစ္ခုခုက်လာတုိင္း Nyx အေပၚ မသတ္ေရာက္ပဲ အဆုိပါ Damage ပုိင္ရွင္ Hero ကုိ 100% ျပန္ထိေစျပီး 0.6/ 1.2/ 1.8/ 2.4 seconds Stun ေစမွာျဖစ္ပါတယ္။ ဒါေပမယ့္ Damage မ်ားကုိသာ Reflect ျပန္မွာျဖစ္ျပီး Buff မ်ားကေတာ့ Nyx ကုိ ပုံမွန္အတုိင္း သတ္ေရာက္မွာျဖစ္ပါတယ္။ ဥပမာ - Earthshaker က Spiked Carapace သုံးထားတဲ့ သင့္ကုိ Fissure ေထာင္းလုိက္တဲ့အခါ 260 Damage ဟာ Nyx ကို မထိပဲ Earthshaker ကုိ ျပန္ထိသြားမွာျဖစ္ျပီး 1.75 stun duration ကုိေတာ့ Nyx က ပုံမွန္အတုိင္း သတ္ေရာက္ခံရပါမယ္။ Enemy Hero တစ္ေကာင္အတြက္ Damage ၁ ခုသာ Reflect ျပန္မွာျဖစ္လုိ႔ Multiple Damage Ability မ်ားျဖစ္တဲ့ Ion Shell, Dual Breadth, Poison Nova တုိ႔လို Ability မ်ားကုိ Reflect ျပန္တဲ့အခါ Reflect ျပန္မယ့္ ပမာဏဟာ နည္းသြားမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Vendetta",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/nyx_assassin_burrow_hp1.png",
+				"spell_overview":"Backstab Damage Type တစ္ခုျဖစ္တဲ့ Vendetta ဟာ Nyx Assassin ကုိ Invisibility ျဖစ္သြားေစမွာျဖစ္ျပီး ပထမဆုံး တုိက္ခုိက္မႈကုိ မိမိရဲ႕ မူလ Damage အျပင္ 250/ 400/ 550 Physical Damage ေပါင္းထည့္ေပးမွာျဖစ္ပါတယ္။ မ်ားမ်ားယူေလ MS Bonus, Duration တုိးျပီး Cooldown က်လာမွာလည္းျဖစ္ပါတယ္။Aghanim’s Scepter ဆက္တဲ့အခါမွာ Nyx အေနနဲ႕ Burrow ဆုိတဲ့ Ability တစ္ခုကုိ ရရွိလာမွာျဖစ္ပါတယ္။ Burrow ကုိ အသုံးျပဳတဲ့အခါမွာ Nyx ဟာ ေျမၾကီးထဲကုိ Root သြားျပီး Invisible ျဖစ္သြားပါမယ္။ Burrow သုံးထားခ်ိန္မွာ 40% All Damage Type Resistance ရေနမွာျဖစ္ျပီး Nyx ရဲ႕ Ability ၃ ခုစလုံးကုိ တုိးသြားေစမွာျဖစ္ပါတယ္။ Burrow ဝင္ထားျပီး Impale အသုံးျပဳခ်ိန္မွာ Cooldown ကုိ 6 seconds ေလ်ာ့ေပးထားတဲ့အျပင္ Cast Range ကုိလည္း 525 တုိးေစပါတယ္။ Mana Burn ဟာလည္း မူလ Cast Range ထက္ 450 တုိးလာမွာျဖစ္ျပီး Spiked Carapace ကေတာ့ အသုံးျပဳလုိက္တာနဲ႕ Burrow ေျမၾကီးပုံရဲ႕ 300 AoE နားက Hero ေတြအားလုံးကုိ Stun ေစမွာျဖစ္ပါတယ္။ အားသာခ်က္တစ္ခုကေတာ့ Cooldown 0 second ပဲရွိျပီး ေျမၾကီးထဲဝင္ေနခ်ိန္မွာ 1.5% Hp Regeneration ကုိ ရရွိေနမယ့္ အခ်က္ပဲျဖစ္ပါတယ္။"
+			}
+		]
+	}
 ]

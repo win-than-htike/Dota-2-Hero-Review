@@ -26,6 +26,7 @@
     <string name="title_activity_upgrade_item_detail">UpgradeItemDetailActivity</string>
     <string name="item_recipe">Recipe</string>
     <string name="lbl_search">Search</string>
+    <string name="hero_ability">Hero Ability</string>
 
     <integer name="swing_anim_time">750</integer>
 </resources>

@@ -35,4 +35,6 @@
     <dimen name="text_area">80dp</dimen>
     <dimen name="hero_image_size">200dp</dimen>
 
+    <dimen name="small_image">50dp</dimen>
+
 </resources>

@@ -4,8 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.RecyclerView
+    <xyz.winthanhtike.travelandtour.utils.AutoFixRecyclerView
         android:id="@+id/rv_strength_hero"
+        style="@style/RecyclerView"
         android:layout_height="match_parent"
         android:layout_width="match_parent"/>
 

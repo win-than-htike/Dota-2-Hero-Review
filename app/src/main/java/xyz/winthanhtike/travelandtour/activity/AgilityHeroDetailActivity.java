@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -37,6 +38,7 @@ public class AgilityHeroDetailActivity extends AppCompatActivity implements Item
     private Toolbar toolbar;
     private CollapsingToolbarLayout collapsingToolbar;
     private TextView tvRole,tvToolbarTitle;
+    private TextView tvIntelligence,tvAgility,tvStrength,tvDamage,tvMovementSpeed,tvArmor;
     private ImageView imgHero;
     private CustomExpendableTextView tvExpandableOverview,tvExpendableDetail;
     private Button btnReadMoreOverview,btnReadMoreDetail;
@@ -56,6 +58,7 @@ public class AgilityHeroDetailActivity extends AppCompatActivity implements Item
 
         configsView();
 
+
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -66,7 +69,7 @@ public class AgilityHeroDetailActivity extends AppCompatActivity implements Item
         }
 
         String heroName = getIntent().getStringExtra(IE_HERO_NAME);
-        HeroVO heroVO = AgilityHeroModel.getInstance().getBasicItemByName(heroName);
+        final HeroVO heroVO = AgilityHeroModel.getInstance().getBasicItemByName(heroName);
         if (heroVO == null){
             throw new RuntimeException("Can't find obj"+heroName);
         }else {
@@ -83,10 +86,35 @@ public class AgilityHeroDetailActivity extends AppCompatActivity implements Item
         rvHeroSpell.setAdapter(heroSpellAdapter);
         rvHeroSpell.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
 
+        FloatingActionButton fab = (FloatingActionButton)findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                shareIntent.setType("text/plain");
+                shareIntent.putExtra(Intent.EXTRA_TEXT, heroVO.getShareHero());
+                startActivity(Intent.createChooser(shareIntent, "Share link using"));
+            }
+        });
+
+        tvIntelligence.setText(heroVO.getHeroIntellgience());
+        tvAgility.setText(heroVO.getHeroAgility());
+        tvStrength.setText(heroVO.getHeroStrength());
+        tvDamage.setText(heroVO.getHeroDamage());
+        tvMovementSpeed.setText(heroVO.getHeroMovementSpeed());
+        tvArmor.setText(heroVO.getHeroArmor());
+
 
     }
 
     private void configsView() {
+
+        tvIntelligence = (TextView)findViewById(R.id.tv_intelligence);
+        tvAgility = (TextView)findViewById(R.id.tv_agility);
+        tvStrength = (TextView)findViewById(R.id.tv_strength);
+        tvDamage = (TextView)findViewById(R.id.tv_damage);
+        tvMovementSpeed = (TextView)findViewById(R.id.tv_movement_speed);
+        tvArmor = (TextView)findViewById(R.id.tv_armor);
 
         btnReadMoreOverview = (Button)findViewById(R.id.btn_read_more_overview);
         tvExpandableOverview = (CustomExpendableTextView) findViewById(R.id.tv_overview);
