@@ -6,10 +6,6 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/nav_icon"
             android:title="Hero" />
-        <item
-            android:id="@+id/nav_item"
-            android:icon="@drawable/nav_icon"
-            android:title="Item"/>
 
     </group>
 
@@ -18,11 +14,15 @@
             <item
                 android:id="@+id/nav_about_me"
                 android:icon="@drawable/ic_person_black_24dp"
-                android:title="About Me" />
+                android:title="About Me"
+                android:orderInCategory="90"
+                android:showAsAction="never"/>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Share"
+                android:orderInCategory="90"
+                android:showAsAction="never"/>
         </menu>
     </item>
 

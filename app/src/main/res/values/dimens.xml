@@ -36,5 +36,6 @@
     <dimen name="hero_image_size">200dp</dimen>
 
     <dimen name="small_image">50dp</dimen>
+    <dimen name="margin_xxxlarge">80dp</dimen>
 
 </resources>

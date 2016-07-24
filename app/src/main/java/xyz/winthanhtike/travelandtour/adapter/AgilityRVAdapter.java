@@ -13,8 +13,7 @@ import java.util.List;
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
-import xyz.winthanhtike.travelandtour.fragment.AgilityFragment;
-import xyz.winthanhtike.travelandtour.fragment.HomeFragment;
+import xyz.winthanhtike.travelandtour.utils.ControllerHero;
 
 /**
  * Created by winthanhtike on 6/10/16.
@@ -22,10 +21,10 @@ import xyz.winthanhtike.travelandtour.fragment.HomeFragment;
 public class AgilityRVAdapter extends RecyclerView.Adapter<AgilityRVAdapter.ViewHolder>{
 
     private List<HeroVO> agilityHeroList;
-    private HomeFragment.ControllerHero controllerHero;
+    private ControllerHero controllerHero;
     int lastPosition = -1;
 
-    public AgilityRVAdapter(List<HeroVO> agilityHeroList, HomeFragment.ControllerHero controllerHero) {
+    public AgilityRVAdapter(List<HeroVO> agilityHeroList, ControllerHero controllerHero) {
         this.agilityHeroList = agilityHeroList;
         this.controllerHero = controllerHero;
     }
@@ -40,11 +39,6 @@ public class AgilityRVAdapter extends RecyclerView.Adapter<AgilityRVAdapter.View
     public void onBindViewHolder(ViewHolder holder, int position) {
 
         holder.setData(agilityHeroList.get(position));
-        if(position >lastPosition) {
-            Animation animation = AnimationUtils.loadAnimation(Dota2HeroApp.getContext(), R.anim.up_from_bottom);
-            holder.itemView.startAnimation(animation);
-            lastPosition = position;
-        }
 
     }
 
@@ -58,10 +52,10 @@ public class AgilityRVAdapter extends RecyclerView.Adapter<AgilityRVAdapter.View
 
         private TextView tvAHeroName;
         private ImageView imgAHero;
-        private HomeFragment.ControllerHero controllerHero;
+        private ControllerHero controllerHero;
         private HeroVO heroVO;
 
-        public ViewHolder(View itemView, HomeFragment.ControllerHero controllerHero) {
+        public ViewHolder(View itemView, ControllerHero controllerHero) {
             super(itemView);
 
             tvAHeroName = (TextView)itemView.findViewById(R.id.tv_hero_name);

@@ -16,8 +16,7 @@ import java.util.List;
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
-import xyz.winthanhtike.travelandtour.fragment.HomeFragment;
-import xyz.winthanhtike.travelandtour.fragment.StrengthFragment;
+import xyz.winthanhtike.travelandtour.utils.ControllerHero;
 
 /**
  * Created by winthanhtike on 6/10/16.
@@ -25,10 +24,9 @@ import xyz.winthanhtike.travelandtour.fragment.StrengthFragment;
 public class StrengthRVAdapter extends RecyclerView.Adapter<StrengthRVAdapter.ViewHolder> {
 
     private List<HeroVO> strengthHeroList;
-    private HomeFragment.ControllerHero controllerHero;
-    int lastPosition = -1;
+    private ControllerHero controllerHero;
 
-    public StrengthRVAdapter(List<HeroVO> strengthHeroList, HomeFragment.ControllerHero controllerHero) {
+    public StrengthRVAdapter(List<HeroVO> strengthHeroList, ControllerHero controllerHero) {
         this.strengthHeroList = strengthHeroList;
         this.controllerHero = controllerHero;
     }
@@ -43,11 +41,6 @@ public class StrengthRVAdapter extends RecyclerView.Adapter<StrengthRVAdapter.Vi
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.setData(strengthHeroList.get(position));
-        if(position >lastPosition) {
-            Animation animation = AnimationUtils.loadAnimation(Dota2HeroApp.getContext(), R.anim.up_from_bottom);
-            holder.itemView.startAnimation(animation);
-            lastPosition = position;
-        }
     }
 
     @Override
@@ -60,9 +53,9 @@ public class StrengthRVAdapter extends RecyclerView.Adapter<StrengthRVAdapter.Vi
         private TextView tvHeroName;
         private ImageView imgHero;
         private HeroVO heroVO;
-        private HomeFragment.ControllerHero controllerHero;
+        private ControllerHero controllerHero;
 
-        public ViewHolder(View itemView, HomeFragment.ControllerHero controllerHero) {
+        public ViewHolder(View itemView, ControllerHero controllerHero) {
             super(itemView);
 
             tvHeroName = (TextView)itemView.findViewById(R.id.tv_hero_name);

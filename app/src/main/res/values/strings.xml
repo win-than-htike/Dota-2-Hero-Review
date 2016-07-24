@@ -27,6 +27,10 @@
     <string name="item_recipe">Recipe</string>
     <string name="lbl_search">Search</string>
     <string name="hero_ability">Hero Ability</string>
+    <string name="strength">Strength</string>
+    <string name="developer_name">Win Than Htike</string>
+    <string name="developer_position">Freelance Android Developer</string>
+    <string name="developer_email">mmdev147@gmail.com</string>
 
     <integer name="swing_anim_time">750</integer>
 </resources>

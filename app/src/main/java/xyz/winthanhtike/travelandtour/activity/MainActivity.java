@@ -2,101 +2,85 @@ package xyz.winthanhtike.travelandtour.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.NavigationView;
+import android.support.annotation.IdRes;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.util.Pair;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.view.MenuItemCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.roughike.bottombar.BottomBar;
+import com.roughike.bottombar.OnMenuTabClickListener;
 
+import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
-import xyz.winthanhtike.travelandtour.data.vos.BasicItemVO;
 import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
-import xyz.winthanhtike.travelandtour.data.vos.UpgradeItemVO;
-import xyz.winthanhtike.travelandtour.fragment.AboutUsFragment;
 import xyz.winthanhtike.travelandtour.fragment.AgilityFragment;
-import xyz.winthanhtike.travelandtour.fragment.BasicItemFragment;
 import xyz.winthanhtike.travelandtour.fragment.IntelligenceFragment;
-import xyz.winthanhtike.travelandtour.fragment.ItemFragment;
-import xyz.winthanhtike.travelandtour.fragment.HomeFragment;
 import xyz.winthanhtike.travelandtour.fragment.StrengthFragment;
+import xyz.winthanhtike.travelandtour.utils.ControllerHero;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener,ItemFragment.ControllerItem,HomeFragment.ControllerHero{
+public class MainActivity extends AppCompatActivity implements ControllerHero {
 
     private Toolbar toolbar;
+    private BottomBar mBottomBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_drawer);
+        setContentView(R.layout.activity_main);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
-
         if (savedInstanceState == null) {
 
-            HomeFragment homeFragment = new HomeFragment();
-            getSupportFragmentManager().beginTransaction().replace(R.id.fl_container, homeFragment).commit();
+            StrengthFragment strengthFragment = new StrengthFragment();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fl_container, strengthFragment).commit();
 
         }
 
+        mBottomBar = BottomBar.attach(this,savedInstanceState);
+        mBottomBar.setItems(R.menu.bottom_bar_menu);
+        mBottomBar.setOnMenuTabClickListener(new OnMenuTabClickListener() {
+            @Override
+            public void onMenuTabSelected(@IdRes int menuItemId) {
+                switch (menuItemId){
+
+                    case R.id.action_strength:
+                        StrengthFragment strengthFragment = new StrengthFragment();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fl_container,strengthFragment).commit();
+                        break;
+
+                    case R.id.action_agiglity:
+                        AgilityFragment agilityFragment = new AgilityFragment();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fl_container,agilityFragment).commit();
+                        break;
+
+                    case R.id.action_intelligence:
+                        IntelligenceFragment intelligenceFragment = new IntelligenceFragment();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fl_container,intelligenceFragment).commit();
+                        break;
+                }
+            }
+
+            @Override
+            public void onMenuTabReSelected(@IdRes int menuItemId) {
+
+            }
+        });
+
     }
 
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.drawer, menu);
 
-        MenuItem searchItem = menu.findItem(R.id.action_search);
-        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                query =  query.toLowerCase();
-
-                final List<HeroVO> filterList = new ArrayList<HeroVO>();
-
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                return false;
-            }
-        });
         return true;
     }
 
@@ -107,67 +91,13 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (id){
+            case R.id.nav_about_me:
+                startActivity(new Intent(Dota2HeroApp.getContext(),AboutUsActivity.class));
+            break;
         }
 
         return super.onOptionsItemSelected(item);
-    }
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        switch (id){
-
-            case R.id.nav_home:
-                toolbar.setTitle("Dota 2 Hero");
-                getSupportFragmentManager()
-                        .beginTransaction()
-                        .replace(R.id.fl_container,new HomeFragment())
-                        .commit();
-                break;
-
-            case R.id.nav_item:
-                toolbar.setTitle("Dota 2 Item");
-                ItemFragment itemFragment = new ItemFragment();
-                getSupportFragmentManager()
-                        .beginTransaction()
-                        .replace(R.id.fl_container, itemFragment)
-                        .commit();
-                break;
-
-            case R.id.nav_about_me:
-                toolbar.setTitle("About Me");
-                AboutUsFragment aboutUsFragment = new AboutUsFragment();
-                getSupportFragmentManager()
-                        .beginTransaction()
-                        .replace(R.id.fl_container, aboutUsFragment)
-                        .commit();
-                break;
-
-        }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
-
-    @Override
-    public void onTapBasicItem(BasicItemVO basicItemVO, ImageView ivBasicItemImage) {
-        Intent intent = BasicItemDetailActivity.newInstance(basicItemVO.getbItemName());
-        ActivityOptionsCompat activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(this,new Pair(ivBasicItemImage,getString(R.string.share_image_transition)));
-        ActivityCompat.startActivity(this,intent,activityOptions.toBundle());
-    }
-
-    @Override
-    public void onTapUpgradeItem(UpgradeItemVO upgradeItemVO, ImageView ivUpgradeImage) {
-        Intent intent = UpgradeItemDetailActivity.newInstance(upgradeItemVO.getItemName());
-        ActivityOptionsCompat activityOptions = ActivityOptionsCompat.makeSceneTransitionAnimation(this,new Pair(ivUpgradeImage,getString(R.string.share_image_transition)));
-        ActivityCompat.startActivity(this,intent,activityOptions.toBundle());
     }
 
     @Override

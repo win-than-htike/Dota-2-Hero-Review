@@ -3,6 +3,7 @@
     package="xyz.winthanhtike.travelandtour">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
     <application
         android:name=".Dota2HeroApp"
@@ -21,15 +22,14 @@
         <activity android:name=".activity.StrengthHeroDetailActivity" />
         <activity android:name=".activity.AgilityHeroDetailActivity" />
         <activity android:name=".activity.IntelligenceHeroDetailActivity" />
-        <activity android:name=".activity.MainActivity"/>
-        <activity
-            android:name=".activity.BasicItemDetailActivity"
-            android:label="@string/title_activity_basic_item_detail"
-            android:theme="@style/MyMaterialTheme" />
-        <activity
-            android:name=".activity.UpgradeItemDetailActivity"
-            android:label="@string/title_activity_upgrade_item_detail"
-            android:theme="@style/MyMaterialTheme"/>
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AboutUsActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
     </application>
 
 </manifest>

@@ -25,18 +25,22 @@
             android:layout_height="@dimen/hero_image_size"
             android:scaleType="centerCrop"/>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#5b000000"/>
+
         <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
             android:id="@+id/tv_hero_name"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_vertical"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Hello"
             android:fontFamily="sans-serif-light"
-            android:background="#5b000000"
+            android:background="@drawable/text_border"
             android:textStyle="bold"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="#fff"/>
+            android:textColor="#fff"
+            android:layout_gravity="center" />
 
     </FrameLayout>
 
