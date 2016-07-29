@@ -8,6 +8,8 @@
     android:layout_marginLeft="@dimen/margin_medium"
     android:background="#fff"
     app:cardPreventCornerOverlap="true"
+    app:cardCornerRadius="@dimen/margin_small"
+    app:cardElevation="@dimen/margin_small"
     app:cardUseCompatPadding="true">
 
     <LinearLayout

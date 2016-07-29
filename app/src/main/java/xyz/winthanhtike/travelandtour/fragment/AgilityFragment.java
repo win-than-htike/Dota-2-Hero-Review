@@ -10,13 +10,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.adapter.AgilityRVAdapter;
 import xyz.winthanhtike.travelandtour.data.model.AgilityHeroModel;
-import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 import xyz.winthanhtike.travelandtour.utils.ControllerHero;
 
 /**
@@ -31,7 +29,7 @@ public class AgilityFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        aAdapter = new AgilityRVAdapter(AgilityHeroModel.getInstance().getStrengthHeroList(),controllerHero);
+        aAdapter = new AgilityRVAdapter(AgilityHeroModel.getInstance().getHeroList(),controllerHero);
     }
 
     @Override

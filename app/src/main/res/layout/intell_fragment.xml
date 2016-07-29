@@ -4,7 +4,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <xyz.winthanhtike.travelandtour.utils.AutoFixRecyclerView
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_intelligence_hero"
         style="@style/RecyclerView"
         android:layout_height="match_parent"

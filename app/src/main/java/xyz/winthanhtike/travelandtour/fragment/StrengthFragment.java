@@ -11,15 +11,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-
-import com.futuremind.recyclerviewfastscroll.FastScroller;
-
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.adapter.StrengthRVAdapter;
 import xyz.winthanhtike.travelandtour.data.model.StrengthHeroModel;
-import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 import xyz.winthanhtike.travelandtour.utils.ControllerHero;
 
 /**
@@ -34,7 +29,7 @@ public class StrengthFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        sAdapter = new StrengthRVAdapter(StrengthHeroModel.getInstance().getStrengthHeroList(),controllerHero);
+        sAdapter = new StrengthRVAdapter(StrengthHeroModel.getInstance().getHeroList(),controllerHero);
     }
 
     @Override
@@ -52,9 +47,6 @@ public class StrengthFragment extends Fragment {
         rvStrengthHero.setAdapter(sAdapter);
         int gridColumnSpanCount = getResources().getInteger(R.integer.hero_list_grid);
         rvStrengthHero.setLayoutManager(new GridLayoutManager(Dota2HeroApp.getContext(),gridColumnSpanCount));
-
-        FastScroller fastScroller = (FastScroller)view.findViewById(R.id.fastscroll);
-        fastScroller.setRecyclerView(rvStrengthHero);
 
         RecyclerView.ItemAnimator animator = new DefaultItemAnimator();
         animator.setAddDuration(1000);

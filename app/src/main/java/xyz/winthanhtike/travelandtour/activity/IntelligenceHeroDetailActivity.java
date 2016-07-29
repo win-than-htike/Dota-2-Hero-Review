@@ -15,8 +15,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.squareup.picasso.Picasso;
-
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import me.drakeet.materialdialog.MaterialDialog;
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
@@ -75,7 +75,7 @@ public class IntelligenceHeroDetailActivity extends AppCompatActivity implements
             tvExpendableDetail.setText(heroVO.getHeroDetail());
             tvToolbarTitle.setText(heroVO.getHeroName());
             tvRole.setText(heroVO.getHeroRole());
-            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(imgHero);
+            Glide.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).asBitmap().diskCacheStrategy(DiskCacheStrategy.RESULT).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(imgHero);
         }
 
         RecyclerView rvHeroSpell = (RecyclerView)findViewById(R.id.rv_hero_spell);

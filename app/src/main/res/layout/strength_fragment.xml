@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <xyz.winthanhtike.travelandtour.utils.AutoFixRecyclerView
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_strength_hero"
         style="@style/RecyclerView"
         android:layout_height="match_parent"
         android:layout_width="match_parent"/>
-
-    <com.futuremind.recyclerviewfastscroll.FastScroller
-        android:id="@+id/fastscroll"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_alignParentRight="true"/>
 
 </RelativeLayout>

@@ -5,6 +5,8 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
@@ -33,7 +35,13 @@ public class StrengthHeroModel {
         strengthHeroList = initializeStrengthHeroList();
     }
 
-    public List<HeroVO> getStrengthHeroList() {
+    public List<HeroVO> getHeroList() {
+        Collections.sort(strengthHeroList, new Comparator<HeroVO>() {
+            @Override
+            public int compare(HeroVO lhs, HeroVO rhs) {
+                return lhs.getHeroName().compareToIgnoreCase(rhs.getHeroName());
+            }
+        });
         return strengthHeroList;
     }
 

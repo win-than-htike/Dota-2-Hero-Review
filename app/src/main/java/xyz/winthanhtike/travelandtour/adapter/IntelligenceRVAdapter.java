@@ -4,13 +4,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.squareup.picasso.Picasso;
-
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import java.util.List;
 
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
@@ -73,7 +70,13 @@ public class IntelligenceRVAdapter extends RecyclerView.Adapter<IntelligenceRVAd
 
             this.heroVO = heroVO;
             tvHeroName.setText(heroVO.getHeroName());
-            Picasso.with(Dota2HeroApp.getContext()).load(heroVO.getHeroImage()).placeholder(R.drawable.placeholder).error(R.drawable.placeholder).into(imgHero);
+            Glide.with(Dota2HeroApp.getContext())
+                    .load(heroVO.getHeroImage())
+                    .asBitmap()
+                    .diskCacheStrategy(DiskCacheStrategy.RESULT)
+                    .placeholder(R.drawable.placeholder)
+                    .error(R.drawable.placeholder)
+                    .into(imgHero);
         }
 
         @Override

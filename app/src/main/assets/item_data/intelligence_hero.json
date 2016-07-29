@@ -107,5 +107,41 @@
 				"spell_overview":"Single Target Ability ျဖစ္တဲ့ Ultimate ကေတာ့ ရုိးရွင္းတဲ့ Slow Ability တစ္ခုပဲျဖစ္ပါတယ္။ အတင္ခံရတဲ့ Enemy မွာ ရွိသမွ် Normal Positive Buff ေတြ အကုန္လုံးကုိ ဖ်က္စီးေပးမွာျဖစ္ျပီး ၅ စကၠန္႔ၾကာျမင့္တဲ့ MS Slow ကုိ သက္ေရာက္ေစပါမယ္။ သတ္ေရာက္မယ့္ Damage ကေတာ့ Duration 5 Seconds အျပီးမွ ျဖစ္ေပၚလာပါလိမ့္မယ္။ ပုံေသ Cooldown 50 Seconds ရွိေပမယ့္ ပုိယူခဲ့မယ္ဆုိရင္ Slow Calculation က တုိးလာမွာျဖစ္ပါတယ္။ ပထမတစ္ဆင့္မွာ MS Slow ဟာ Second အလုိက္ 100%/80%/60%/40%/20% ဆုိျပီး ျပန္လည္ တက္သြားမွာျဖစ္ေပမယ့္ ေနာက္ဆုံးအဆင့္မွာေတာ့ ပထမ စကၠန္႔မွာ 100% MS Slow ျဖစ္ေစျပီး က်န္တဲ့ ေလးစကၠန္႔စလုံးမွာ 50% MS Slow ျဖစ္ေနမွာျဖစ္ပါတယ္။ Aghanim's Scepter သာ ဆက္လုိက္မယ္ဆုိရင္ Charge ပုံစံ ေျပာင္းသြားမွာျဖစ္ပါတယ္။ Charge Cooldown 40 Seconds နဲ႕ စုစုေပါင္း ၃ ခါ သုံးလုိ႔ ရတဲ့ Charge ပုံစံ ျဖစ္သြားမယ့္အျပင္ Break Debuff ကုိပါ သက္ေရာက္ေစမွာျဖစ္ပါတယ္။ Break ဆုိတာကေတာ့ အသုံးခံရတဲ့ Enemy မွာ ရွိသမွ် Passive Ability ေတြအားလုံးကုိ ရပ္တန္႔သြားေစမယ့္ Debuff ျဖစ္ပါတယ္။ လက္ရွိ Pub Stomper ျဖစ္တဲ့ Spectre ရဲ႕ Desolate နဲ႕ Dispersion လုိ Passive မ်ဴိး၊ Blur နဲ႕ Coup De Grace ကုိ ပုိင္ဆုိင္ထားတဲ့ Phantom Assasin လုိမ်ဴိး Hero ေတြကုိ Counter လုပ္ဖုိ႔ အသင့္ေတာ္ဆုံး Item ေရြးခ်ယ္မႈဟာ Aghanim's Scepter ကေန ရရွိပါလိမ့္မယ္။ Spell Immune Unit ေတြအေပၚမွာ အသုံးျပဳလုိ႔ရတဲ့ Demonic Purge ဟာ Enemy Team ရဲ႕ Couier ကုိ Target ထားျပီး အသုံးျပဳဖုိ႔ လြန္စြာမွ သင့္ေတာ္တဲ့ Ultimate တစ္ခုျဖစ္ပါတယ္။"
 			}
 		]
+ },
+ {
+		"share_hero":"https://www.facebook.com/yahooyeehadotasuggestion/posts/652719051545633",
+		"hero_intellgience":"24 + 2.70",
+		"hero_agility":"10 + 1.00",
+		"hero_strength":"22 + 2.50",
+		"hero_damage":"22 - 32",
+		"hero_movement_speed":"295",
+		"hero_armor":"2.4",
+		"hero_name":"Warlock",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/warlock_vert.jpg",
+		"hero_role":"Ranged - Support - Initiator - Disabler",
+		"hero_detail":"Summon Unit ေတြအေပၚကုိ 99999 Damage သတ္ေရာက္တဲ့ Diffusal Blade ရဲ႕ Target Ability ကုိလည္း ဖယ္ရွားေပးလုိက္တဲ့ v6.85 Patch ေနာက္မွာေတာ့ Premium တန္းမွာ ေတြ႕ရခဲတဲ့ Warlock ရဲ႕ အစြမ္းအစဟာ ျပန္လည္ ျမင့္တက္လာခဲ့ပါတယ္။ Pub Tier မွာ Win Rate အေကာင္းဆုံး ထိပ္တန္း Hero ေတြထဲမွာ ပါဝင္ေသာ Intelligence Hero တစ္ေကာင္ျဖစ္တဲ့ Warlock ဟာ ကစားပြဲအေစာပုိင္းကေန ပြဲေနာက္ပုိင္းအထိ အသုံးတည့္တဲ့ Hero အမ်ဴိးအစားထဲမွာလည္း ပါဝင္ပါတယ္။ ဒါ့အျပင္ Team နဲ႕ ေဆာ့တဲ့အခါမွာ Click တစ္ခ်က္တည္း ႏွိပ္ေပးရုံနဲ႕ မ်ားစြာေသာ Damage Output မ်ားျဖစ္ေပၚေစမယ့္ Ability, Healing, AoE Slow နဲ႕ AoE Disable Teamfight Summon Unit တုိ႔နဲ႕ ဖြဲ႕စည္းထားေသာ ရုိးရွင္းတဲ့ Intelligence Hero တစ္ေကာင္ျဖစ္ပါတယ္။",
+		"hero_overview":"Fatal Bonds ဟာ လြန္စြာမွာ Overpower ျဖစ္ေနတဲ့ Support Ability တစ္ခုျဖစ္ပါတယ္။ F ခလုတ္တစ္ခ်က္ ႏွိပ္ရုံနဲ႕ အလြန္မ်ားျပားတဲ့ Damage Sharing ေတြ ျဖစ္ေပၚေစမယ့္ Ability ျဖစ္လုိ႔ ကစားပြဲေနာက္ပုိင္းအထိ ဒုကၡေပးမယ့္ Ability တစ္ခုျဖစ္ပါတယ္။ အၾကံျပဳခ်င္တာကေတာ့ Warlock ဟာ Solo Offlane ေဆာ့ဖုိ႔ အေကာင္းဆုံး Hero တစ္ေကာင္ျဖစ္ပါတယ္။ Shadow Word ဟာ ၂ ဆင့္ယူထားတဲ့အခ်ိန္မွာ 300 Hp ကုိ Heal ေစမွာျဖစ္လုိ႔ Attack Range 600 ရွိတဲ့ Hero တစ္ေကာင္အေနနဲ႕ Offlane မွာ အလြယ္တကူ အသက္ရွင္သန္ႏုိင္ပါတယ္။ ဒါေၾကာင့္ Shadow Word ကုိ ၂ ဆင့္ပဲယူျပီး Lvl 7 မွာ Upheaval ကုိ ဂိတ္ဆုံးယူျပီး ေဆာ့ၾကည့္ဖုိ႔ အၾကံျပဳခ်င္ပါတယ္။ Upheaval ကုိ လြန္ဆန္ႏုိင္တဲ့ Ability ဟာ Blink Ability မ်ားနဲ႕ အေပၚမွာေဖာ္ျပခဲ့တဲ့ Ability ၃ ခုသာ ရွိတဲ့အတြက္ lvl 7 မွာ အဆုံးထိ ယူထားမယ္ဆုိရင္ Team Fight တစ္ခုဟာ သိသိသာသာ အားသာခ်က္ ရွိတာကုိ ေတြ႕ရပါတယ္။ မိမိကသာ ဒီ Channeling ကုိ အလြယ္တကူ အဖ်က္မခံရမယ့္ ေနရာကေန အသုံးျပဳတတ္ဖုိ႔ အေလ့အက်င့္ေလး ရွိဖုိ႔သာ လုိပါတယ္။ ဒါေၾကာင့္ Overpower ျဖစ္ေနတဲ့ Fatal Bonds ကုိေတာ့ ပြဲေနာက္ပုိင္းမွာ သုံးဖုိ႔အတြက္ စိတ္ခ်လက္ခ် တင္ႏုိင္ပါတယ္။\nတကယ္လုိ႔ သင္က ကုိယ္တုိင္ တုိက္ခုိက္မယ့္ Mid Laner, Safe Laner Warlock ျဖစ္ခဲ့မယ္ဆုိရင္ေတာ့ Hand of Midas နဲ႕ Fatal Bonds ကုိ ဦးစြာ တင္သင့္ပါတယ္။ ဘယ္ပုံစံနဲ႕ ေဆာ့ေဆာ့ Shadow Word ကုိ ၂ ဆင့္ပဲ ယူတာ လုံေလာက္တယ္ဆုိတဲ့ အခ်က္ကုိေတာ့ ေမ့မထားသင့္ပါဘူး။ ဦးစြာ Boots of Speed ကုိ ရွာေဖြျပီးေနာက္ Aghanim’s Scepter, Refresher Orb, Arcane Boots ဆုိတဲ့ အစဥ္လုိက္အတုိင္း ေရြးခ်ယ္သြားသင့္ျပီး ပြဲအေျခအေနေပၚလုိက္၍ Aether Lens, Blink Dagger, Octarine Core, Shiva Guard စတဲ့ Item မ်ားကုိလည္း အစဥ္လုိက္ ေရြးခ်ယ္သြားသင့္ပါတယ္။ (Warlock ဟာ စာေရးသူရဲ႕ Stats မွာ Rating အေကာင္းဆုံး နံပါတ္ ၁ Hero ျဖစ္လုိ႔ မိမိကစားကြက္ကုိ အၾကံျပဳရျခင္းျဖစ္ပါတယ္။) အဓိကကေတာ့ Warlock ဟာ Lvl လုိအပ္တဲ့ Hero တစ္ေကာင္ျဖစ္လုိ႔ Solo Offlane, Solo Mid Lane သာ အေကာင္းဆုံး ဆုိေပမယ့္ ပြဲအေျခအေနေပၚလုိက္ျပီး ေရြးခ်ယ္စရာ ကစားကြက္အစုံအလင္ ရွိတဲ့ Hero တစ္ေကာင္ျဖစ္ပါတယ္။ မည္သုိ႔ပင္ ဆုိေစကာမူ မိမိႏွစ္သက္ေသာ ကစားကြက္သည္သာလွ်င္ မိမိအတြက္ အေကာင္းဆုံးျဖစ္ပါလိမ့္မယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Fatal Bonds",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/warlock_fatal_bonds_hp1.png",
+				"spell_overview":"Cast Range 1000 ရွိတဲ့ Single Target Ability ျဖစ္ျပီး အသုံးျပဳခံရတဲ့ Unit ရဲ႕ 700 AoE အတြင္းက အနီးစပ္ဆုံး Unit ၆ ခုကုိ 25 seconds ၾကာျမင့္တဲ့ Fatal Bonds Debuff ကုိ သတ္ေရာက္ေစမွာျဖစ္ပါတယ္။ အဆုိပါ Debuff သတ္ေရာက္ခံထားရတဲ့ Unit တစ္ခုစီတုိင္းေပၚကုိ Physical, Magical, Pure Damage တစ္မ်ဴိးမ်ဴိး သတ္ေရာက္တုိင္း Fatal Bonds အတူတကြ သတ္ေရာက္ခံထားရတဲ့ အျခား Unit ၅ ခုစလုံးကုိ 25% ေသာ Damage ေတြ မွ်ေဝျပီး သတ္ေရာက္ေစမွာျဖစ္ပါတယ္။ ဥပမာ - Enemy Hero ၂ ေကာင္နဲ႕ Creep Unit ၄ ခုကုိ Fatal Bonds သတ္ေရာက္သြားျပီ ဆုိပါစုိ႔။ သတ္ေရာက္ထားတဲ့ Creep ေတြထဲက တစ္ေကာင္ကုိ Lion ရဲ႕ Finger of Death lvl 3 (850 Magical Damage) ျဖင့္ တုိက္ခုိက္မယ္ဆုိရင္ 850 ရဲ႕ 25% ျဖစ္တဲ့ 213 Magical Damage ဟာ အျခား Creep ၃ ေကာင္နဲ႕ Hero ၂ ေကာင္ကုိပါ သတ္ေရာက္ေစမွာျဖစ္ပါတယ္။ ထူးျခားခ်က္ကေတာ့ အခုလုိ ျပန္လည္ေဝမွ်ျပီး ထိမယ့္ Damage ဟာ Physical ဆုိ Physical, Magical ဆုိ Magical, Pure ဆုိ Pure ဆုိတဲ့အတုိင္း Source Damage အတုိင္း ထိေရာက္မွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Shadow Word",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/warlock_shadow_word_hp1.png",
+				"spell_overview":"ရုိးရွင္းတဲ့ Healing Ability တစ္ခုျဖစ္ပါတယ္။ အသုံးျပဳခံရတဲ့ Unit ဟာ Ally Unit ျဖစ္မယ္ဆုိရင္ တစ္စကၠန္႔ကုိ 15/ 25/ 35/ 45 Hp ႏႈန္းနဲ႕ 12 seconds ၾကာျမင့္တဲ့ Healing ကုိ ရရွိေစမွာျဖစ္ျပီး Enemy ဆုိရင္ေတာ့ 15/ 25/ 35/ 45 Damage Per Seconds ကုိ ရရွိေစမွာျဖစ္ပါတယ္။ ပုံေသ Cooldown 16 seconds ရွိပါတယ္။"
+			},
+			{
+				"spell_name":"Upheaval",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/warlock_upheaval_hp1.png",
+				"spell_overview":"Cast Range 1200, AoE 650 ရွိတဲ့ Upheaval ကေတာ့ AoE MS Slow Ability တစ္ခုျဖစ္ပါတယ္။ Channeling Ability တစ္ခုျဖစ္ျပီး Warlock အသုံးျပဳထားတာၾကာျမင့္ေလေလ Slow Rate က တုိးေလေလျဖစ္လာမွာျဖစ္ပါတယ္။ 1 second ကုိ 7%/ 14%/ 21%/ 28% ႏႈန္းနဲ႕ MS Slow Rate က တက္လာမွာျဖစ္ျပီး အမ်ားဆုံး 84% Slow Rate အထိ ေရာက္ႏုိင္ေခ်ရွိပါတယ္။ ဒါေၾကာင့္ ေနာက္ဆုံးအဆင့္မွာေတာ့ Warlock အသုံးျပဳျပီးျပီးခ်င္း 3.5 seconds အၾကာမွာ 84% MS Slow ကုိ ေရာက္ရွိသြားမွာျဖစ္ပါတယ္။ Max Movement Speed ကုိေပးတဲ့ Ability မ်ားျဖစ္ေသာ Shukuchi, Surge, Stampede တုိ႔ကုိေတာ့ Slow ႏုိင္စြမ္း မရွိပါဘူး။"
+			},
+			{
+				"spell_name":"Chaotic Offering",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/warlock_rain_of_chaos_hp1.png",
+				"spell_overview":"Warlock ရဲ႕ Signature Ability ျဖစ္တဲ့ Ultimate Chaotic Offering ကေတာ့ Warlock ဟာ Teamfight အတြက္ Powerful Golem တစ္ေကာင္ကို ဆင့္ေခၚလုိက္မွာျဖစ္ပါတယ္။ အထိေရာက္ဆုံး အားသာခ်က္တစ္ခုကေတာ့ အသုံးျပဳလုိက္တဲ့ 600 AoE အတြင္းက Enemy Unit ေတြအားလုံးကုိ Magic Immune Piercing 1 second Stun ကုိ သတ္ေရာက္ေစမယ့္ အခ်က္ပဲျဖစ္ပါတယ္။ Golem ဟာ 33% Magic Resistance, 6/ 9/ 12 Armor နဲ႕ 75/ 100/ 125 Damage ရွိျပီး Flaming Fist နဲ႕ Permanent Immolation ဆုိတဲ့ Ability ၂ ခုလည္း ပါဝင္ပါေသးတယ္။ Flaming Fist ကေတာ့ 40% Chance ရွိေသာ 80/ 115/ 150 Pure Damage ကုိ အတုိက္ခုိက္ခံရေသာ Unit အပါအဝင္ 300 AoE အတြင္းက Enemy Unit အားလုံးကုိ သတ္ေရာက္ေစမယ့္ Ability ျဖစ္ျပီး Permanent Immolation ကေတာ့ Radiance ကဲ့သုိ႔ Golem ရဲ႕ 300 AoE အတြင္းမွာ 30/ 40/ 50 Magical Damage မ်ား ေလာင္ကြ်မ္းေနေစမယ့္ Ability တုိ႔ျဖစ္ပါတယ္။ Aghanim’s Scepter ဆက္ခြင့္ရွိျပီး Golem ၂ ေကာင္ျဖစ္သြားေစမွာျဖစ္သလုိ Golem တစ္ေကာင္စီဟာ Gold Bounty တစ္ဝက္ဆီ ခြဲေဝသြားမွာျဖစ္ျပီး Physical Damage ကုိေတာ့ 75% စီ (56/ 75/ 94) ခြဲသြားမွာျဖစ္ပါတယ္။"
+			}
+		]
  }
 ]

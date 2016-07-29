@@ -31,6 +31,7 @@
     <string name="developer_name">Win Than Htike</string>
     <string name="developer_position">Freelance Android Developer</string>
     <string name="developer_email">mmdev147@gmail.com</string>
+    <string name="element_text">Element</string>
 
     <integer name="swing_anim_time">750</integer>
 </resources>

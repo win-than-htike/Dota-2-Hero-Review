@@ -3,9 +3,11 @@ package xyz.winthanhtike.travelandtour.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.util.Pair;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -17,6 +19,7 @@ import com.roughike.bottombar.OnMenuTabClickListener;
 
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
+import xyz.winthanhtike.travelandtour.adapter.HomeViewPagerAdapter;
 import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 import xyz.winthanhtike.travelandtour.fragment.AgilityFragment;
 import xyz.winthanhtike.travelandtour.fragment.IntelligenceFragment;
@@ -27,6 +30,13 @@ public class MainActivity extends AppCompatActivity implements ControllerHero {
 
     private Toolbar toolbar;
     private BottomBar mBottomBar;
+    private ViewPager viewPager;
+    private TabLayout tabLayout;
+    private int[] tabIcons = {
+            R.drawable.strength,
+            R.drawable.agility,
+            R.drawable.intelligence
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,43 +46,30 @@ public class MainActivity extends AppCompatActivity implements ControllerHero {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        if (savedInstanceState == null) {
+        viewPager = (ViewPager)findViewById(R.id.viewpager);
+        viewPager.setOffscreenPageLimit(3);
+        setupViewPager(viewPager);
 
-            StrengthFragment strengthFragment = new StrengthFragment();
-            getSupportFragmentManager().beginTransaction().replace(R.id.fl_container, strengthFragment).commit();
+        tabLayout = (TabLayout)findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
+        setupTabIcons();
 
-        }
+    }
 
-        mBottomBar = BottomBar.attach(this,savedInstanceState);
-        mBottomBar.setItems(R.menu.bottom_bar_menu);
-        mBottomBar.setOnMenuTabClickListener(new OnMenuTabClickListener() {
-            @Override
-            public void onMenuTabSelected(@IdRes int menuItemId) {
-                switch (menuItemId){
+    private void setupViewPager(ViewPager viewPager) {
 
-                    case R.id.action_strength:
-                        StrengthFragment strengthFragment = new StrengthFragment();
-                        getSupportFragmentManager().beginTransaction().replace(R.id.fl_container,strengthFragment).commit();
-                        break;
+        HomeViewPagerAdapter pagerAdapter = new HomeViewPagerAdapter(getSupportFragmentManager());
+        pagerAdapter.addFragment(new StrengthFragment());
+        pagerAdapter.addFragment(new AgilityFragment());
+        pagerAdapter.addFragment(new IntelligenceFragment());
+        viewPager.setAdapter(pagerAdapter);
 
-                    case R.id.action_agiglity:
-                        AgilityFragment agilityFragment = new AgilityFragment();
-                        getSupportFragmentManager().beginTransaction().replace(R.id.fl_container,agilityFragment).commit();
-                        break;
+    }
 
-                    case R.id.action_intelligence:
-                        IntelligenceFragment intelligenceFragment = new IntelligenceFragment();
-                        getSupportFragmentManager().beginTransaction().replace(R.id.fl_container,intelligenceFragment).commit();
-                        break;
-                }
-            }
-
-            @Override
-            public void onMenuTabReSelected(@IdRes int menuItemId) {
-
-            }
-        });
-
+    private void setupTabIcons() {
+        tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+        tabLayout.getTabAt(2).setIcon(tabIcons[2]);
     }
 
 

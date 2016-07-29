@@ -10,13 +10,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.adapter.IntelligenceRVAdapter;
 import xyz.winthanhtike.travelandtour.data.model.IntelligenceHeroModel;
-import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 import xyz.winthanhtike.travelandtour.utils.ControllerHero;
 
 /**
@@ -31,7 +29,7 @@ public class IntelligenceFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        iAdapter = new IntelligenceRVAdapter(IntelligenceHeroModel.getInstance().getStrengthHeroList(),controllerHero);
+        iAdapter = new IntelligenceRVAdapter(IntelligenceHeroModel.getInstance().getHeroList(),controllerHero);
     }
 
     @Override

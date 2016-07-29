@@ -4,7 +4,7 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/placeCard"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="165dp"
     card_view:cardCornerRadius="@dimen/margin_small"
     android:layout_marginLeft="@dimen/margin_small"
     android:layout_marginRight="@dimen/margin_small"
@@ -27,7 +27,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="165dp"
             android:background="#5b000000"/>
 
         <xyz.winthanhtike.travelandtour.components.textviews.MMTextView
@@ -38,7 +38,7 @@
             android:fontFamily="sans-serif-light"
             android:background="@drawable/text_border"
             android:textStyle="bold"
-            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#fff"
             android:layout_gravity="center" />
 
