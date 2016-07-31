@@ -43,6 +43,7 @@ public class StrengthFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.strength_fragment,container,false);
 
+
         rvStrengthHero = (RecyclerView)view.findViewById(R.id.rv_strength_hero);
         rvStrengthHero.setAdapter(sAdapter);
         int gridColumnSpanCount = getResources().getInteger(R.integer.hero_list_grid);

@@ -1,1 +1,1 @@
-include ':app', ':library', ':materialdialog'
+include ':app', ':library', ':materialdialog', ':coverflowsample', ':lib', ':libraryCoverFlow'

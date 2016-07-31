@@ -1,6 +1,7 @@
 package xyz.winthanhtike.travelandtour.activity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -57,7 +58,6 @@ public class AgilityHeroDetailActivity extends AppCompatActivity implements Item
 
         configsView();
 
-
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -65,6 +65,10 @@ public class AgilityHeroDetailActivity extends AppCompatActivity implements Item
         if (actionBar != null){
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setDisplayShowTitleEnabled(false);
+        }
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            imgHero.setTransitionName(getString(R.string.share_image_transition));
         }
 
         String heroName = getIntent().getStringExtra(IE_HERO_NAME);

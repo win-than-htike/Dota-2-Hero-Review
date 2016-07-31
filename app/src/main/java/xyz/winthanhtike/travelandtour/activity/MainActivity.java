@@ -7,8 +7,10 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.util.Pair;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,9 +19,12 @@ import android.widget.ImageView;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnMenuTabClickListener;
 
+import org.greenrobot.eventbus.EventBus;
+
 import xyz.winthanhtike.travelandtour.Dota2HeroApp;
 import xyz.winthanhtike.travelandtour.R;
 import xyz.winthanhtike.travelandtour.adapter.HomeViewPagerAdapter;
+import xyz.winthanhtike.travelandtour.data.model.SearchModel;
 import xyz.winthanhtike.travelandtour.data.vos.HeroVO;
 import xyz.winthanhtike.travelandtour.fragment.AgilityFragment;
 import xyz.winthanhtike.travelandtour.fragment.IntelligenceFragment;
@@ -29,7 +34,6 @@ import xyz.winthanhtike.travelandtour.utils.ControllerHero;
 public class MainActivity extends AppCompatActivity implements ControllerHero {
 
     private Toolbar toolbar;
-    private BottomBar mBottomBar;
     private ViewPager viewPager;
     private TabLayout tabLayout;
     private int[] tabIcons = {
@@ -37,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements ControllerHero {
             R.drawable.agility,
             R.drawable.intelligence
     };
+    private SearchView searchView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,7 +82,19 @@ public class MainActivity extends AppCompatActivity implements ControllerHero {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.drawer, menu);
+        searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.action_search));
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                EventBus.getDefault().post(SearchModel.getInstance().getSearchHeroListByName(query));
+                return false;
+            }
 
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                return false;
+            }
+        });
         return true;
     }
 

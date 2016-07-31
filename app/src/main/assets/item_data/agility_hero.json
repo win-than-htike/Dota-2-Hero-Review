@@ -147,5 +147,236 @@
 				"spell_overview":"Backstab Damage Type တစ္ခုျဖစ္တဲ့ Vendetta ဟာ Nyx Assassin ကုိ Invisibility ျဖစ္သြားေစမွာျဖစ္ျပီး ပထမဆုံး တုိက္ခုိက္မႈကုိ မိမိရဲ႕ မူလ Damage အျပင္ 250/ 400/ 550 Physical Damage ေပါင္းထည့္ေပးမွာျဖစ္ပါတယ္။ မ်ားမ်ားယူေလ MS Bonus, Duration တုိးျပီး Cooldown က်လာမွာလည္းျဖစ္ပါတယ္။Aghanim’s Scepter ဆက္တဲ့အခါမွာ Nyx အေနနဲ႕ Burrow ဆုိတဲ့ Ability တစ္ခုကုိ ရရွိလာမွာျဖစ္ပါတယ္။ Burrow ကုိ အသုံးျပဳတဲ့အခါမွာ Nyx ဟာ ေျမၾကီးထဲကုိ Root သြားျပီး Invisible ျဖစ္သြားပါမယ္။ Burrow သုံးထားခ်ိန္မွာ 40% All Damage Type Resistance ရေနမွာျဖစ္ျပီး Nyx ရဲ႕ Ability ၃ ခုစလုံးကုိ တုိးသြားေစမွာျဖစ္ပါတယ္။ Burrow ဝင္ထားျပီး Impale အသုံးျပဳခ်ိန္မွာ Cooldown ကုိ 6 seconds ေလ်ာ့ေပးထားတဲ့အျပင္ Cast Range ကုိလည္း 525 တုိးေစပါတယ္။ Mana Burn ဟာလည္း မူလ Cast Range ထက္ 450 တုိးလာမွာျဖစ္ျပီး Spiked Carapace ကေတာ့ အသုံးျပဳလုိက္တာနဲ႕ Burrow ေျမၾကီးပုံရဲ႕ 300 AoE နားက Hero ေတြအားလုံးကုိ Stun ေစမွာျဖစ္ပါတယ္။ အားသာခ်က္တစ္ခုကေတာ့ Cooldown 0 second ပဲရွိျပီး ေျမၾကီးထဲဝင္ေနခ်ိန္မွာ 1.5% Hp Regeneration ကုိ ရရွိေနမယ့္ အခ်က္ပဲျဖစ္ပါတယ္။"
 			}
 		]
+	},
+	{
+		"share_hero":"https://www.facebook.com/yahooyeehadotasuggestion/posts/544185002399039",
+		"hero_intellgience":"19 + 2.10",
+		"hero_agility":"24 + 2.80",
+		"hero_strength":"18 + 1.80",
+		"hero_damage":"13 - 23",
+		"hero_movement_speed":"315",
+		"hero_armor":"4.36",
+		"hero_name":"Gyrocopter",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/gyrocopter_vert.jpg",
+		"hero_role":"Ranged - Carry - Nuker - Disabler",
+		"hero_detail":"Background Story\nစစ္ပြဲမ်ား၊ ေတာ္လွန္ေရးမ်ား၊ အေရးအခင္းမ်ားနဲ႕အတူဘဝတစ္ေလွ်ာက္လုံးတုိက္ပြဲဝင္ခဲ့အျပီးမွာေတာ့ Aurelဟာအနားယူဖုိ႔ အခ်ိန္တန္ခဲ့ျပီျဖစ္ပါတယ္။ ဘဝမွတ္တုိင္တစ္ေလွ်ာက္ ဆုတံဆိပ္၊ ဂုဏ္ျပဳရင္ထုိးမ်ားစြာရရွိခဲ့တဲ့ဒီအင္ဂ်င္နီယာေဟာင္းၾကီးဟာသူ႔ရဲ႕ မျပီးဆုံးေသးတဲ့ ကမာၻ႕ပထမဆုံး၊ ေမွာ္ပညာကင္းကင္းနဲ႕ ေလထဲဝဲပ်ံႏုိင္မယ့္ လူသားလုပ္ မုိးပ်ံယာဥ္တစ္ခုကုိစိတ္ကူးယဥ္ကာေရးဆြဲထားတဲ့ ပုံၾကမ္းကုိသူ႔ရဲ႕ ပင္ဆင္ခရီးအတြက္ ယူေဆာင္လာခဲ့ပါတယ္။ သူ႕ရဲ႕ စက္ကိရိယာကုိတီထြင္ဖုိ႔အတြက္ အခ်ိန္နဲ႕ေငြအခ်ဴိ႕ကုိရင္းနီးကာအပူပုိင္းက ကြ်န္းစုေလးတစ္ခုသုိ႔ Aurel က ထြက္ခြာလာခဲ့ပါတယ္။ ႏွစ္အနည္းငယ္ၾကာသည္အထိ ျပင္ဆင္တီထြင္ခဲ့တဲ့ စက္ပစၥည္းအပ်က္အစီးမ်ားေတာင္လုိပုံလာခဲ့ျပီးေနာက္မွာေတာ့သူဟာစက္ပစၥည္းနဲ႕ ပ်ံသန္းနုိင္မယ့္ ျဖစ္နုိင္ေခ်ရွိမႈတစ္ခုကုိဝမ္းေျမာက္စြာရွာေတြ႕ခဲ့ပါတယ္။ ဆယ္စုႏွစ္တစ္ခုနဲ႕ ရက္အနည္းငယ္အၾကာသာသာယာယာရွိျပီးေတာင္ေလေအးေအးေလးတုိက္ခတ္ေနခဲ့တဲ့ ေန႕တစ္ေန႕မွာေတာ့ Aurelဟာထုံးစံအတုိင္းသူ႕ရဲ႕ တီထြင္မႈကေနေပါက္ကြဲထြက္လာမယ့္ ပစၥည္းအတုိအစမ်ားရန္ကေနကာကြယ္ဖုိ႔ ေနရာယူျပီးကာအင္ဂ်င္ေမာင္းတံကုိဆြဲခ်လုိက္ပါတယ္။ သုိ႔ေသာ္ျငားလည္းသူ႕ရဲ႕ ဝမ္းသာေပ်ာ္ရႊင္မႈကုိ ျမင့္မားလာေစဖုိ႔ တီထြင္ထားတဲ့ အပုိင္းအစမ်ားဟာအပ်က္အစီးမရွိဘဲပုံမွန္လည္ပတ္ေနတာကုိေတြ႕လုိက္ရပါတယ္။ အခ်ိန္ တစ္နာရီေလာက္ၾကာျမင့္ေအာင္ ပင္လယ္စင္ေရာ္မ်ားနဲ႕အတူေလအဟုန္ကုိထုိးခြဲပ်ံသန္းေနခဲ့တဲ့ Aurelဟာအသက္ရွဴမွားေလာက္တဲ့ ေပ်ာ္ရႊင္မႈကုိခံစားခဲ့ရပါတယ္။ စမ္းသပ္ေမာင္းႏွင္လုိ႔ ဝသြားတဲ့အခ်ိန္မွာေတာ့ သူ႔ရဲ႕ Workshop ကေလးရွိရာသုိ႔ ေပ်ာ္ရႊင္စြာပ်ံသန္းလာတဲ့ ခရီးမွာထင္မွတ္မထားတဲ့ အျဖစ္ဆုိးတစ္ခုကုိ ၾကဳံေတြ႕ခဲ့ရပါေတာ့တယ္။ အေျမာက္က်ည္ဆံတစ္လုံးဟာသူ႔ရဲ႕ ေလယာဥ္ပ်ံကေလးရဲ႕ ပဲ့ပုိင္းကုိထိမွန္ခဲ့တာေၾကာင့္ Aurelဟာေလယာဥ္အပ်က္အစီးမ်ားနဲ႕အတူပင္လယ္ထဲကုိက်သြားခဲ့ပါတယ္။ အနီးဆုံးမွာ ျမင္ရတဲ့ ကြ်န္းငယ္ေလးတစ္ခုဆီသုိ႔ လက္ပစ္ကူးလာရင္းအေျမာက္က်ည္ဆံကုိပစ္လႊတ္လုိက္တဲ့ သေဘၤာကုိက်ိန္ဆဲေနခဲ့ပါတယ္။ ရက္အနည္းငယ္ၾကာတဲ့အခါမွာေတာ့ Aurelဟာသူ႔ရဲ႕ Workshop သုိ႔ ျပန္လာခဲ့ျပီးေနာက္ထပ္ မုိးပ်ံယာဥ္တစ္ခုကုိတီထြင္ခဲ့ပါတယ္။ ဒါေပမယ့္ ဒီတစ္ေခါက္ တီထြင္မႈကေတာ့ အႏ ၱရာယ္ၾကီးမားလွတဲ့ အဖ်က္လက္နက္မ်ားကိုသယ္ေဆာင္ႏုိင္တဲ့ ဒီဇုိင္းနဲ႕ မုိးပ်ံယာဥ္ပဲျဖစ္ပါေတာ့တယ္။",
+		"hero_overview":"Gyrocopter ရဲ႕ အမည္ AurelVlaicuဟာ ၁၉ဝဝ ျပည့္ႏွစ္မ်ားကာလကရုိေမးနီးယားလူမ်ဴိးေလယာဥ္အင္ဂ်င္နီယာ၊ စြန္႔ဦးေလယာဥ္ေမာင္းသမားရဲ႕ အမည္ကိုဂုဏ္ျပဳ၍ေခၚဆုိထားျခင္းျဖစ္ပါတယ္။ Gyro ဟာ Professional တန္းနဲ႕ Public တန္းမွာ Thinking လုံးဝကြဲျပားေနတဲ့ Hero တစ္ေကာင္ျဖစ္ပါတယ္။ ဒီေနာက္ပုိင္းမွာ Pro ကစားပြဲေတြေၾကာင့္ Mid Lane Carry ပုံစံနဲ႕ ျမင္ေတြ႔လာရျပီး Safe Lane ေဆာ့ပုံကေတာ့ ေရပန္းအစားဆုံးျဖစ္လ်က္ရွိပါတယ္။ Flak Cannon ဟာ Ancient Creep Stack ကုိစားရမွာလြန္စြာအသုံးဝင္ျပီးအထက္မွာေျပာခဲ့တဲ့အတုိင္း Kill Participation မွာပါဝင္ရုံနဲ႕ Kill Gold, Assist Gold ေတြ ေသာက္ေသာက္လဲဝင္ေစမယ့္ Ability ေကာင္းတစ္ခုျဖစ္ေနပါတယ္။ဒါေၾကာင့္ Pro တန္းမွာ Flak Canon ကုိ ၾကဳိက္ၾကေပမယ့္ Public Matchmaking ေတြမွာေတာ့ သူ႔ထက္ Gankingမွာအသုံးပုိဝင္တဲ့ Homing Missile ကုိဒုတိယဦးစားေပး Ability အျဖစ္ လူၾကဳိက္မ်ားခဲ့ပါတယ္။Rocket Barrage ရဲ႕ မ်ားျပားလြန္းတဲ့ Damage Output ေၾကာင့္ အေစာပိုင္း Hero kill အေထာက္အကူျပဳေစဖုိ႔ Phase Boots ကုိေရြးခ်ယ္ၾကေပမယ့္ လက္ရွိ v6.84 Patch မွာေတာ့ Power Tread ဟာပြဲေနာက္ပိုင္းအထိအသုံးဝင္ေနတဲ့အတြက္ လူဆက္ႏႈန္းျပန္တက္လာပါတယ္။ Magic Damage Ability ၃ ခုပါဝင္လုိ႔ Ethereal Blade နဲ႕ တြဲဖက္ျပီး Hero တစ္ေကာင္ကိုအေသသတ္တဲ့ ပုံစံလည္းလူၾကဳိက္မ်ားပါတယ္။ Carry တုိ႔ရဲ႕ ထုံးစံအတုိင္း Plain Damage ေပါင္းတဲ့ Monkey King Bar, Butterfly တုိ႔ကုိေရြးခ်ယ္ၾကျပီးမာဖုိ႔လုိအပ္တဲ့အတြက္ Satanic, Bkbတုိ႔ဟာလည္း Gyro ရဲ႕ အေျခခံ Item မ်ားအျဖစ္ ဆက္ေလ့ရွိၾကပါတယ္။ Dotaမွာရွိသမွ် Hero အေကာင္ ၁၁ဝ ထဲမွာ Gyro ဟာ Divine Rapier ဆက္ဖုိ႔ အတန္ဆုံး Hero ၂ ေကာင္ အျဖစ္ Medusa နဲ႕ အတူရပ္တည္လ်က္ရွိပါတယ္။မည္သုိ႔ပင္ ဆုိေစကာမႈ မိမိႏွစ္သက္ေသာ ကစားကြက္သာလွ်င္ မိမိအတြက္ အေကာင္းဆုံးျဖစ္ပါလိမ့္မယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Rocket Barrage",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/gyrocopter_rocket_barrage_hp1.png",
+				"spell_overview":"နာက္ဆုံးအဆင့္ Hero တစ္ေကာင္ကုိ690 Damage ပမာဏျဖင့္ တုိက္ခုိက္ႏုိင္စြမ္းရွိတဲ့ Rocket Barrage ဟာUltimate မဟုတ္ဘဲ Damage Output မ်ားလြန္းတဲ့ AoE Damage Ability တစ္ခုျဖစ္ပါတယ္။ AoEဆုိေပမယ့္ မိမိရဲ႕ ေနရာယူတတ္မႈေပၚ မူတည္ျပီး Damage သတ္ေရာက္မႈ ပမာဏကေျပာင္းလဲနုိင္ပါတယ္။ Gyro ရဲ႕ ပတ္လည္ 400 AoEအတြင္းမွာရွိတဲ့ Unit ေတြကုိ Random ျဖင့္ တုိက္ခုိက္မွာျဖစ္လုိ႔ အဆုိပါ AoEထဲမွာ Unit တစ္ခုတည္းရွိမယ္ဆုိရင္ တစ္ခုတည္းကုိရွိသမွ် ဒုံးက်ည္ အလုံး ၃ဝ စလုံးထိမွာျဖစ္လုိ႔ ေနရာေကာင္းေကာင္းယူတတ္ဖုိ႔ လုိအပ္ပါတယ္။ တစ္လုံးကုိ23 Damage ရွိတဲ့ ဒုံးက်ည္ အလုံးေပါင္း ၃ဝ ဟာ 3 seconds Duration အတြင္းမွာ 0.1 second ကုိ ္တစ္လုံးႏႈန္းထြက္မွာျဖစ္ပါတယ္။ Mana 90 နဲ႕ ေနာက္ဆုံးအဆင့္ Cooldown 5.5 seconds အထိက်ဆင္းသြားမွာျဖစ္လုိ႔ ခြ်င္းခ်က္မရွိlvl 7 မွာဂိတ္ဆုံးယူသင့္တဲ့ Ability တစ္ခုျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Homing Missile",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/gyrocopter_homing_missile_hp1.png",
+				"spell_overview":"Gyrocopter စတင္ပါဝင္ခဲ့တဲ့ v6.68 ေျမပုံမွာေတာ့ Homing Missile ဟာလူၾကဳိက္အမ်ားဆုံး Ability တစ္ခုျဖစ္ခဲ့ေပမယ့္ လက္ရွိေခတ္ Professional Career မွာေတာ့ Attribute Plus ေနာက္မွ တင္တဲ့ Ability တစ္ခုျဖစ္သြားခဲ့ပါတယ္။ အခ်ိန္ၾကာျမင့္တဲ့ Single Target Disable Ability ျဖစ္ျပီး Gyro ရဲ႕ Damage Output မ်ားတဲ့ ထုံးစံအတုိင္းအမ်ားဆုံး 500 Damage အထိသက္ေရာက္နုိင္တဲ့ Ability တစ္ခုဆုိလည္းမမွားပါဘူး။ Homing Missile ဟာအသုံးျပဳျပီး 3 seconds အၾကာမွ ေနရာကေနထြက္ခြာမွာျဖစ္ျပီး Speed ဟာလည္း 320 Movement Speed နဲ႕ စတင္မွာျဖစ္လုိ႔ အျခား Disable ေတြနဲ႕ ယွဥ္ရင္ စိတ္ရွည္စရာမေကာင္းလုိ႔ဘဲလူၾကဳိက္နည္းရျခင္းျဖစ္ပါတယ္။ အဆင့္မ်ားမ်ားယူရင္ Stun Duration က 2.2 seconds ကေန 2.8 seconds ထိတုိးလာမွာျဖစ္ျပီး Damage 125 ကေန 500 ထိတုိးလာမွာျဖစ္ပါတယ္။ အဆုိပါ Maximum Damage ကုိသပ္ေရာက္ေစဖုိ႔ Missile စတင္အသုံးျပဳတဲ့ေနရာကေန 1500 အကြာအေဝးအထိေဝးေနဖုိ႔လုိအပ္ပါတယ္။ ထူးျခားခ်က္ကေတာ့ Ability တစ္ခုျဖစ္တဲ့ Homing Missile ကုိ Force Staff တြန္းျပီး ျမန္ျမန္ထိေအာင္ လုပ္လုိ႔ရတဲ့အခ်က္ပါပဲ။"
+			},
+			{
+				"spell_name":"Flask Canon",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/gyrocopter_flak_cannon_hp1.png",
+				"spell_overview":"Duration, Mana Cost, Cooldownအေျပာင္းအလဲမရွိတဲ့ Flak Cannon ဟာမ်ားမ်ားယူေလ Flask Count က 3/4/5/6 ဆုိတဲ့အတုိင္းမ်ားလာမွာျဖစ္ပါတယ္။ 365 Attack Range ရွိတဲ့ Gyrocopter ဟာ Unit တစ္ခုခုကုိတုိက္ခုိက္မႈျပဳလုပ္လုိက္တုိင္း 1000 AoEအတြင္းက Building, Courier, Ward မဟုတ္တဲ့ အျခား Unit အားလုံးကုိမိမိရဲ႕ လက္ရွိ Physical Damage အတုိင္းအညီအမွ်ထိမယ့္ ဒုံးက်ည္မ်ားဖ်ာထြက္သြားမွာျဖစ္ပါတယ္။ မိမိ Lane က Enemy Hero ကုိအလိုအေလွ်ာက္ ႏွိမ္ထားျပီးသားျဖစ္ေစမယ့္ Flak Cannon ဟာအသုံးျပဳထားျပီး Building, Courier, Ward မ်ားေပၚသုိ႔ တုိက္ခုိက္ရင္ေတာ့ Flak မ်ားပုံမွန္အတုိင္းထြက္မွာျဖစ္ပါတယ္။ ဒီ Flak Cannon မ်ားဟာ Gyro ရဲ႕ Damage အတုိင္းသတ္ေရာက္နုိင္ေပမယ့္ Gyro မွာဆက္ထားတဲ့ Unique Attack Modifier မ်ားေတာ့ သတ္ေရာက္နုိင္မွာမဟုတ္ပါဘူး။"
+			},
+			{
+				"spell_name":"Call Down",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/gyrocopter_call_down_hp1.png",
+				"spell_overview":"Aghanim’s Scepter ဆက္ထားရင္ Cast Range 1000 ကေန Global Cast Range ျဖစ္သြားေစမယ့္ Ultimate Call down ကေတာ့ 600 AoEရွိတဲ့ Magic Nuke Ability ျဖစ္ပါတယ္။ အသုံးျပဳျပီးေနာက္ 2 seconds အၾကာမွာပထမဒုံးက်ည္ကေျမေပၚသတ္ေရာက္မွာျဖစ္ျပီးေနာက္ထပ္ 2 seconds အၾကာမွာဒုတိယဒုံးက်ည္ သတ္ေရာက္ပါလိမ့္မယ္။ ပထမဒုံးက်ည္မွာ 30% Movement Speed Slow ကုိသတ္ေရာက္ေစမွာျဖစ္ျပီးဒုတိယဒုံးက်ည္ကုိထပ္မံထိခဲ့မယ္ဆုိရင္ေတာ့ 60% Movement Speed Slow ကုိသတ္ေရာက္ေစဦးမွာပါ။ ဒုတိယဒုံးက်ည္ရဲ႕ Movement Slow ဟာ 4 seconds ၾကာခ်ိန္ရွိျပီးပထမဒုံးက်ည္ထက္ Damage ပမာဏနည္းပါတယ္။ ဒုတိယဒုံးက်ည္ကုိ Damage မ်ားေစဖုိ႔ Aghanim’sSecpterထည့္နုိင္ပါတယ္။"
+			}
+		]
+	},
+	{
+		"share_hero":"https://web.facebook.com/yahooyeehadotasuggestion/posts/531985366952336",
+		"hero_intellgience":"15 + 1.40",
+		"hero_agility":"26 + 1.90",
+		"hero_strength":"17 + 1.90",
+		"hero_damage":"18 - 29",
+		"hero_movement_speed":"300",
+		"hero_armor":"0.64",
+		"hero_name":"Drow Ranger",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/drow_ranger_vert.jpg",
+		"hero_role":"Ranged - Carry - Disabler - Pusher",
+		"hero_detail":"Background Story\nTrexex လုိ႔ အမည္ေပးျခင္းခံရတဲ့ Drow Ranger ဟာ ခႏၶာကုိယ္ေသးငယ္ျပီး ေက်ာက္ဥမင္လႈိင္ဂူမ်ားထဲမွာ ေနထုိင္တဲ့ Drow မ်ဴိးႏြယ္စုမွ ေမြးဖြားလာခဲ့တဲ့ မိန္းကေလးတစ္ေယာက္ျဖစ္ပါတယ္။ ဒါေပမယ့္ သူမဟာ သာမန္ Drow တစ္ေယာက္ေတာ့ မဟုတ္ခဲ့ပါဘူး။ ခရီးသြား ဓါးျပမ်ားဟာ သူမတုိ႔ ေနထုိင္တဲ့ ဂူေပါက္ဝမွာ စတည္းခ် ျဖတ္သန္းသြားတဲ့ ညတစ္ည အေရာက္မွာေတာ့ ဂူထဲမွာ အသံေပါင္းမ်ားစြာကုိ ၾကားခဲ့ရတဲ့ ဓါးျပမ်ားဟာ အျပစ္ကင္းျပီး ေအးေဆးစြာ ေနထုိင္တတ္တဲ့ Drow မ်ိဴးႏြယ္စုတစ္ခုလုံးကုိ ရည္ရြယ္ခ်က္မရွိဘဲ ဝင္ေရာက္သတ္ျဖတ္သြားခဲ့ပါတယ္။ တုိက္ပြဲျပီးသြားခ်ိန္မွာေတာ့ ေက်ာက္ဂူရဲ႕ အစြန္းေလးတစ္ခုေအာက္မွာ ပုန္းေအာင္းေနခဲ့တဲ့ Drow မ်ဴိးႏြယ္ ကေလးမငယ္ငယ္ေလး တစ္ေယာက္ကုိ ဓါးျပမ်ားက ရွာေဖြေတြ႕ရွိခဲ့ၾကျပီး ဒီကေလးမေလးကိုေတာ့ စြန္႔ပစ္မသြားဖုိ႔ ဆုံးျဖတ္ခ်က္ခ်လုိက္ပါတယ္။ ကေလးေလး ျဖစ္ေနသည့္တုိင္ေအာင္ Trexex ဟာ သူမရဲ႕ မ်ဴိးရုိးလုိက္ အရည္အခ်င္းမ်ားျဖစ္တဲ့ ေခ်ာင္းေျမာင္းတုိက္ခုိက္ျခင္း၊ ပုန္းကြယ္ျခင္း၊ အသံတိတ္ေစမယ့္ တြန္းအား စတဲ့ အရည္အခ်င္းမ်ားကုိ အသုံးျပဳႏုိင္ခဲ့ပါတယ္။ အရြယ္ေရာက္လာခဲ့အခါ လက္ရွိ မိသားစုဝင္မ်ားနဲ႕ ႏႈိင္းယွဥ္ၾကည့္ရာမွာ သူမဟာ အျခားသူမ်ားထက္ မ်ားစြာ ရုပ္ဆုိးေနသလုိ ခံစားခဲ့ရပါတယ္။ သူမကုိ ျပဳစုပ်ဴိးေထာင္ခဲ့တဲ့ မ်ဴိးႏြယ္ကေန တျဖည္းျဖည္း ကင္းကြာလာသလုိ ခံစားလာရျပီးေနာက္မွာေတာ့ သူမဟာ ေတာၾကီးမ်က္မဲထဲမွာပဲ တစ္ဦးတည္းေနဖုိ႔ ဆုံးျဖတ္ကာ အားလုံးကုိ စြန္႔ခြာလာခဲ့ပါတယ္။ ေတာေတြထဲမွာ လမ္းေပ်ာက္ေနတဲ့ ခရီးသြားေတြဟာ တစ္ခါတစ္ရံမွာ ထင္မွတ္မထားရတဲ့ လွပေသာ ေလးသည္ေတာ္ မိန္းကေလးတစ္ဦးက ၄င္းတုိ႔အနားမွာ သာယာခ်ိန္ျမိန္ေသာ အသံတုိ႔နဲ႕အတူ ထြက္ေပၚလာျပီး သူတုိ႔အနားထိ ကပ္မနုိင္ခင္မွာပဲ အိပ္မက္တစ္ခုသဖြယ္ ေပ်ာက္ကြယ္သြားေလ့ရွိတဲ့ ယုံတမ္းတစ္ခု ထြက္ေပၚလာပါတယ္။ Trexex ဟာ ေအးခဲ တိတ္ဆိတ္တဲ့ ျမဴခုိးျမဴမႈန္မ်ားၾကားမွာ ပုန္းလွ်ဴိးသြားလာေလ့ရွိပါတယ္။ သင္ၾကားလုိက္ရတဲ့ တီးတုိးရြတ္သံကေလးတစ္ခုဟာ ေတာၾကီးမ်က္မဲထဲမွာ သင့္ကုိ ဒုကၡေပးမယ့္ ရန္သူရဲ႕ ႏွလုံးသားမွာ စိုက္ဝင္ေနတဲ့ ေရခဲျမွား ရဲ႕ ေလအဟုန္ကုိ ခြင္းသြားတဲ့ အသံပါပဲ။",
+		"hero_overview":"Drow Ranger ဟာ Agility ပမာဏအေပၚ မ်ားစြာ မွီခုိေနတဲ့ Hero တစ္ေကာင္ျဖစ္ပါတယ္။ သူမမွာ Agility မ်ားေလေလ၊ အသင္းအတြက္ အက်ဴိးရွိေလေလျဖစ္လုိ႔ Agility တက္ေစမယ့္ Manta Style, Sange and Yasha, Butterfly တုိ႔ဟာ ေရြးခ်ယ္ဖုိ႔ သင့္ေတာ္တဲ့ item မ်ားပဲျဖစ္ပါတယ္။ Escape Ability မပါဝင္ျခင္းက Drow Ranger ရဲ႕ အဆုိးဝါးဆုံးအားနည္းခ်က္ျဖစ္လုိ႔ အနီးကပ္တုိက္ခုိက္နုိင္တဲ့ Gonder, Riki, Anti-Mage, Phantom Assassin ကဲ့သုိ႔ Carry မ်ားကုိ ေၾကာက္ရပါတယ္။ အေစာပုိင္း Escape အျဖစ္ Shadow Blade ကုိ ေရြးခ်ယ္ၾကျပီး Mid Game မွာ Dagger + Madness ဆက္ျခင္းဟာလည္း v6.80 ေနာက္ပုိင္းမွာ သိသိသာသာ ေခတ္စားလာတဲ့ ကစားကြက္တစ္ခုျဖစ္လာပါတယ္။ Damage ပမာဏ မ်ားျပားလြန္းတဲ့အတြက္ Farm ရလြယ္ကူတဲ့ Drow Ranger အေနနဲ႕ Satanic, Monkey Kin Bar, Daedalus တုိ႔ကုိပြဲေနာက္ပုိင္း Inventory ၆ ကြက္အတြက္ ထည့္သြင္းစဥ္းစားေပးရမွာျဖစ္ျပီး Carry တုိ႔ရဲ႕ ထုံးစံအတုိင္း ဦးစားေပး Black King Bar ကုိလည္း ေမ့မထားသင့္ပါဘူး။ ျမင္ရခဲေပမယ့္ Frost Arrow ရဲ႕ 2 seconds 60% Movement Speed Slow အျပင္ Skadi ထည့္ျပီး Frost Arrow တစ္ခ်က္၊ Normal Skadi တစ္ခ်က္၊ Frost Arrow တစ္ခ်က္စီ ပစ္ေပးျခင္းျဖင့္ စုစုေပါင္း 72.5% Movement Speed Slow ျဖစ္ေအာင္ တုိက္ခုိက္နုိင္မွာျဖစ္ပါတယ္။ မည္သုိ႔ပင္ ဆုိေစကာမူူူ မိမိႏွစ္သက္ေသာ ကစားကြက္သာလွ်င္ အေကာင္းဆုံးျဖစ္ပါလိမ့္မယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Frost Arrows",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/drow_ranger_frost_arrows_hp1.png",
+				"spell_overview":"သင့္ Lane က Enemy Hero ကုိ သြားေရာက္တုိက္ခုိက္တဲ့အခါမွာ Enemy Creep, Tower မ်ားက သင့္ကုိ ခ်က္ခ်င္းဦးတည္ျပီး တုိက္ခုိက္ေလ့ရွိပါတယ္။ Dota အသုံးအႏႈန္းအရ လွည့္ျပီးသုံးရတဲ့ Orb Effect Ability ေတြကုိ တစ္ခ်က္ခ်င္း ႏွိပ္သုံးျပီး ပစ္တဲ့အခါမွာ Enemy Creep, Tower မ်ားက ကုိယ့္ကုိ မတုိက္ခုိက္ေစမယ့္ အားသာခ်က္တစ္မ်ဴိးရွိျပီး ၄င္းကုိ Orbwalking လုိ႔ေခၚပါတယ္။ လွည့္သုံးရတဲ့ Orb Ability မ်ားကေတာ့ Huskar ရဲ႕ Burning Arrow, Enchantress ရဲ႕ Impetus ကဲ့သုိ႔ေသာ Ability မ်ားျဖစ္ျပီး Drow Ranger ရဲ႕ ပထမ Ability “Frost Arrow” ဟာလည္း Orb Ability တစ္ခုျဖစ္ပါတယ္။ ဒါေၾကာင့္ Orb Walking အသုံးျပဳလုိ႔ရတဲ့ Frost Arrow ကုိ အေစာပုိင္းမွာ တစ္ဆင့္ေလာက္ေတာ့ အနည္းဆုံးယူထားသင့္ပါတယ္။ “Frost Arrow” ရဲ႕ Hot Key (R) ကုိ တစ္ခ်က္စီ ႏွိပ္ျပီး Enemy Hero ကုိ တုိက္ခုိက္မယ္ဆုိရင္ေတာ့ 12 Mana တည္းနဲ႕ Enemy Hero ကုိ ႏွိမ္ထားႏုိင္မွာပါ။ Movement Speed တစ္မ်ဴိးတည္းကုိပဲ အထူးျပဳျပီး Slow ေစမွာျဖစ္လုိ႔ ေနာက္ကေန လုိက္လံတုိက္ခုိက္ရတ့ဲအေျခအေနမ်ဴိးမွာ အသုံးျပဳလုိ႔ အေကာင္းဆုံးျဖစ္ပါတယ္။ Lifesteal Item တစ္ခုခုကုိ ေရြးခ်ယ္ထားမယ္ဆုိရင္ေတာ့ Frost Arrow ပစ္ခ်က္တုိင္းမွာ ေသြးမစုတ္တာကုိလည္း သတိျပဳရပါမယ္။ ေနာက္ဆုံးအဆင့္မွာ Enemy ရဲ႕ Movement Speed ကုိ 60% အထိ 2 seconds ၾကာေအာင္ ေလွ်ာ့ခ်ေပးမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Gust",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/drow_ranger_wave_of_silence_hp1.png",
+				"spell_overview":"V6.80 Patch Update ကေန စျပီး Trexex ရဲ႕ Silence ဟာ Gust ဆုိတဲ့ အမည္နဲ႕ အနည္းငယ္တုိးတက္သြားတဲ့ Silence Ability တစ္ခုျဖစ္လာပါတယ္။ ယခင္က Death Prophet ကဲ့သုိ႔ AoE Silence Ability တစ္ခုျဖစ္ခဲ့ေပမယ့္ Gust အျဖစ္ေျပာင္းသြားျပီးေနာက္မွာေတာ့ Trexex ကုိ အနီးကပ္လာေရာက္တုိက္ခုိက္မယ့္ Ganker ေတြကုိ အေဝးသုိ႔ ျပန္လည္တြန္းလႊတ္နုိင္ေတာ့မွာျဖစ္ပါတယ္။ အသုံးျပဳလုိက္တဲ့ လမ္းေၾကာင္းတစ္ေလွ်ာက္ 1150 Unit အတြင္းက Enemy ေတြ အားလုံး Silence နဲ႕ Knockback ကုိ ျဖစ္ေပၚေစပါလိမ့္မယ္။ ေနာက္ျပန္လြင့္သြားမယ့္ အကြာအေဝးကေတာ့ Gust လမ္းေၾကာင္းထဲက Unit ဟာ Trexex နဲ႕ နီးေလ အမ်ားဆုံး 350 Range အထိ ေဝးေဝးလြင့္ေလ ျဖစ္ျပီး အေဝးဆုံး 1150 အကြာအေဝးမွာဆုိရင္ေတာ့ ေနာက္ဘက္ကုိ ထပ္ေရြ႕ေတာ့မွာမဟုတ္ပါဘူး။ ေနာက္ဘက္ကုိ ေရြ႕ေရြ႕ မေရြ႕ေရြ႕ Knockback ျဖစ္သြားတဲ့ အခ်ိန္ကေတာ့ 0.6/ 0.7/ 0.8/ 0.9 second ၾကာျမင့္မွာျဖစ္ျပီး 3/4/5/6 Seconds Silence ကုိလည္း သတ္ေရာက္ေစဦးမွာျဖစ္ပါတယ္။ Gust ဟာ Disable အမ်ဴိးအစားမဟုတ္တဲ့အတြက္ Town Portal ကဲ့သုိ႔ Item Channeling ကုိ မပ်က္ေစပါဘူး။"
+			},
+			{
+				"spell_name":"Precision Aura",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/drow_ranger_trueshot_hp1.png",
+				"spell_overview":"ရုိးရိုးရွင္းရွင္း Range Unit ေတြကုိ Damage တက္ေစတဲ့ Precision Aura ကေတာ့ v6.76 Patch ကေန စျပီး rework ျဖစ္သြားတဲ့ Passive Ability တစ္ခုျဖစ္ပါတယ္။ ယခင္က Drow နားရွိသမွ် Range Unit ေတြ Damage တက္ေစခဲ့တဲ့ Ability ျဖစ္ခဲ့ေပမယ့္ 76 ေနာက္ပုိင္း ေျမပုံတစ္ခုလုံးက Ally Range Hero ေတြဟာ Trexex ရဲ႕ Agility ပမာဏအခ်ဴိးအစားေပၚမူတည္ျပီး Damage တက္ေစမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ Ultimate Marksmanship ေၾကာင့္ရရွိလာမယ့္ Bonus Ability ဟာ တစ္သင္းလုံးအတြက္ က်ဴိးရွိေစမွာျဖစ္ပါတယ္။ Hero မဟုတ္တဲ့ Unit ေတြ Damage တက္ေစဖုိ႔အတြက္ Precision Aura ကို ႏွိပ္သုံးေပးဖုိ႔လုိအပ္ျပီး 30 seconds duration နဲ႕ 120 seconds cooldown ရွိလို႔ လမ္းတုိးတဲ့အခ်ိန္၊ Team Fight အခ်ိန္ေတြမွာ ႏွိပ္သုံးေပးဖုိ႔လုိပါလိမ့္မယ္။"
+			},
+			{
+				"spell_name":"Marksmanship",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/drow_ranger_marksmanship_hp1.png",
+				"spell_overview":"Ultimate Marksmanship ကေတာ့ Trexex ကုိ မ်ားျပားလြန္းတဲ့ Bonus Agility ပမာဏကုိ ရရွိေစမွာျဖစ္ပါတယ္။ 40/ 60/ 80 ဆုိတဲ့ Bonus Agility ပမာဏဟာ Drow Ranger ရဲ႕ 400 AoE အတြင္းမွာ Enemy Hero တစ္ေကာင္ေကာင္ ရွိမေနမွ ရရွိမွာျဖစ္ပါတယ္။ 1 agility ဟာ 1 damage, 1 attack speed နဲ႕ 0.07 Armor နဲ႕ ညီမွ်တာျဖစ္လုိ႔ ေနာက္ဆုံးအဆင့္မွာ ရရွိမယ့္ 80 Bonus Agility ေၾကာင့္ Trexex ဟာ +80 Damage, +80 Attack Speed, +11.2 Armor ကုိ ရရွိေနပါလိမ့္မယ္။"
+			}
+		]
+	},
+	{
+		"share_hero":"https://www.facebook.com/yahooyeehadotasuggestion/posts/495492567268283",
+		"hero_intellgience":"21 + 2.00",
+		"hero_agility":"29 + 2.60",
+		"hero_strength":"21 + 1.70",
+		"hero_damage":"22 - 44",
+		"hero_movement_speed":"290",
+		"hero_armor":"4.06",
+		"hero_name":"Phantom Lancer",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/phantom_lancer_vert.jpg",
+		"hero_role":"Melee - Carry - Escape - Pusher - Nuker",
+		"hero_detail":"Background Story\nတုိင္းျပည္အတြင္းမွာျဖစ္ပြားေနတဲ့ စစ္ပြဲၾကီးအေၾကာင္းနဲ႕ ပတ္သတ္ျခင္းမရွိတဲ့ တိတ္ဆိတ္ တံငါရြာကေလးဟာ မိယုိးဖလာ လမ္းစဥ္အတုိင္း လွံတံကုိ အသုံးျပဳျပီး ငါးဖမ္းကာ အသက္ေမြးဝမ္းေက်ာင္းတဲ့ ေအးခ်မ္းေသာ ရြာကေလးတစ္ရြာပဲျဖစ္ပါတယ္။ ဖမ္းဆီးရရွိတဲ့ ငါးေတြဟာ သူတုိ႔မိသားစုဘဝအတြက္ ျပီးျပည့္စုံစြာ ျဖတ္သန္းခဲ့ေပမယ့္ စစ္ပြဲေတြဟာ ျငိမ္းခ်မ္းမႈေတြကုိ ဖ်က္ဆီးဖုိ႔အတြက္ ေရာက္ရွိလာပါေတာ့တယ္။ သူတုိ႔ရဲ႕ ေမြးရပ္ေျမကုိ ျငိမ္းခ်မ္းျခင္းေတြျပန္လည္ယူေဆာင္ေပးဖုိ႔အတြက္ ႏွိမ္ခ်တတ္တဲ့ Azwraith လုိ႔အမည္ရေသာ တံငါသည္ေလးတစ္ေယာက္ဟာလည္း စစ္ပြဲအတြက္ မ်ဴိးႏြယ္တူ ေသြးေသာက္ညီအစ္ကုိေတြနဲ႕အတူ စာရင္းေပးသြင္းခဲ့ပါတယ္။ ေၾကာက္မက္ဖြယ္ ေမွာ္ဆရာဆုိးၾကီး Vorn နဲ႕ ထိပ္တုိက္ေတြ႕တဲ့ ဒီစစ္ပြဲမွာေတာ့ Azwraith ဟာ ေနာက္ဆုံးထိုးစစ္ရဲ႕ တပ္ဦးမွာ တာဝန္က်ခဲ့ပါတယ္။ Vorn စစ္တပ္ရဲ႕ ေနာက္ဆုံးခံတပ္ကုိ ထုိးေဖာက္ဝင္ေရာက္ရာမွာ Azwraith နဲ႕အတူ ထုိးစစ္ဆင္ခဲ့တဲ့ ရဲေဘာ္ရဲဘက္ေပါင္းမ်ားစြာ က်ဆုံးခဲ့ျပီးေနာက္မွာေတာ့ သူ႔ကုိ ေဒါသအၾကီးအက်ယ္ေပါက္ကြဲေစခဲ့ပါေတာ့တယ္။ ေနာက္ဆုံး တစ္ဦးတည္းအသက္ရွင္က်န္ခဲ့တဲ့ Azwraith ဟာ ရန္သူေမွာ္ဆရာမ်ား တပ္ဆင္ထားတဲ့ ေထာင္ေခ်ာက္မ်ား နဲ႕ ဆင့္ေခၚထားေသာ သရဲတေစ ၦ မ်ားကုိ တုိက္ခုိက္ ေက်ာ္ျဖတ္ျပီး ခံတပ္ရဲ႕ ထိပ္ဆုံးမွာရွိတဲ့ Vorn ရွိရာ ထိန္းခ်ဴပ္ခန္းကုိ တစ္ကုိယ္တည္း ထုိးေဖာက္ဝင္ေရာက္သြားႏုိင္ခဲ့ပါတယ္။ မွိန္းတံနဲ႕ေတာင္ေဝွးတုိ႔ ထိပ္တုိက္ေတြ႕တဲ့ အနီးကပ္တုိက္ပြဲဟာ ညလုံးေပါက္ၾကာျမင့္ေအာင္ အေသအေၾက တုိက္ခုိက္ခဲ့ၾကျပီး Azwraith ဟာ သူ႔ရန္သူေတာ္ၾကီးရဲ႕ ရင္ဝကုိ ထုတ္ခ်င္းေဖာက္ျပီး ဇီဝိန္ခ်ဴပ္ေပးဖုိ႔ ၾကဳိးစားခဲ့ပါတယ္။ ေမွာ္ဆရာၾကီးကေတာ့ လြယ္လြယ္ကူကူ အသက္မေပ်ာက္ခဲ့ဘဲ သူ႔ရဲ႕ခႏၶာကုိယ္မွ မေရမတြက္ႏုိင္ေအာင္ မ်ားျပားတဲ့ အလင္းတန္းမ်ားထုတ္လႊတ္ျပီး သူ႔ကုိသတ္တဲ့ Azwraith ကုိ ျပန္လည္ ထိုးေဖာက္ကာ တုိက္ခုိက္သြားခဲ့ပါတယ္။ တုိက္ပြဲျပီးဆုံးသြားခဲ့ျပီး မီးခုိးမ်ား၊ ဖုန္႔မႈန္မ်ား ကင္းစင္ျငိမ္သက္သြားခ်ိန္မွာေတာ့ Azwraith ဟာ သူ႔ရဲ႕ ရဲေဘာ္ရဲဘက္မ်ား အနဲ႕အတူ မားမားမတ္မတ္ ရပ္ေနခဲ့ပါတယ္။ သူ႔ဝတ္ဆင္ထားတဲ့ အဝတ္အစား၊ သူကုိင္ဆြဲထားတဲ့ လက္နက္အတုိင္း ထပ္တူၾကစြာ တူညီေနတဲ့ ရဲေဘာ္ရဲဘက္မ်ားရဲ႕ ဝိဥာဥ္မ်ားကုိ အာရုံခံထိန္းခ်ဴပ္နုိင္မွန္း သိလုိက္ရတဲ့အခါမွာ Azwraith ဟာ ဝိဥာဥ္မ်ားကုိ အနားယူဖုိ႔ ေစခုိင္းခဲ့ပါေတာ့တယ္။ တစ္ေကာင္ျပီး တစ္ေကာင္ တျဖည္းျဖည္းခ်င္း ေပ်ာက္ကြယ္သြားျပီးေနာက္မွာေတာ့ အာရုံဦးအလင္းေရာင္နဲ႕အတူ စစ္ကူမ်ားလည္း ေရာက္ရွိလာခဲ့ပါျပီ။ စစ္သားမ်ားဟာ ေမွာ္ဆရာၾကီး Vorn ကုိ တစ္ကုိယ္တည္းအႏုိင္ယူတုိက္ခုိက္လုိက္တဲ့ သူတုိ႔ရဲ႕ သူရဲေကာင္းၾကီးကုိ ဂုဏ္ျပဳခ်ီးေျမာက္ဖုိ႔ အနားကုိ စုျပဳံတုိးကပ္လာခ်ိန္မွာေတာ့ ၄င္းတုိ႔ မ်က္စိေရွ႕မွာ လွံတံကုိ ကုိင္ဆြဲျပီး မားမားမတ္မတ္ရပ္ေနတဲ့ လွံတံကုိင္ စစ္သည္ေတာ္ Azwraith ဟာ တေစၦတစ္ေကာင္ သဖြယ္ ေပ်ာက္ကြယ္သြားခဲ့ပါေတာ့တယ္",
+		"hero_overview":"Illusion Hero ေတြရဲ႕ ထုံးစံအတုိင္း Damage မ်ားမ်ားသတ္ေရာက္ဖုိ႔ Main Attribute ေပၚမွီခုိေနရတဲ့အတြက္ Diffusal Blade, Butterfly, Skadi, Manta Style, Sange and Yasha, Heart စတဲ့ Item ေတြကုိအဓိကေရြးခ်ယ္ေပးသင့္ပါတယ္။ Earthshaker, Timersaw, Tiny, Axe, Ember, Legion Commander တုိ႔ဟာ Phantom Lancer ရဲ႕အဆုိးရြားဆုံး Counter Hero မ်ားျဖစ္ျပီး Single Target Hero မ်ားျဖစ္တဲ့ Wraith King, Huskar, Doom, Viper တုိ႔ကုိ Counter ျပန္လုပ္ဖုိ႔လည္းစဥ္းစားႏုိင္ပါတယ္။ Phantom Lancer ကစားသမားေတြအတြက္ Hotkey Option ထဲက Select All Unit ကုိႏွိပ္ရလြယ္တဲ့ (ဥပမာ - Z) Hotkey တစ္ခုေပးထားျပီးကစားဖုိ႔အၾကံျပဳခ်င္ပါတယ္။ မ်ားျပားလွတဲ့ Illusion ေတြကုိအခ်ိန္တုိင္း Dash ဆြဲျပီး Select မွတ္ေနတာထက္ Key တစ္ခုတည္းကုိ ႏွိပ္ျပီးထိန္းေက်ာင္းႏုိင္မွာျဖစ္လုိ႔ ပုိမုိထိေရာက္ေစမွာပါ။ မည္သုိ႔ပင္ဆုိေစကာမူ မိမိႏွစ္သက္ေသာ ကစားကြက္သာလွ်င္ မိမိအတြက္အေကာင္းဆုံးျဖစ္ပါလိမ့္မယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Spirit Lance",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/phantom_lancer_spirit_lance_hp1.png",
+				"spell_overview":"V6.82 မွာ Ability ၃ ခုေတာင္ေျပာင္းလဲသြားေပမယ့္ မေျပာင္းလဲပဲ က်န္ခဲ့တဲ့ Spirit Lance ဟာ Phantom Lancer ကစားသမား 95% ေလာက္က ဦးစားေပးဆုံးေအာင္ယူတဲ့ Single Target Nuke Ability တစ္ခုျဖစ္ပါတယ္။ Cooldown 7 seconds သာရွိျပီး Slow Duration 3.75 seconds ရွိတဲ့အတြက္အေစာပုိင္းမွာ mana အေထာက္အပံ့အျပည့္ေပးႏုိင္တဲ့ Lancer + Keeper အတြဲဟာ Dota ကစားသမားေတြအၾကား ေရပန္းစားတဲ့ တြဲလုံးျဖစ္ေနဆဲပါပဲ။ မ်ားမ်ားယူေလ Damage နဲ႕ Movement Slow Rate တုိးလာမွာျဖစ္လုိ႔ သူ႕ရဲ႕ Ability ေတြထဲမွာ ဦးစားေပးအယူသင့္ဆုံး Ability ျဖစ္ေနပါတယ္။ အပစ္ခံရတဲ့ Unit ဟာ disjoint ျဖစ္ေအာင္ မေရွာင္တိမ္းနုိင္ဘူးဆုိရင္ အဆုိပါ Unit အနားမွာ Damage Taken 400%, Damage Output 20% ရွိတဲ့ Illustion Unit တစ္ခုဟာ 2/4/6/8 seconds ၾကာေအာင္ ေပၚေနမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Doppelganger",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/phantom_lancer_doppelwalk_hp1.png",
+				"spell_overview":"ယခင္ Dopple Walk ေနရာမွာ အစားထုိးဝင္ေရာက္လာတဲ့ Doppleganger ဟာ Escape Ability တစ္ခုျဖစ္ပါတယ္။ Lancer ဟာ ေျမပုံကေန 1 second အၾကာ ေပ်ာက္ကြယ္သြားမွာျဖစ္ျပီး Illusion Unit ၂ ခု နဲ႕အတူ ျပန္လည္ ေပၚထြက္လာမွာျဖစ္ပါတယ္။ အဆုိပါ Illusion ၂ေကာင္ ရဲ႕ထူးျခားခ်က္ကေတာ့ ပထမ Illusion ဟာ Phantom Lancer အစစ္ အတုိင္း မာ ကာ Damage 0 ရွိမွာျဖစ္ျပီး ဒုတိယ Illusion ကေတာ့ ေပ်ာ့ဖတ္ျပီး အစစ္ရဲ႕ 20% Damage သတ္ေရာက္ႏုိင္စြမ္းရွိပါတယ္။ ဒါေၾကာင့္ Doppleganger ဟာ Spell ေရွာင္ဖုိ႔အတြက္ အလြယ္တကူအသုံးျပဳနုိင္တဲ့အျပင္ ျပန္ေပၚလာတဲ့အခါမွာလည္း မိမိကြ်မ္းက်င္ရင္ ကြ်မ္းက်င္သေလာက္ တစ္ဖက္အသင္းကုိ လွည့္ဖ်ားႏုိင္မွာျဖစ္ပါတယ္။ Illusion ၂ ေကာင္ထဲက အလင္းေရာင္ အရမ္းေတာက္ေနတဲ့ေကာင္ဟာ အစစ္အတုိင္းမာတဲ့ Illusion ျဖစ္လုိ႔ Doppleganger သုံးျပီးတာနဲ႕ အဆုိပါအေကာင္ကုိ အလြယ္တကူ Control ယူျပီး အစစ္ေယာင္ေဆာင္က လွည့္ဖ်ားနုိင္မွာပါ။ မ်ားမ်ားယူရင္ Cooldown က်သြားမွာျဖစ္လုိ႔အေစာပုိင္းမွာ တစ္ဆင့္ေလာက္နဲ႕ လုံေလာက္ပါတယ္။"
+			},
+			{
+				"spell_name":"Phantom Rush",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/phantom_lancer_phantom_edge_hp1.png",
+				"spell_overview":"Juxtapose ေနရာမွာဝင္လာတဲ့ Phantom Rush ကေတာ့ Enemy Unit အနားကုိအလြယ္တကူကပ္နုိင္မယ့္ Passive Ability ျဖစ္ပါတယ္။ Passive ေပမယ့္ Weaver ရဲ႕ Germinate Attack ကဲ့သုိ႔ Cooldownရွိမွာျဖစ္ျပီးCooldown ျပည့္ေနသည့္တုိင္ အလုိအေလွ်ာက္ Phantom Rush ျဖစ္ေနမွာမဟုတ္ပဲမိမိတုိက္ခုိက္ခ်င္တဲ့ Unit ကုိ Right Click (ဒါမွမဟုတ္) Attack ေထာက္မွ ျဖစ္ေပၚမွာျဖစ္ပါတယ္။ မ်ားမ်ားယူေလ Range ေဝးလာျပီးCooldownက်လာမွာျဖစ္လုိ႔ ဒုတိယဦးစားေပးတင္ဖုိ႔ အၾကံျပဳခ်င္ပါတယ္။ ေျပးေနစဥ္မွာ 800 MS ရွိကာအျခားလႈပ္ရွားမႈတစ္ခုခုကုိလုပ္လုိက္ရင္ အေျပးရပ္သြားမွာျဖစ္ျပီး Illusion ေတြမွာလည္းကုိယ္ပုိင္ Phantom Rush Cooldownမ်ားသီးျခားစီရွိေနမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Juxtapose",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/phantom_lancer_juxtapose_hp1.png",
+				"spell_overview":"Phantom Lancer ရဲ႕ အဓိကအသက္ျဖစ္တဲ့ Illusion ေတြကုိ Ultimate အဆင့္ေရာက္မွသာရရွိေတာ့မွာျဖစ္ျပီး Juxtapose ဟာအရင္လုိ Magic Resistance ကုိေတာ့ ရရွိေတာ့မွာမဟုတ္ပါဘူး။ Lancer အစစ္မွာေရာ Illusion ေတြမွာပါ ခုတ္ခ်က္တုိင္းမွာIllusion ေတြျဖစ္ေပၚလာဖုိ႔ Chance သီးျခားစီရွိပါတယ္။ အစစ္ရဲ႕ ခုတ္ခ်က္တုိင္းမွာ 40/45/50% ရွိျပီးအတုေတြမွာေတာ့ 8% Chance ရွိပါတယ္။ ဒါေပမယ့္ အမ်ားဆုံး Illusion 5/7/9 ေကာင္သာ ျဖစ္ေပၚနုိင္မွာျဖစ္ျပီး Illusion ေတြဟာအစစ္ရဲ႕ Damage 16% သတ္ေရာက္နုိင္စြမ္းရွိပါတယ္။ Illusion ေတြဟာ Maim, Bash စတဲ့ Passive ေတြ မရရွိနုိင္ေပမယ့္ အားသာခ်က္ကေတာ့ Diffusal Blade ရဲ႕ Feedbackကုိအျပည့္အဝသတ္ေရာက္ႏုိင္စြမ္းရွိတဲ့အတြက္ Phantom Lancer ရဲ႕အဓိက Item ေတြထဲမွာDiffusal Blade က ထိပ္ဆုံးကပါဝင္ေနပါတယ္။"
+			}
+		]
+	},
+	{
+		"share_hero":"https://www.facebook.com/yahooyeehadotasuggestion/posts/466679896816217",
+		"hero_intellgience":"17 + 1.50",
+		"hero_agility":"24 + 3.70",
+		"hero_strength":"19 + 2.00",
+		"hero_damage":"13 - 22",
+		"hero_movement_speed":"285",
+		"hero_armor":"1.36",
+		"hero_name":"Morphling",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/morphling_vert.jpg",
+		"hero_role":"Ranged - Carry - Escape - Durable - Nuker - Disabler",
+		"hero_detail":"Background Story\nၾကယ္တံခြန္စက္ဝန္းတုိ႔ရဲ႕ အေမွာင္ေခတ္ကာလတုန္းက ေဝးကြာေသာ ေနမင္းရဲ႕ဆြဲအားကုိ မလြန္ဆန္နုိင္ဘဲ ျဂိဳလ္ကမာၻမ်ားအၾကားမွာ လြင့္ေမ်ာေနတဲ့ ဧရာမေရခဲလုံးၾကီးတစ္လုံးဟာ အေမွာင္ေခတ္တစ္ေလွ်ာက္ကုိ ျဖတ္သန္းရင္း ထူးဆန္းစြာ ျဖစ္ေပၚခဲ့ပါတယ္။ ႏွစ္ေပါင္းမ်ားစြာ တိုက္ခုိက္ေနခဲ့ေသာ Vloy စစ္ပြဲရဲ႕ ညေနခင္းတစ္ခုမွာေတာ့ စစ္သည္ေတာ္မ်ား ၾကဳိတင္ရရွိထားခဲ့ေသာ နိမိတ္ပုံအတုိင္း ေရခဲလုံးၾကီးဟာ ေကာင္းကင္ထက္မွာ လင္းလက္ရင္း အရွိန္အဟုန္ျဖင့္ ေျမေပၚသုိ႔ က်ဆင္းလာခဲ့ပါတယ္။ ေအးခဲေနေသာ အလုံးၾကီးဟာ စစ္မက္ျဖစ္ပြားေနတဲ့ တပ္ ၂ တပ္ရဲ႕ အလယ္က ေရတိမ္ေသာျမစ္ငယ္ကလည္းထဲကုိ က်ေရာက္ခဲ့ျပီး အပူရွိန္ေၾကာင့္ အေရေပ်ာ္ေနခဲ့ပါတယ္။ ေရခဲမွတ္ကို ေက်ာ္လြန္သြားတဲ့အခါမွာ Morphling ဟာ ပင္လယ္သမုဒၶရာရဲ႕ တည္ျငိမ္ေလးနက္မႈတုိ႔နဲ႕အတူ ပရိပကၡမ်ားအၾကားမွာ ေမြးဖြားလာခဲ့ပါေတာ့တယ္။ သူတည္ရွိရာ ေရျပင္ေပၚကုိ ေျချဖင့္ နင္းရဲေသာ စစ္ဗုိလ္ခ်ဴပ္တစ္ေယာက္ေၾကာင့္ တုိက္ပြဲထဲကုိ ကမူးရွဴးထုိးဝင္ေရာက္ခဲ့ေသာ Morphling ဟာ အဆုိပါ စစ္ဗုိလ္ရဲ႕ အသြင္သ႑န္ကုိ ပုံတူကူးယူ ေျပာင္းလဲျပီး သူ႔အားသတ္ျဖတ္ခဲ့ပါတယ္။ သူဟာ အမ်ဴိးအစားမတူေသာ စစ္သည္ေတာ္မ်ားနဲ႕ တုိက္ခုိက္ရျခင္းျဖစ္သည့္အေလ်ာက္ တုိက္ပြဲအတြင္းမွာ ရင္ဆုိင္ရသမွ် စစ္သားမ်ားရဲ႕ပုံသ႑န္မ်ားကုိ တစ္ခုျပီးတစ္ခုေျပာင္းလဲကာ တုိက္ခုိက္သတ္ျဖတ္ခဲ့ပါတယ္။ Morphling ဟာ ေနာက္ဆုံး တပ္သား တစ္ေယာက္ကုိ အဆုံးသတ္ တုိက္ခုိက္ျပီးခ်ိန္ထိ ေျခလွ်င္တပ္သားမ်ား၊ ျမွားစစ္သည္ေတာ္မ်ားနဲ႕ ျမင္းစီးသူရဲေကာင္းမ်ားရဲ႕ အသြင္ႏွင့္အစြမ္းသတိၱမ်ား အားလုံးကုိ ဆြဲစုတ္ကူးယူတုိက္ခုိက္ခဲ့ျပီးျဖစ္ပါတယ္။ ၾကမ္းတမ္းရက္စက္ေသာ စစ္ပြဲၾကီး ျပီးဆုံးသြားခ်ိန္ဟာ Morphling ရဲ႕ အစျပဳခ်ိန္ပါပဲ။",
+		"hero_overview":"Adaptive Strike ဟာ Morphling ရဲ႕ Attribute ေပၚကုိမ်ားစြာမွီခုိေနတဲ့အတြက္ ေနာက္ဆုံးမွတင္သင့္တဲ့ Abiliity ျဖစ္ပါတယ္။ Replicate ဟာ Morphling ရဲ႕ အသက္ျဖစ္လုိ႔ Replicate သုံးျပီး အသက္ရွင္ဖုိ႔ အေထာက္အကူျပဳမယ့္ Linken Sphere ဟာ Core Item တစ္ခုအျဖစ္ သက္မွတ္ထားျခင္းခံရပါတယ္။ Morphling ဟာ Agility Grow မ်ားျပီးသားျဖစ္လုိ႔ Boots ေရြးခ်ယ္ရာမွာလည္း Enemy Team ကုိ အလြယ္တကူ RAT နုိင္မယ့္ Boots of Travel ကုိ ေရြးခ်ယ္သင့္ပါတယ္။ အျခား Carry ေတြလုိမ်ဴိး Damage Item ေတြအစား Adaptive Strike နဲ႕ Morph တုိ႔ကုိ အထူးအက်ဴိးျပဳေစမယ့္ Attribute Item ေတြျဖစ္ေသာ Heart, Satanic, Butterfly, Skadi, Sange and Yasha, Manta Style တုိ႔ကုိ Inventory ၆ ကြက္အတြက္ အေကာင္းဆုံးစဥ္းစားေရြးခ်ယ္နုိင္ပါတယ္။ ဒါ့အျပင္ Magical Damage ကုိ 40% တုိးထိေစမယ့္အျပင္ လက္ရွိ Agility Attribute ပမာဏကုိ မူတည္ျပီး Damage တုိးျမင့္တုိက္ခုိက္ေပမယ့္ Ethereal Blade ဟာ ကစားသမားအမ်ားစု ေရြးခ်ယ္ေတာ့ One Hit Kill Item တစ္ခုျဖစ္ပါတယ္။ ဥပမာ Morphling ရဲ႕ Agility 150 ရွိေနခ်ိန္မွာ Ethereal Blade ေၾကာင့္ (150+75) Ether Blast + [150*2 + 80 (Adaptive Strike)] + 325 (Waveform) + 282 (40% Extra) = 1212 Damage အထိ သက္ေရာက္နုိင္တာေၾကာင့္ တစ္ဖက္အသင္းမွာ Hp Pool နည္းတဲ့ Support Hero မ်ားကို Second ပုိင္းအတြက္ အေပ်ာက္ေဖ်ာက္နုိင္မွာ ျဖစ္ပါတယ္။ မည္သုိ႔ပင္ဆုိေစကာမႈ မိမိႏွစ္သက္ေသာ ကစားကြက္သာလွ်င္ မိမိအတြက္အေကာင္းဆုံးျဖစ္ပါလိမ့္မယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Waveform",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/morphling_waveform_hp1.png",
+				"spell_overview":"Blink Ability တစ္ခုမဟုတ္ေပမယ့္ 11 Seconds Cooldown နဲ႕ 325 Magical Damage ကုိ အသုံးျပဳမယ့္ အကြာအေဝး 1000 Distance တစ္ေလွ်ာက္လုံး သတ္ေရာက္ေစမယ့္ Waveform ဟာ ကစားပြဲအေစာပုိင္း Morphling ကုိ Initiator တစ္ေကာင္အျဖစ္ သတ္မွတ္ေစမယ့္ Ability ျဖစ္ပါတယ္။ ထူးျခားခ်က္ကေတာ့ Waveform အသုံးျပဳထားခ်ိန္မွာ Morphling အေနနဲ႕ Physical Attack, Ability နဲ႕ Item မ်ားကုိ လြတ္လပ္စြာအသုံးျပဳနုိင္မယ့္အျပင္ Invulnerable ျဖစ္ေနမယ့္ အခ်က္ျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Adaptive Strike",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/morphling_adaptive_strike_hp1.png",
+				"spell_overview":"Morphling ရဲ႕ လက္ရွိ Agility နဲ႕ Strength ျခားနားခ်က္ကုိ တြက္ခ်က္ျပီး Damage နဲ႕ Stun Duration ပမာဏ အေျပာင္းအလဲျဖစ္ေစမယ့္ Adaptive Strike ကုိ အေျခအေနကုိ သုံးသပ္ျပီး မည္သုိ႔တုိက္ခုိက္ရမည္ဟု ေရြးခ်ယ္စဥ္းစားနုိင္ပါတယ္။ အဆင့္မ်ားမ်ားယူေလ Damage နဲ႕ Stun Duration အတြက္ ေျမာက္လဒ္မ်ား တက္လာမွာျဖစ္ျပီး Agility ဟာ Damage ကုိ ကုိယ္စားျပဳ တြက္ခ်က္ေပးကာ Strength ကေတာ့ Stun Duration ကုိ တြက္ခ်က္ပါတယ္။ Agility ရဲ႕ Maximum Multiply ဟာ 0.5/ 1/ 1.5/ 2 ဆုိတဲ့အတုိင္း တက္လာမွာျဖစ္ျပီး Strength ရဲ႕ Maximum Multiply ကေတာ့ 1.25/ 2.25/ 3.25/ 4.25 seconds ရွိလာမွာျဖစ္ျပီး ႏွစ္မ်ဴိးစလုံးအတြက္ Minimum Multiply က 0.25 အတုိင္းရွိေနမွာျဖစ္ပါတယ္။ ဥပမာ Agility ပမာဏဟာ Strength ပမာဏရဲ႕ 50% ထက္ပုိမ်ားေနမယ္ဆုိရင္ Agility အျမင့္ဆုံးေျမာက္လဒ္ကုိ ယူတြက္ျပီး Strength အနိမ့္ဆုံးေျမာက္လဒ္နဲ႕ တြက္ခ်က္မွာျဖစ္ပါတယ္။ 150 Agility နဲ႕ 100 Strength ဆုိရင္ Agility ဟာ Strength ထက္ 50% မ်ားေနမွာျဖစ္လုိ႔ ေနာက္ဆုံးအဆင့္ တြက္ခ်က္ပုံမွာ Damage အတြက္ [80 Base Damage + (150*2)]= 380 Magical Damage နဲ႕ Stun အတြက္ Minimun 0.25 second Stun သက္ေရာက္မွာျဖစ္ပါတယ္။ အျပန္အလွန္သေဘာအရ 100 Agility နဲ႕ 150 Strength ျဖစ္ေနမယ္အေျခအေနအတြက္ [80 + (100*0.25)] = 105 Magical Damage နဲ႕ Stun အတြက္ 0.25 + 4.25 = 4.5 seconds Stun ကုိ သက္ေရာက္ေစမွာျဖစ္ပါတယ္။ ရာခိုင္ႏႈန္းနဲ႕ တြက္ခ်က္ျခင္းျဖစ္လုိ႔ Strength 1 ျဖစ္ေနမွ Agility 1 ျဖစ္ေနမွာသာ Maximun Multiply ကုိ တြက္ခ်က္မွာ မဟုတ္ဘဲ ပမာဏ ၂ ခု ဟာ 50% ခန္႔ျခားနားသြားရုံနဲ႕ Max အေျခအေနနဲ႕ တြက္ခ်က္သတ္ေရာက္ေစမွာျဖစ္ပါတယ္။ တကယ္လုိ႔ 50% အထိမျခားနားေသးရင္လည္း Str မ်ားရင္ Stun, Agi မ်ားရင္ Damage အတြက္ အခ်ဴိးအစားအလုိက္ တုိးလာမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Morph (Agility Gain)",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/morphling_morph_agi_hp1.png",
+				"spell_overview":"Morphling shifts its form, pulling points from Strength and pouring them into Agility. The process is reversible. Additional points in Morph increase the rate of stat change. Passively grants bonus Agility."
+			},
+			{
+				"spell_name":"Morph (Strength Gain)",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/morphling_morph_str_hp1.png",
+				"spell_overview":"Morphling shifts its form, pulling points from Agility and pouring them into Strength. The process is reversible. Additional points in Morph increase the rate of stat change. Passively grants bonus Strength."
+			},
+			{
+				"spell_name":"Hybrid",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/morphling_hybrid_hp1.png",
+				"spell_overview":"Morphling creates a hybrid replication of a target allied hero, which can cast all of that hero's current, non-ultimate abilities. Enemies are able to see which unit is a hybrid."
+			},
+			{
+				"spell_name":"Replicate",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/morphling_replicate_hp1.png",
+				"spell_overview":"Morphling replicates any hero, friend or foe, dealing 80% of the original Hero's outgoing damage while taking 100% of any incoming damage. At any time, Morphling can instantly take the position of the Replicate for 150 mana. If Morphling dies, the Replicate will expire."
+			},
+			{
+				"spell_name":"Morph Replicate",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/morphling_morph_replicate_hp1.png",
+				"spell_overview":"Morphling switches into his replication, instantly taking its position"
+			}
+		]
+	},
+	{
+		"share_hero":"https://www.facebook.com/yahooyeehadotasuggestion/posts/461912063959667",
+		"hero_intellgience":"15 + 1.80",
+		"hero_agility":"21 + 2.90",
+		"hero_strength":"20 + 2.10",
+		"hero_damage":"23 - 25",
+		"hero_movement_speed":"285",
+		"hero_armor":"1.94",
+		"hero_name":"Viper",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/viper_vert.jpg",
+		"hero_role":"Ranged - Carry - Durable - Initiator - Disabler",
+		"hero_detail":"Background Story\nViper ဟာ ရက္စက္မႈ၌ေပ်ာ္ေမြ႔ေသာ ေကာက္က်စ္စဥ္းလဲတဲ့ ေမွာ္ဆရာတစ္ဦးက အိမ္ေမြးတိရိစာၦန္အျဖစ္ ေမြးျမဴးဖုိ႔ ဖမ္းဆီးခံထားရတဲ့ သတၱဝါတစ္ေကာင္ျဖစ္ပါတယ္။ ငရဲျပည္ရဲ႕ အနီးနားမွာရွိတဲ့ ေျမေအာက္ဂူၾကီးတစ္ဂူထဲမွာ ႏွစ္သန္းေပါင္းမ်ားစြာ ေနထုိင္လာတဲ့ မ်ဴိးႏြယ္စုတစ္ခုျဖစ္တဲ့ Netherdrake မ်ားဟာ ကမာၻေျမမ်က္ႏွာျပင္ ကြဲအက္ပ်က္စီးမႈၾကီးေၾကာင့္ အလင္းေရာင္ေအာက္ကုိ ထြက္လာၾကေသာ သက္ရွိသတၱဝါမ်ားပဲျဖစ္ပါတယ္။ အဖမ္းဆီးခံထားရစဥ္ဘဝတစ္ေလွ်ာက္လုံးမွာ Viper ဟာ သူ႔ေလွာင္ျခဳိင့္ထားရာ ေမွာ္ဆရာရဲ႕ လက္ေတြ႕စမ္းသပ္ခန္းထဲမွာ ေနထုိင္ရင္း သူ႔သခင္ရဲ႕ ေလ့လာဖန္တီးေနသမွ် ေမွာ္ပညာမ်ားကုိ ရည္ရြယ္ခ်က္ရွိစြာျဖင့္ တုိးတုိးတိတ္တိတ္သင္ယူေနခဲ့ပါတယ္။ သိပ္မၾကာခင္မွာပဲ Viper ဟာ သူ႔ရဲ႕ ေမြးဖြားစဥ္ကတည္းက ပါဝင္လာခဲ့တဲ့ အဆိပ္ျပင္းမ်ားဟာ သခင္ျဖစ္သူရဲ႕ ေမွာ္ပညာမ်ားကဲ့သုိ႔ ေသေစနုိင္တဲ့ အစြမ္းမ်ားရွိေၾကာင္း သိရွိခဲ့ျပီးေနာက္မွာေတာ့ ခႏၶာကိုယ္မွ အဆိပ္မ်ားကုိ စိမ့္ထုတ္ကာ ေလွာင့္ျခဳိင့္ရဲ႕ သံတုိင္မ်ားကုိ လွ်င္ျမန္စြာ အရည္ေပ်ာ္ေအာင္ တုိက္စားေစခဲ့ပါတယ္။ သခင္ဆုိးရဲ႕မ်က္လုံးသုိ႔ ခ်ိန္ရြယ္ျပီး အဆိပ္မ်ားနဲ႕ ေထြးထုတ္ကာ ထာဝရအက်ဥ္းေထာင္ထဲမွ ထြက္ေျပးလြတ္ေျမာက္ခဲ့ပါေတာ့တယ္။ Viper The Netherdrake ဟာ သူ႔ကုိ ပညာအသစ္ေတြ သင္ေပးမယ့္ သခင္အသစ္ကို ရွာေဖြဖုိ႔ ကမာၻၾကီးေပၚသုိ႔ လြတ္လပ္စြာ ပ်ံသန္းလာခဲ့ျပီျဖစ္ပါတယ္။",
+		"hero_overview":"Dota 1 တုန္းကေတာ့ Viper ရဲ႕ သခင္ဟာ Abaddon ျဖစ္ခဲ့ေပမယ့္ Dota 2 Story Line မွာေတာ့ သူ႔ရဲ႕သခင္ ဆုိးသြမ္းတဲ့ ေမွာ္ဆရာဟာ Pugna ကုိ ရည္ညႊန္းထားတာျဖစ္ပါတယ္။ Viper ဟာ Dota Hero အားလုံးထဲမွာ Slow Ability အမ်ားဆုံးနဲ႕ ဖြဲ႕စည္းထားတဲ့ Hero တစ္ေကာင္ျဖစ္ပါတယ္။ တစ္ဖက္အသင္းရဲ႕ Attack Speed အသားေပးတုိက္ခုိက္တဲ့ Melee Carry ေတြကုိ ႏွိမ္ထားဖုိ႔အတြက္ Offlane မွာအသုံးျပဳသလုိ Mid Lane ကုိလာမယ့္ Spell Caster Hero ေတြျဖစ္တဲ့ Storm Spirit, Lina, Zeus တုိ႔ကုိ Counter လုပ္ဖုိ႔အတြက္လည္း ေရြးခ်ယ္နုိင္ပါတယ္။ Nethertoxin ကိုအေစာပုိင္းတင္ထားမယ္ဆုိရင္ Last Hit ကုိေသခ်ာေစမွာျဖစ္လုိ႔ Mekansm အေစာပုိင္းထည့္ေပးတဲ့ Durable Hero တစ္ေကာင္အျဖစ္ Professional အဆင့္ ကစားပြဲေတြမွာ ျမင္ေတြ႕ရေလ့ရွိတဲ့ Viper ဟာ Durable Hero တစ္ေကာင္ျဖစ္တာနဲ႕အညီ အေစာပုိင္း Inventory ၄ ကြက္ေလာက္အထိ Strenght တက္မယ့္ Item ေတြေရြးခ်ယ္ထားသင့္ပါတယ္။ Aghanim’s Scepter ဆက္ထားမယ္ဆုိရင္ Nether Strike ကုိ Cooldown 12 seconds အထိက်ေစမယ့္အျပင္ Cast Range တုိး၊ Mana Cost နည္းသြားေစမွာျဖစ္လုိ႔ Ganking လုပ္ဖုိ႔ အတြက္ရည္ရြယ္ရင္ မျဖစ္မေနဆက္သင့္ပါတယ္။ ကစားသမား အမ်ားစုဟာ Nethertoxin ကုိ အရင္ဆုံး lvl ဆုံးေအာင္တင္ေလ့ရွိေပမယ့္ တကယ္တမ္း Poison Attack ကုိ ဦးေအာင္ တင္ခဲ့မယ္ဆုိရင္ Ganking အတြက္ မ်ားစြာထိေရာက္မႈရွိပါလိမ့္မယ္။ 40% MS Slow ဟာ Hero တစ္ေကာင္ကုိေသေစဖုိ႔ လုံေလာက္တဲ့ ပမာဏျဖစ္တဲ့အျပင္ Aggressive ျဖစ္တဲ့ Hero ေတြနဲ႕ ေနရတဲ့ Lane မွာဆုိရင္လည္း Corrossive Skin ကုိ ဦးစြာတင္သင့္ပါတယ္။ Viper ဟာ Carry သီးသန္႔ေဆာ့မယ့္အေျခအေနမွသာ Nethertoxin ကုိတင္သင့္တာျဖစ္လုိ႔ မည္သုိ႔ပင္ဆုိေစကာမင မိမိႏွစ္သက္ေသာ ကစားကြက္သာလွ်င္ မိမိအတြက္အေကာင္းဆုံးျဖစ္ပါလိမ့္မယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Poison Attack",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/viper_poison_attack_hp1.png",
+				"spell_overview":"Single Target Ability တစ္ခုျဖစ္ျပီး အသုံးျပဳခံရတဲ့ Unit ရဲ႕ Movement Speed ကုိ အဓိက ေလွ်ာ့ေပးမယ့္ Poison Attack ဟာ Auto Attack Ability တစ္ခုျဖစ္ပါတယ္။ Duration က 2 second သာရွိမွာ ျဖစ္ေပမယ့္ ေနာက္ဆုံးအဆင့္မွာ အတုိက္ခုိက္ခံရတဲ့ Unit ရဲ႕ Movement Speed နဲ႕ Attack Speed ကုိ 40% အထိေလွ်ာ့ေပးမွာျဖစ္လုိ႔ Disable Ability တစ္ခုနဲ႕ သိပ္မကြာပါဘူး။ v6.79 ကေနစျပီး Cooldown ကုိ 0 အျဖစ္ ေျပာင္းလဲေပးျပီးတဲ့ေနာက္မွာေတာ့ တစ္ဆင့္ေလာက္ယူထားယုံနဲ႕ အေစာပုိင္း အဆင္ေျပသြားျပီျဖစ္ပါတယ္။ Damage Per Second ဟာလည္း အမ်ားၾကီးမဟုတ္ေပမယ့္ အျခား DPS ေတြနဲ႕ တြဲဖက္သက္ေရာက္တဲ့အခါမွာ မ်ားျပားတဲ့ ပမာဏျဖစ္သြားမွာပါ။"
+			},
+			{
+				"spell_name":"Nethertoxin",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/viper_nethertoxin_hp1.png",
+				"spell_overview":"ယခင္ Attack Speed တင္ေပးမယ့္ Frenzy ကေန ေျပာင္းလဲသြားတဲ့ Nethertoxin ဟာ အတုိက္ခုိက္ခံရမယ့္ Unit ရဲ႕ Hp အခ်ဴိးအစားကုိ ၾကည့္ျပီး Damage တုိးျမင့္လာေစမယ့္ Passive Ability တစ္ခုျဖစ္ပါတယ္။ Enemy Hero တစ္ေကာင္ကုိ တုိက္ခုိက္ရာမွာ တုိးလာမယ့္ Damage ပမာဏဟာ 2.5/ 5/ 7.5/ 10 Damage ျဖစ္ျပီး Hp 20% ေလ်ာ့သြားတိုင္း Bonus Damage ဟာ ၂ ဆ တုိးလာမွာျဖစ္ပါတယ္။ ဒါေၾကာင့္ ေနာက္ဆုံးအဆင့္ထိတင္ထားျပီးရင္ Enemy Hero ရဲ႕ လက္က်န္ Hp 80% အထက္ ကုိတုိက္ခုိက္ရင္ 10 Bonus Damage, လက္က်န္ 60% အထက္ ကုိတုိက္ခုိက္ရင္ 20 Bonus Damage, လက္က်န္ 40% အထက္ကုိ တုိက္ခုိက္ရင္ 40 Bonus Damage, လက္က်န္ 20% အထက္ကုိ တုိက္ခုိက္ရင္ 80 Bonus Damage နဲ႕ လက္က်န္ Hp 20 % ေအာက္ ကုိ တုိက္ခုိက္ရင္ေတာ့ 160 Bonus Damage ကုိ ျဖစ္ေပၚေစမွာျဖစ္ပါတယ္။ Hero အမ်ဴိးအစားမဟုတ္တဲ့ Unit ေတြကုိ တိုက္ခုိက္ရင္ေတာ့ အေပၚမွာရရွိခဲ့တဲ့ Bonus ရဲ႕ တစ္ဝက္ကုိသာရရွိမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Corrosive Skin",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/viper_corrosive_skin_hp1.png",
+				"spell_overview":"Viper ရဲ႕ 1400 AoE အတြင္းကေန သူ႔ကုိတုိက္ခုိက္သမွ် Unit ေတြဟာ Movement Slow, Attack Speed Slow နဲ႕ Damage Per Second ၃ မ်ဴိးစလုံး ကုိ ခံစားေစရမယ့္ Corrossive Skin ဟာ Passive Ability တစ္ခုျဖစ္ျပီး Magic Resistance လည္း ပါဝင္ပါတယ္။ ေနာက္ဆုံးအဆင့္မွာ Viper ကုိတုိက္ခုိက္မယ့္ Unit ေတြကုိ 25% MS Slow, 25 AS Slow, 25 Dps ျဖစ္ေပၚေစမွာျဖစ္ျပီး သူကုိယ္တုိင္ဟာလည္း 25 Magic Resistance ရရွိမွာျဖစ္ပါတယ္။ အေစာပုိင္းမွာ ၁ ဆင့္ေလာက္ယူထားရုံနဲ႕ Viper ကုိ Physical Attack ျဖင့္တုိက္ခုိက္မယ့္ Unit တုိင္းဟာ 4 Seconds ၾကာမယ့္ Slow မ်ားကို ခံစားရမွာျဖစ္လုိ႔ အနည္းဆုံး ၁ ဆင့္ေလာက္ေတာ့ ယူထားသင့္ပါတယ္။ Physical Attack တင္မကဘဲ Magic Ability အသုံးျပဳတဲ့ Unit ေတြကုိေတာင္ အဆုိပါ Return မ်ားျပန္ထိေစမွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Viper Strike",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/viper_viper_strike_hp1.png",
+				"spell_overview":"Ultimate Nether Strike ကေတာ့ မ်ားျပားလြန္းတဲ့ MS Slow နဲ႕ AS Slow ႏွစ္ခုစလုံးကုိ တစ္ျပဳိင္နက္တည္းတုိက္ခုိက္နုိင္မယ့္ Ability ျဖစ္ပါတယ္။ 40%/ 60%/ 80% MS AS Speed Slow ဆုိတဲ့ ပမာဏကုိ 5.1 Seconds ၾကာေအာင္ျဖစ္ေပၚေစယုံမကဘဲ 60 / 100/ 145 Dps ကုိလည္း ျဖစ္ေပၚေစမွာျဖစ္ပါတယ္။ ဒါေပမယ့္အတုိက္ခုိက္ခံရတဲ့ Unit ဟာ 1 second ၾကာတုိင္း သူတုိ႔ရဲ႕ ေလ်ာ့သြားတဲ့ 6% / 12%/ 18% MS နဲ႕ AS ကုိ ျပန္လည္ရရွိလာမွာျဖစ္ပါတယ္။"
+			}
+		]
+	},
+	{
+		"share_hero":"https://www.facebook.com/yahooyeehadotasuggestion/posts/450528771764663",
+		"hero_intellgience":"15 + 2.60",
+		"hero_agility":"21 + 2.50",
+		"hero_strength":"16 + 1.70",
+		"hero_damage":"15 - 21",
+		"hero_movement_speed":"290",
+		"hero_armor":"1.94",
+		"hero_name":"Sniper",
+		"hero_image":"http://cdn.dota2.com/apps/dota2/images/heroes/sniper_vert.jpg",
+		"hero_role":"Ranged - Carry - Nuker",
+		"hero_detail":"Background Story\nလြန္ေလျပီးေသာ အခ်ိန္ကာလကတည္းက Knollen လုိ႔အမည္ရေသာ ေတာင္ေျခရင္းလွ်ဴိေျမာင္ၾကားထဲမွာ ဖြဲ႕စည္းထားတဲ့ ေက်းရြာကေလး တစ္ရြာမွာ Kardel Sharpeye ကုိ ေမြးဖြားခဲ့ပါတယ္။ သူတုိ႔လူမ်ဴိးစုဟာ မက္ေစာက္ေသာ ေတာင္နံရံမွ တြဲခုိေနထုိင္တဲ့ ထူးဆန္းေသာ ငွက္မ်ဴိးစိတ္တစ္စုကုိ အမဲလုိက္ပစ္ခက္ရင္း ရရွိလာတဲ့ အသား၊ အေရခြံအစိတ္အပုိင္းမ်ားကုိ အသက္ရွင္ေနထုိင္သမ်ားျဖစ္ပါတယ္။ Sharpeye ဟာ အဆုိပါ လူထူးဆန္းမ်ဴိးႏြယ္ထဲမွာ သူ႔ရဲ႕ထူးျခားတဲ့ အေဝးပစ္လက္နက္ႏွင့္ ေသသပ္တဲ့ အပစ္အခတ္စြမ္းရည္တုိ႔ေၾကာင့္ သဘာဝ က်က် အထင္ေပၚဆုံးနဲ႕အေတာ္ဆုံးသူ တစ္ေယာက္ျဖစ္ပါတယ္။\nတစ္ေန႔မွာေတာ့ Sharpeye ဟာ အပစ္အခက္စြမ္းရည္နဲ႕ပတ္သတ္ျပီး မ်ဴိးရုိးစဥ္ဆက္ ထိန္းသိမ္းခဲ့တဲ့ စမ္းသပ္မႈတစ္ခုကိုေျဖဆုိဖုိ႔ အေၾကာင္းၾကားခံရပါတယ္။ ေတာင္နံရံေပၚက ငွက္ကုိ တစ္ခ်က္တည္းျဖင့္ ထိေအာင္ပစ္ခက္ျပရမယ့္ အဆုိပါ စမ္းသပ္မႈဟာ လြဲေခ်ာ္သြားခဲ့မယ္ဆုိရင္ေတာ့ သိကၡာက်ဆင္းသြားမွာျဖစ္လုိ႔ တစ္ရြာလုံးက ရြာသားမ်ားဟာ အဆုိပါ ပြဲကို ၾကည့္ရႈဖုိ႔ စိတ္လႈပ္ရွားေနခဲ့ပါတယ္။ Sharpeye ဟာ တစ္ခ်က္တည္းျဖင့္ ေတာင္ေစာင္းငွက္ ေျမေပၚက်လာေအာင္ ပစ္ခက္နုိင္ခဲ့တဲ့အတြက္ လူထုၾကီးဟာ ဝမ္းေျမာက္ဝမ္းသာ ျဖစ္ခဲ့ရေသာ္လည္း ရရွိလာတဲ့ ငွက္ေသကုိ ရယူလုိက္ခ်ိန္မွာေတာ့ တစ္ရြာလုံး တိတ္ဆိတ္သြားခဲ့ပါတယ္။ Sharpeye ပစ္လြတ္လုိက္တဲ့က်ည္ဆံဟာ ငွက္ရဲ႕ အလယ္ဗဟုိရ္မ်က္လုံးကုိ ေဖာက္ထြင္းသြားခဲ့ျပီး အေပၚႏႈတ္သီးရဲ႕အလည္တည့္တည့္အတြင္းထဲမွာ ညပ္ေနတာကုိ ေက်းရြာရဲ႕အၾကီးအကဲက ေတြ႕ရွိခဲ့တဲ့အတြက္ေၾကာင့္ျဖစ္ပါတယ္။ ဒီနိမိတ္ဆုိးလကၡဏာဟာ ထိုကဲ့သုိ႔ပစ္ခက္လာမယ့္ ေသနတ္သမားတစ္ဦးရဲ႕ ၾကီးျမတ္ျခင္းနဲ႕အတူ နယ္ႏွင္ဒဏ္ေပးပစ္ရမယ့္ အမုိက္ေမွာင္ရဲ႕ေရွ႕ျဖစ္ေဟာတစ္ခုအျဖစ္ နိမိတ္ေကာက္ယူထားတဲ့အတြက္ ဒီလုိပစ္ခတ္မႈျပဳခဲ့တဲ့ Sharpeye The Sniper ဟာ သူ႕ရဲ႕ အရည္အခ်င္းေၾကာင့္ပဲ သူ႔မ်ဴိးႏြယ္ရဲ႕ စြန္႔ခြာျခင္းကုိ ခံလုိက္ရပါေတာ့တယ္။ Sharpeye ဟာ သူ႔ကိုမၾကဳိဆုိတဲ့ မ်ဴိးႏြယ္စုအတြက္ မျပီးဆုံးေသးတဲ့ အဆုိပါေရွ႕ျဖစ္ေဟာရဲ႕ ရလာဒ္မ်ားကုိ အဆုံးသက္ေစဖုိ႔ တုိက္ပြဲမ်ားအတြင္းမွာ ၄င္းရဲ႕ဒ႑ာရီလာ အစြမ္းစရုိက္မ်ားကုိ ျဖည့္စည္းေဖာ္ထုတ္ လ်က္ရွိပါေတာ့တယ္။",
+		"hero_overview":"Shrapnel ဟာ ပထမကမာၻစစ္ ကာလတုန္းက တီထြင္အသုံးျပဳခဲ့တဲ့ ဗုံးတစ္မ်ဴိးျဖစ္ျပီး ကတုတ္က်င္းထဲက ရန္သူမ်ားကုိ က်ဲခ်တိုက္ခုိက္ တဲ့ေနရာမွာ အသုံးျပဳခဲ့ျခင္းျဖစ္ပါတယ္။ Shrapnel ကုိ Vision ေဖာ္တဲ့ေနရာမွာ အသုံးျပဳနုိင္သလုိ Assassinate အသုံးျပဳဖုိ႔အတြက္ Fog of War ထဲ ဝင္သြားတဲ့ Unit ကုိ ရွာေဖြတဲ့ေနရာမွာလည္းအသုံးျပဳနုိင္ပါတယ္။ Sniper ရဲ႕ Role ဟာ Safe ျဖစ္တဲ့ေနရာကေန တုိက္ခုိက္ရမွာျဖစ္လုိ႔ Safe ျဖစ္ဖုိ႔အေထာက္အကူျပဳမယ့္ Shadow Blade ဟာ လူသုံးမ်ားျပီး Dagger ကုိလည္း ေရြးခ်ယ္နုိင္ပါတယ္။ Head Shot ဟာ မ်ားျပားတဲ့ Extra Damage ကုိေပးမွာျဖစ္လုိ႔ Attack Speed ဟာ Sniper ရဲ႕ အေျခခံလုိအပ္ခ်က္ျဖစ္ျပီး Mask of Madness ဟာလည္း အခုေနာက္ပုိင္းမွာ လူၾကဳိက္မ်ားတဲ့ Item တစ္ခုျဖစ္လာပါတယ္။ ဒါ့အျပင္ Attack Speed အေျမာက္အမ်ားေပးမယ့္ Mjollnir, Butterfly တို႔အျပင္ Damage အတြက္ Monkey King Bar, Daedalus ဆုိဟာလည္း ေရြးခ်ယ္သင့္တဲ့ Item မ်ားျဖစ္ပါတယ္။ Agi Grow မ်ားလြန္းေပမယ့္ Str Grow နည္းလြန္းခ်င္းက Sniper ရဲ႕အဓိက အားနည္းခ်က္ျဖစ္လုိ႔ မိမိအနားကုိ အလြယ္တကူ ကပ္လာမယ့္ Phantom Assassin, Faceless Void နဲ႕ မိမိရဲ႕ Farming ကုိ အေႏွာက္အယွက္ေပးမယ့္ Bounty Hunter, Nyx Assassin တုိ႔ကို သတိထားသင့္ပါတယ္။ Shrapnel နဲ႕ Head Shot တုိ႔ဟာ ပုံေသတင္ဖုိ႔ သတ္မွတ္ခ်က္မရွိတဲ့အတြက္ Team Fight ေဆာ့ရမယ့္ပြဲမွာ Shrapnel, Farm ရမယ့္ပြဲမွာ Head Shot အစရွိသျဖင့္ အေျခအေနၾကည့္ျပီး ဆုံးျဖတ္ခ်က္ခ်နုိင္ပါတယ္။ မည္သုိ႔ပင္ဆုိေစကာမူ မိမိႏွစ္သက္ေသာ ကစားကြက္သာလွ်င္ မိမိအတြက္ အသင့္ေတာ္ဆုံးျဖစ္ပါတယ္။",
+		"hero_spell":[
+			{
+				"spell_name":"Shrapnel",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/sniper_shrapnel_hp1.png",
+				"spell_overview":"ယခင္က Building Unit မ်ားကုိ Damage သတ္ေရာက္နုိင္တဲ့အခ်က္ကုိပယ္ဖ်က္လုိက္ျပီး Riki ရဲ႕ Blink Strike, Ember Spirit ရဲ႕ Fire Remnant တုိ႔လုိ Charge ပုံစံအျဖစ္ေျပာင္းလဲလုိက္တဲ့အခါမွာေတာ့ Shrapnel ဟာ ဦးစားေပးယူတဲ့ Ability တစ္ခုျဖစ္သြားပါတယ္။ Cast Range 1800 ရွိတဲ့အတြက္ Enemy တစ္ေကာင္ရဲ႕ေျပးလမ္းေၾကာင္းေပၚ အသုံးျပဳျပီး Flying Vision ရယူနုိင္သလုိ Mana Cost ဟာလည္း 50 သာ ရွိတဲ့အတြက္ မ်ားမ်ားယူရင္ Slow Rate နဲ႕ Damage Per Second တုိးလာေစမွာျဖစ္လုိ႔ Team Fight ေတြအတြက္ အလြန္အသုံးတည့္ေစမွာျဖစ္ပါတယ္။ 3 Charges ရွိလုိ႔ ၃ ခါဆက္တုိက္အသုံးျပဳႏုိင္မွာျဖစ္ေပမယ့္ တစ္ေနရာတည္းကုိ စုျပဳံသုံးလုိ႔ Damage Per Second နဲ႕ Slow Rate က တုိးလာမွာမဟုတ္ပါဘူး။ Duration 10 seconds ရွိလုိ႔ Team Fight တစ္ခုခုျဖစ္ေတာ့မယ္အေျခအေနမ်ဴိးမွာ တစ္ဖက္အသင္းက Blink Dagger အသုံးျပဳျပီး Initiate လုပ္မယ့္ Hero မ်ား ပုန္းေအာင္းေနေလာက္မယ့္ ေနရာမ်ဴိးကုိ တစ္ခုေလာက္ ခန္႔မွန္းအသုံးျပဳထားျပီး Blink Dagger ကုိ ပိတ္ထားနုိင္မွာျဖစ္ပါတယ္။"
+			},
+			{
+				"spell_name":"Headshot",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/sniper_headshot_hp1.png",
+				"spell_overview":"ပုံေသ 40% Chance ရွိတဲ့ Passive Ability တစ္ခုျဖစ္ေသာ Head Shot ကေတာ့ Effect သတ္ေရာက္မယ့္ Unit ကုိ 0.5 second ၾကာမယ့္ 100% Movement Speed Slow နဲ႕ 100 Attack Speed Slow ကုိ ျဖစ္ေပၚေစယုံမကဘဲ Extra Physical Damage သတ္ေရာက္ေစမွာျဖစ္ပါတယ္။ ဘယ္ႏွစ္ဆင့္ယူယူ Slow Rate ဟာ မေျပာင္းလဲတဲ့အတြက္ မျဖစ္မေန တစ္ဆင့္ေလာက္ေတာ့ ယူထားသင့္ျပီး Battle ေရွာင္ကစားမယ့္ Hard Carry ပုံစံ ေဆာ့ကစားမယ္ဆုိရင္လည္း Last Hit တုိင္းကုိ ေသသပ္ေစဖုိ႔ ေနာက္ဆုံးအဆင့္ 90 Extra Physical Damage သတ္ေရာက္မွာျဖစ္လုိ႔ မိမိ စိတ္ၾကဳိက္ေရြးခ်ယ္နုိင္မယ့္ Ability တစ္ခုျဖစ္ပါတယ္။ Magic Immune Unit ေတြကုိ တုိက္ခုိက္တဲ့အခါမွာ Slow Rate မသတ္ေရာက္နုိင္ေပမယ့္ Extra Damage ကေတာ့ ပုံမွန္အတုိင္း သတ္ေရာက္ပါလိမ့္မယ္။"
+			},
+			{
+				"spell_name":"Take Aim",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/sniper_take_aim_hp1.png",
+				"spell_overview":"Sniper စစေပၚခ်င္း v6.00 ကာလမ်ားတုန္းက Extra Attack Range ကုိေပးမယ့္ Take Aim ဟာ အမ်ားဆုံး 220 Range သာ ရွိခဲ့ေပမယ့္ v6.80 Update အေရာက္မွာေတာ့ 400 Range အထိ တုိးသြားခဲ့ပါတယ္။ ဒါဟာ Strength Grow နည္းတဲ့ Hitter Carry တစ္ေကာင္အတြက္လုံေလာက္တဲ့ Attack Range ျဖစ္ျပီး စုစုေပါင္း 950 Range အထိျဖစ္သြားနုိင္တဲ့အတြက္ Attack Range 700 သာရွိတဲ့ Tower မ်ားကုိပါ လြတ္လြတ္ကြ်တ္ကြ်တ္တိုက္ခုိက္နုိင္မယ့္ Range တစ္ခုကုိ ရရွိေစမွာျဖစ္ပါတယ္။ Damage နဲ႕ ပတ္သတ္ျပီး တုိးလာမွာမဟုတ္လုိ႔ ေစာေစာယူရင္ အက်ဴိးရွိမရွိကေတာ့ မိမိရဲ႕ ၾကဳိက္ႏွစ္သက္မႈေပၚ မူတည္ပါတယ္။"
+			},
+			{
+				"spell_name":"Assassinate",
+				"spell_image":"http://cdn.dota2.com/apps/dota2/images/abilities/sniper_assassinate_hp1.png",
+				"spell_overview":"2000/2500/3000 Range အကြာအေဝးအထိ အသုံးျပဳနုိင္မွာျဖစ္ျပီး Cast Time 2 Seconds ရွိတဲ့ Ultimate Assassinate ဟာ Cooldown အလြန္နည္းပါးတဲ့ Ultimate တစ္ခုျဖစ္ပါတယ္။ Magic Damage အမ်ဴိးအစားျဖစ္ေပမယ့္ Magic Immune Unit ေတြကုိပါ Damage သတ္ေရာက္နုိင္တ့ဲအတြက္ Assassinate ဟာ Sniper ကုိ Hero Kill ေသခ်ာေစမွာျဖစ္ပါတယ္။ ဒါေပမယ့္ က်ည္ဆံထြက္သံကုိ တစ္ဖက္အသင္းက ၾကားရမွာျဖစ္လုိ႔ Blink Dagger, Manta Style, Phase Shift, Astral Imprisonment အစရွိတဲ့ အသုံးျပဳမႈမ်ားနဲ႕ ေရွာင္တိမ္းနုိင္မွာျဖစ္ျပီး အားသာခ်က္အေနနဲ႕ Target ေထာက္ထားခ်ိန္မွာ Invisible Unit ေတြကုိ True Sight ေပးမယ့္အျပင္ 0.01 second ရွိတဲ့ Mini-Stun ေၾကာင့္ Channelling Ability မ်ားကုိ အေႏွာင့္အယွက္ေပးနုိင္မွာလည္းျဖစ္ပါတယ္။"
+			}
+		]
 	}
 ]
